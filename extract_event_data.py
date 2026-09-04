@@ -17,6 +17,7 @@ def extract_from_html(html, url):
     
     data = {
         "Tournament name": "NOT FOUND",
+        "Location": "NOT FOUND",
         "Event date": "NOT FOUND",
         "Ranked or unranked": "Unranked",
         "Stadium type": "NOT FOUND",
@@ -29,10 +30,18 @@ def extract_from_html(html, url):
         "Custom format": "NOT FOUND"
     }
     
-    # Tournament Name
-    title_tag = soup.find('title')
-    if title_tag:
-        data["Tournament name"] = title_tag.text.split(' - ')[0].strip()
+    title_match = soup.find('title')
+    if title_match:
+        title = title_match.text.strip()
+        if title.endswith(" - World Beyblade Organization"):
+            title = title[:-len(" - World Beyblade Organization")]
+            
+        parts = title.split(" - ")
+        if len(parts) > 1 and ',' in parts[-1]:
+            data["Location"] = parts[-1].strip()
+            title = " - ".join(parts[:-1])
+            
+        data["Tournament name"] = title.strip()
     else:
         h1_tag = soup.find('h1')
         if h1_tag:
@@ -56,19 +65,12 @@ def extract_from_html(html, url):
         data["Ranked or unranked"] = "Unranked"
         
     # Stadium Type
-    # Try explicit "Stadium" header first
-    stadium_match_explicit = re.search(r'Stadiums?(?:\s*type)?\s*:?\s*\n([^\n]+)\n', text, re.IGNORECASE)
-    if stadium_match_explicit and len(stadium_match_explicit.group(1).strip()) > 3:
-        data["Stadium type"] = stadium_match_explicit.group(1).strip()
+    # Known stadium names always end with the word "Stadium" or "Beystadium" and are proper nouns
+    stadium_match = re.search(r'((?:[A-Z][a-zA-Z0-9]* +)*[A-Z][a-zA-Z0-9]* +(?:Bey)?[Ss]tadium)\b', text)
+    if stadium_match:
+        data["Stadium type"] = stadium_match.group(1).strip()
     else:
-        stadium_match = re.search(r'([^.\n]*(?:xtreme stadium|stadium)[^.\n]*)', text, re.IGNORECASE)
-        if stadium_match:
-            snippet = stadium_match.group(1).strip()
-            # Ensure it's not just the generic "Stadium type:" header without value
-            if len(snippet) > 100:
-                snippet = snippet[:100] + "..."
-            if "stadium" in snippet.lower() and len(snippet) > 7:
-                data["Stadium type"] = snippet
+        data["Stadium type"] = "NOT FOUND"
 
     # Bracket link
     challonge_links = []
@@ -157,52 +159,76 @@ def extract_from_html(html, url):
         data["Final Stage Settings"] = extract_settings(fn_text)
         
     # Custom Format
-    # The custom format thing can literally be anything so figure out a plan for it
-    # We look for "Tournament Rules" and the next line is usually the format.
-    rules_match = re.search(r'Tournament Rules\n(.*?)\n', text)
-    if rules_match:
-        fmt = rules_match.group(1).strip()
-        if fmt.lower() not in ["x format", "beyblade x"]:
-            data["Custom format"] = fmt
+    if data["Ranked or unranked"] == "Unranked":
+        # The custom format thing can literally be anything so figure out a plan for it
+        # We look for "Tournament Rules" and the next line is usually the format.
+        rules_match = re.search(r'Tournament Rules\n(.*?)\n', text)
+        benign_formats = [
+            "x format", "beyblade x", "standard format", "bbx format", "beyblade x format", 
+            "metal needle bit ban", "swiss format", "single elimination format", 
+            "double elimination format", "round robin format", "deck format", 
+            "1on1 format", "3on3 format", "group format", "banlist reminder",
+            "ranked clause", "optional rule", "format information"
+        ]
+        if rules_match:
+            fmt = rules_match.group(1).strip()
+            if fmt.lower() not in benign_formats:
+                data["Custom format"] = fmt
+                
+        if data["Custom format"] == "NOT FOUND" or data["Custom format"].lower() in benign_formats:
+            data["Custom format"] = "NOT FOUND"
             
-    if data["Custom format"] == "NOT FOUND":
-        custom_indicators = ['team format', 'x classic', 'custom format']
-        for ci in custom_indicators:
-            if ci in text.lower():
-                data["Custom format"] = ci
-                break
+            text_lower = text.lower()
+            name_lower = data["Tournament name"].lower()
+            if 'x limited' in name_lower or text_lower.count('x limited') > 1 or re.search(r'\b(limited format|limited legal)\b', text_lower):
+                data["Custom format"] = "X Limited"
+            elif 'x classic' in name_lower or text_lower.count('x classic') > 1 or 'classic format' in text_lower:
+                data["Custom format"] = "X Classic"
+            elif 'x legacy' in name_lower or text_lower.count('x legacy') > 1 or re.search(r'\b(legacy format|legacy legal)\b', text_lower):
+                data["Custom format"] = "X Legacy"
+            elif 'team' in name_lower or 'team format' in text_lower or 'team tournament' in text_lower or text_lower.count('team battle') > 1:
+                data["Custom format"] = "Team format"
+                
+            if data["Custom format"] == "NOT FOUND":
+                for line in text.split('\n'):
+                    line_lower = line.lower()
+                    if re.search(r'\b(banlist|ban)\b', line_lower):
+                        has_benign = False
+                        for ex in benign_formats:
+                            if ex in line_lower:
+                                has_benign = True
+                                break
+                        if not has_benign:
+                            clean_line = line.strip()
+                            if len(clean_line) > 100:
+                                data["Custom format"] = clean_line[:100] + "..."
+                            else:
+                                data["Custom format"] = clean_line
+                            break
                 
     # Optional Rules / Ranked Clauses
-    optional_match = re.search(r'(?:Optional Rules|Special Rules|Additional Rules|Ranked Clause[s]?):?\s*\n(.*?)(?:\n\n|\n[A-Z][a-z]+)', text, re.IGNORECASE | re.DOTALL)
-    if optional_match:
-        rules_text = optional_match.group(1).strip()
-        if rules_text:
-            data["Optional rules"] = rules_text[:500]
+    predefined_optional_rules = [
+        "Registered deck list", "Registered side deck", "Own finish", "Out-of-bounds finish",
+        "Painted blades allowed", "Reveal and reorder", "Swap positions after battle",
+        "Loser selects position after battle", "No disassembled components",
+        "MN (Metal Needle) bit unbanned", "Metal Needle bit unbanned", "Adjust before presenting", 
+        "No reverse", "3-second reverse countdown", "Out-of-Bounds ruled as Over Finish",
+        "Decorated Parts Prohibition", "Battle Limit and Consecutive Draws Removal"
+    ]
+    
+    found_predefined = []
+    text_lower_full = text.lower()
+    for pr in predefined_optional_rules:
+        if pr.lower() in text_lower_full:
+            found_predefined.append(pr)
             
-    # First Stage Match Type Fallback
-    if data["First Stage Settings"]["Match Type"] == "NOT FOUND":
-        data["First Stage Settings"]["Match Type"] = "4-point"
+    if found_predefined:
+        data["Optional rules"] = ', '.join(found_predefined)[:500]
+    else:
+        data["Optional rules"] = "NOT FOUND"
         
-    # Final Stage Fallbacks
-    if data["Final Stage Settings"]["Bracket type"] == "NOT FOUND":
-        data["Final Stage Settings"]["Bracket type"] = "single elimination"
     if data["Final Stage Settings"]["Battle Type"] == "NOT FOUND":
         data["Final Stage Settings"]["Battle Type"] = data["First Stage Settings"]["Battle Type"]
-        
-    if data["Final Stage Settings"]["Match Type"] == "NOT FOUND":
-        try:
-            date_str = data.get("Event date", "")
-            if date_str and date_str != "NOT FOUND":
-                event_date = dateutil.parser.parse(date_str, fuzzy=True)
-                threshold_date = datetime(2025, 11, 26)
-                if event_date < threshold_date:
-                    data["Final Stage Settings"]["Match Type"] = "7-point"
-                else:
-                    data["Final Stage Settings"]["Match Type"] = data["First Stage Settings"]["Match Type"]
-            else:
-                data["Final Stage Settings"]["Match Type"] = data["First Stage Settings"]["Match Type"]
-        except Exception:
-            data["Final Stage Settings"]["Match Type"] = data["First Stage Settings"]["Match Type"]
         
     return data
 

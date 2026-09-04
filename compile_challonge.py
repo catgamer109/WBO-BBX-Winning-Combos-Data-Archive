@@ -8,21 +8,25 @@ def estimate_points(score_cluster):
     scores = re.findall(r'"scores":\[(\d+),\s*(\d+)\]', score_cluster)
     if not scores:
         return None
-    max_score = 0
-    for s1, s2 in scores:
-        max_score = max(max_score, int(s1), int(s2))
     
-    if max_score == 0:
+    winning_scores = []
+    for s1, s2 in scores:
+        s1, s2 = int(s1), int(s2)
+        if s1 == 0 and s2 == 0:
+            continue
+        winning_scores.append(max(s1, s2))
+    
+    if not winning_scores:
         return None
-    elif max_score == 1:
+    
+    min_winning = min(winning_scores)
+    
+    if min_winning == 1:
         return "Quick advance"
-    elif max_score in [2, 3]:
-        return f"{max_score} pts (or BO{max_score*2-1})"
-    elif max_score in [4, 5, 6]:
-        return "4 pts"
-    elif max_score >= 7:
-        return "7 pts"
-    return str(max_score)
+    elif min_winning in [2, 3]:
+        return f"Best of {min_winning*2-1}"
+    else:
+        return f"{min_winning} points"
 
 def process():
     df = pd.read_csv('challonge_parsed/challonge-bulk-extractor-v7.csv')
