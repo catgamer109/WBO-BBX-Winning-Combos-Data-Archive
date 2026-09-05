@@ -40,6 +40,7 @@ def process():
             
         g_type = row.get('group_stage_type')
         f_type = row.get('final_stage_type')
+        player_count = row.get('player_count')
         
         g_scores = row.get('group_stage_score_cluster')
         f_scores = row.get('final_stage_score_cluster')
@@ -57,6 +58,7 @@ def process():
         
         results.append({
             'URL': url,
+            'Player Count': int(player_count) if not pd.isna(player_count) else None,
             'First Stage Format': g_type if not pd.isna(g_type) else None,
             'Final Stage Format': f_type if not pd.isna(f_type) else None,
             'First Stage Points': first_points,

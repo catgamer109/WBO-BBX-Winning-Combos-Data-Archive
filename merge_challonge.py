@@ -36,9 +36,12 @@ for ev in wbo_events:
     
     first_fmt, final_fmt = None, None
     first_pts, final_pts = None, None
+    player_count = None
     
     if len(found_c) == 1:
         c = found_c[0]
+        player_count = c.get('Player Count')
+        
         if len(clean_links) > 1 and ('final' in c['URL'].lower() or 'top' in c['URL'].lower() or 'cut' in c['URL'].lower()):
             final_fmt = c['First Stage Format'] or c['Final Stage Format']
             final_pts = c['First Stage Points'] or c['Final Stage Points']
@@ -47,7 +50,13 @@ for ev in wbo_events:
             final_fmt = c['Final Stage Format']
             first_pts = c['First Stage Points']
             final_pts = c['Final Stage Points']
+            
     elif len(found_c) > 1:
+        # Safely extract the highest player count among multiple linked brackets
+        p_counts = [c.get('Player Count') for c in found_c if c.get('Player Count') is not None]
+        if p_counts:
+            player_count = max(p_counts)
+            
         for c in found_c:
             if c['First Stage Format'] and c['Final Stage Format']:
                 first_fmt = c['First Stage Format']
@@ -74,7 +83,7 @@ for ev in wbo_events:
                 final_pts = final_c['First Stage Points'] or final_c['Final Stage Points']
 
     changed = False
-    if first_fmt or first_pts or final_fmt or final_pts:
+    if first_fmt or first_pts or final_fmt or final_pts or (player_count is not None):
         changed = True
 
     if first_fmt:
@@ -94,6 +103,11 @@ for ev in wbo_events:
         if not isinstance(ev.get('Final Stage Settings'), dict):
             ev['Final Stage Settings'] = {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"}
         ev['Final Stage Settings']['Match Type'] = final_pts
+
+    if player_count is not None:
+        if not isinstance(ev.get('Player count'), dict):
+            ev['Player count'] = {"Actual attendees": "NOT FOUND", "Cap": "NOT FOUND"}
+        ev['Player count']['Actual attendees'] = str(player_count)
 
     if changed:
         updated_count += 1

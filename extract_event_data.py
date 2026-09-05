@@ -4,11 +4,9 @@ import re
 import glob
 import os
 from bs4 import BeautifulSoup
-from datetime import datetime
-import dateutil.parser
 import time
 
-def extract_from_html(html, url):
+def extract_from_html(html, url, c_dict):
     if not isinstance(html, str):
         return None
         
@@ -23,13 +21,14 @@ def extract_from_html(html, url):
         "Stadium type": "NOT FOUND",
         "Event thread link": url,
         "Bracket link": "NOT FOUND",
-        "Player count": {"Actual attendees": "NOT FOUND", "Cap": "NOT FOUND"},
+        "Player count": {"Actual attendees": "NOT FOUND"},
         "Optional rules": "NOT FOUND",
         "First Stage Settings": {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"},
         "Final Stage Settings": {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"},
         "Custom format": "NOT FOUND"
     }
     
+    # Title & Location
     title_match = soup.find('title')
     if title_match:
         title = title_match.text.strip()
@@ -65,41 +64,96 @@ def extract_from_html(html, url):
         data["Ranked or unranked"] = "Unranked"
         
     # Stadium Type
-    # Known stadium names always end with the word "Stadium" or "Beystadium" and are proper nouns
     stadium_match = re.search(r'((?:[A-Z][a-zA-Z0-9]* +)*[A-Z][a-zA-Z0-9]* +(?:Bey)?[Ss]tadium)\b', text)
     if stadium_match:
-        data["Stadium type"] = stadium_match.group(1).strip()
-    else:
-        data["Stadium type"] = "NOT FOUND"
+        match_text = stadium_match.group(1).strip()
+        invalid_stadiums = [
+            "a stadium",
+            "the stadium",
+            "p stadium",
+            "match judges must disinfect stadium",
+            "match judges should disinfect stadium"
+        ]
+        data["Stadium type"] = "NOT FOUND" if match_text.lower() in invalid_stadiums else match_text
 
-    # Bracket link
+    # Bracket link & Early Challonge Lookup
     challonge_links = []
+    clean_links = []
+    
     for a in soup.find_all('a', href=True):
         href = a['href']
         if 'challonge.com' in href and 'rankings?' not in href:
+            raw_href = href
             for suffix in ['/standings', '/participants', '/stations', '/settings', '/issues', '/groups']:
-                if href.endswith(suffix):
-                    href = href[:-len(suffix)]
+                if raw_href.endswith(suffix):
+                    raw_href = raw_href[:-len(suffix)]
                     break
-            if 'tournaments/signup/' in href:
-                href = href.replace('tournaments/signup/', '')
-            challonge_links.append(href)
+            if 'tournaments/signup/' in raw_href:
+                raw_href = raw_href.replace('tournaments/signup/', '')
+            challonge_links.append(raw_href)
+            
+            l = raw_href
+            match = re.match(r'^(https?://[^/]+)(.*)$', l, re.IGNORECASE)
+            if match: 
+                l = match.group(1).lower() + match.group(2)
+            if '#' in l: 
+                l = l.split('#')[0]
+            l = l.rstrip('/')
+            clean_links.append(l.lower())
             
     if challonge_links:
         data["Bracket link"] = list(set(challonge_links))
-        
-    # Player count (Cap & Attendees)
-    cap_match = re.search(r'(\d+)\s+(?:player[s]?|participant[s]?)\s*(?:participation)?\s*(?:cap|limit)', text, re.IGNORECASE)
-    if cap_match:
-        data["Player count"]["Cap"] = cap_match.group(1)
-    else:
-        cap_match2 = re.search(r'(?:cap(?:ped)?|limit|participant limit)(?:\s*at\s*|:\s*|\s*is\s*)?(\d+)', text, re.IGNORECASE)
-        if cap_match2:
-            data["Player count"]["Cap"] = cap_match2.group(1)
+
+    # Evaluate Challonge Data First
+    first_fmt, final_fmt, first_pts, final_pts = None, None, None, None
+    player_count = None
+    found_c = [c_dict[l] for l in set(clean_links) if l in c_dict]
+    
+    if len(found_c) == 1:
+        c = found_c[0]
+        player_count = c.get('Player Count')
+        if len(clean_links) > 1 and any(keyword in c['URL'].lower() for keyword in ['final', 'top', 'cut']):
+            final_fmt = c['First Stage Format'] or c['Final Stage Format']
+            final_pts = c['First Stage Points'] or c['Final Stage Points']
+        else:
+            first_fmt = c['First Stage Format']
+            final_fmt = c['Final Stage Format']
+            first_pts = c['First Stage Points']
+            final_pts = c['Final Stage Points']
+    elif len(found_c) > 1:
+        p_counts = [c.get('Player Count') for c in found_c if c.get('Player Count') is not None]
+        if p_counts:
+            player_count = max(p_counts)
             
-    attendees_match = re.search(r'(?:Challengers|Going)\s*\(\s*(\d+)', text, re.IGNORECASE)
-    if attendees_match:
-        data["Player count"]["Actual attendees"] = attendees_match.group(1)
+        for c in found_c:
+            if c['First Stage Format'] and c['Final Stage Format']:
+                first_fmt = c['First Stage Format']
+                final_fmt = c['Final Stage Format']
+                first_pts = c['First Stage Points']
+                final_pts = c['Final Stage Points']
+                break
+        if not first_fmt:
+            first_c, final_c = None, None
+            for c in found_c:
+                fmt = c['First Stage Format'] or c['Final Stage Format']
+                if fmt in ['single elimination', 'double elimination']:
+                    final_c = c
+                else:
+                    first_c = c
+            if first_c:
+                first_fmt = first_c['First Stage Format'] or first_c['Final Stage Format']
+                first_pts = first_c['First Stage Points'] or first_c['Final Stage Points']
+            if final_c:
+                final_fmt = final_c['Final Stage Format'] or final_c['Final Stage Format']
+                final_pts = final_c['Final Stage Points'] or final_c['Final Stage Points']
+
+    # Apply Challonge Player Count
+    if player_count is not None:
+        data["Player count"]["Actual attendees"] = str(player_count)
+    else:
+        attendees_match = re.search(r'(?:Challengers|Going)\s*\(\s*(\d+)', text, re.IGNORECASE)
+        if attendees_match:
+            data["Player count"]["Actual attendees"] = attendees_match.group(1)
         
     # Format settings
     bracket_types = ['single elimination', 'double elimination', 'group round robin', 'group swiss', 'swiss', 'club format']
@@ -132,8 +186,7 @@ def extract_from_html(html, url):
                 break
         return settings
 
-    # Try to extract settings by searching for First Stage and Final Stage separately
-    # Take the last match to prefer the detailed text body over the short header widget
+    # Text Block Isolation
     first_stage_matches = list(re.finditer(r'\b(?:First Stage|Group Stage)\b\s*[:\n][^\w]*((?:(?!(?:Final Stage|Finals)).){0,150})', text, re.IGNORECASE | re.DOTALL))
     final_stage_matches = list(re.finditer(r'\b(?:Final Stage|Finals)\b\s*[:\n][^\w]*(.{0,150})', text, re.IGNORECASE | re.DOTALL))
     
@@ -148,7 +201,6 @@ def extract_from_html(html, url):
         
     data["First Stage Settings"] = extract_settings(fs_text)
     
-    # If explicit mentions or Tournament Rules block failed to find anything, try parsing the whole text
     fallback_settings = extract_settings(text)
     for key in ["Bracket type", "Battle Type", "Match Type"]:
         if data["First Stage Settings"][key] == "NOT FOUND":
@@ -158,54 +210,98 @@ def extract_from_html(html, url):
         fn_text = " ".join(m.group(1) for m in final_stage_matches)
         data["Final Stage Settings"] = extract_settings(fn_text)
         
-    # Custom Format
+    # APPLY CHALLONGE OVERRIDES HERE
+    if first_fmt: data["First Stage Settings"]["Bracket type"] = first_fmt
+    if first_pts: data["First Stage Settings"]["Match Type"] = first_pts
+    if final_fmt: data["Final Stage Settings"]["Bracket type"] = final_fmt
+    if final_pts: data["Final Stage Settings"]["Match Type"] = final_pts
+
+    # Custom Format Aggressive Parsing
     if data["Ranked or unranked"] == "Unranked":
-        # The custom format thing can literally be anything so figure out a plan for it
-        # We look for "Tournament Rules" and the next line is usually the format.
-        rules_match = re.search(r'Tournament Rules\n(.*?)\n', text)
-        benign_formats = [
-            "x format", "beyblade x", "standard format", "bbx format", "beyblade x format", 
-            "metal needle bit ban", "swiss format", "single elimination format", 
-            "double elimination format", "round robin format", "deck format", 
-            "1on1 format", "3on3 format", "group format", "banlist reminder",
-            "ranked clause", "optional rule", "format information"
-        ]
-        if rules_match:
-            fmt = rules_match.group(1).strip()
-            if fmt.lower() not in benign_formats:
-                data["Custom format"] = fmt
-                
-        if data["Custom format"] == "NOT FOUND" or data["Custom format"].lower() in benign_formats:
-            data["Custom format"] = "NOT FOUND"
+        data["Custom format"] = "NOT FOUND"
+        text_lower = text.lower()
+        name_lower = data["Tournament name"].lower()
+        
+        # 1. Explicit WBO alternate formats
+        if 'x limited' in name_lower or text_lower.count('x limited') > 1 or re.search(r'\b(limited format|limited legal)\b', text_lower):
+            data["Custom format"] = "X Limited"
+        elif 'x classic' in name_lower or text_lower.count('x classic') > 1 or 'classic format' in text_lower:
+            data["Custom format"] = "X Classic"
+        elif 'x legacy' in name_lower or text_lower.count('x legacy') > 1 or re.search(r'\b(legacy format|legacy legal)\b', text_lower):
+            data["Custom format"] = "X Legacy"
+        elif 'team' in name_lower or 'team format' in text_lower or 'team tournament' in text_lower or text_lower.count('team battle') > 1:
+            data["Custom format"] = "Team format"
+        else:
+            headers_to_skip = [
+                "format", "event format", "tournament format", "format overview", 
+                "quick format info", "need-to-know information", "additional information", 
+                "event information", "contact information", "rules", "tournament rules",
+                "registration information", "banner by", "note", "notes", "overview"
+            ]
             
-            text_lower = text.lower()
-            name_lower = data["Tournament name"].lower()
-            if 'x limited' in name_lower or text_lower.count('x limited') > 1 or re.search(r'\b(limited format|limited legal)\b', text_lower):
-                data["Custom format"] = "X Limited"
-            elif 'x classic' in name_lower or text_lower.count('x classic') > 1 or 'classic format' in text_lower:
-                data["Custom format"] = "X Classic"
-            elif 'x legacy' in name_lower or text_lower.count('x legacy') > 1 or re.search(r'\b(legacy format|legacy legal)\b', text_lower):
-                data["Custom format"] = "X Legacy"
-            elif 'team' in name_lower or 'team format' in text_lower or 'team tournament' in text_lower or text_lower.count('team battle') > 1:
-                data["Custom format"] = "Team format"
+            boilerplate_phrases = [
+                "x format", "standard format", "bbx format", "beyblade x format", 
+                "x standard", "wbo standard", "wbo x format", "standard rules",
+                "metal needle", "mn bit", "ranked season", "evolving ban", "banned for the rest of the season",
+                "please read", "in addition to", "as over finish", "forgot", "what's the ban",
+                "this tournament will be played", "format rulebook", "swiss", "elimination",
+                "legal combinations", "format for this event", "format: x", "elxgsl bx format", 
+                "elxgsl unlimited format", "elxgsl cx format", "pure skill", "pm me if",
+                "join our", "cap(", "world beyblade organization", "for any questions",
+                "we want this format", "this event is", "hi! one of the regulars", "banner by"
+            ]
+            
+            garbage_patterns = [
+                r'registration information', r'additional information', r'tournament information',
+                r'event information', r'contact information', r'format info', r'rules',
+                r'banner by', r'see more details', r'please read', r'pm me if', r'join our',
+                r'cap\(', r'delta-red', r'crewcabanger', r'savanabanana',
+                r'banachobroly', r'bananaboyguyboo', r'the evil legends', r'the elxgsl',
+                r'the dallas beyblade association', r'world beyblade organization',
+                r'for any questions', r'we want this format', r'in addition to', r'due to potential',
+                r'as an event', r'this event is', r'more rules information', r'read through',
+                r'click the', r'join the', r'participants', r'tournament format cap'
+            ]
+            
+            for line in text.split('\n'):
+                line_clean = line.strip()
+                line_lower = line_clean.lower()
                 
-            if data["Custom format"] == "NOT FOUND":
-                for line in text.split('\n'):
-                    line_lower = line.lower()
-                    if re.search(r'\b(banlist|ban)\b', line_lower):
-                        has_benign = False
-                        for ex in benign_formats:
-                            if ex in line_lower:
-                                has_benign = True
-                                break
-                        if not has_benign:
-                            clean_line = line.strip()
-                            if len(clean_line) > 100:
-                                data["Custom format"] = clean_line[:100] + "..."
+                if len(line_clean) < 15 or "http" in line_lower or "<" in line_clean:
+                    continue
+                    
+                if line_clean in ["DeltaRedBandit", "SuperBanther", "Blading Bandit", "Crewcabanger", "Savanabanana", "BanchoBroly", "Bananaboyguyboo", "BankaiBlader"]:
+                    continue
+                    
+                header_check = re.sub(r'[^a-z\s\-]', '', line_lower).strip()
+                if header_check in headers_to_skip or len(header_check) < 5:
+                    continue
+                    
+                is_garbage = False
+                for pat in garbage_patterns:
+                    if re.search(pat, line_lower):
+                        is_garbage = True
+                        break
+                if is_garbage:
+                    continue
+                    
+                if "format" in line_lower or "ban" in line_lower or "banned" in line_lower:
+                    if "?" in line_lower: continue
+                    
+                    if re.search(r'(format is|playing the) (3on3|3 on 3|3v3|3 vs3|1on1|1v1|5on5|5v5|deck)', line_lower): continue
+                    if re.search(r'(3on3|3 on 3|3v3|3 vs3|1on1|1v1|5on5|5v5|deck) format', line_lower): continue
+                    if "3on3, best of 3 format" in line_lower or "3-on-3 format" in line_lower: continue
+                    
+                    if not any(bp in line_lower for bp in boilerplate_phrases):
+                        if "banlist" in line_lower or "ban list" in line_lower or "restricted list" in line_lower or "banned" in line_lower:
+                            data["Custom format"] = "Ban List"
+                        else:
+                            if len(line_clean) > 100:
+                                data["Custom format"] = line_clean[:100] + "..."
                             else:
-                                data["Custom format"] = clean_line
-                            break
-                
+                                data["Custom format"] = line_clean
+                        break
+                                        
     # Optional Rules / Ranked Clauses
     predefined_optional_rules = [
         "Registered deck list", "Registered side deck", "Own finish", "Out-of-bounds finish",
@@ -227,8 +323,12 @@ def extract_from_html(html, url):
     else:
         data["Optional rules"] = "NOT FOUND"
         
-    if data["Final Stage Settings"]["Battle Type"] == "NOT FOUND":
-        data["Final Stage Settings"]["Battle Type"] = data["First Stage Settings"]["Battle Type"]
+    final_bracket_exists = data["Final Stage Settings"]["Bracket type"] != "NOT FOUND"
+    final_match_exists = data["Final Stage Settings"]["Match Type"] != "NOT FOUND"
+    
+    if final_bracket_exists or final_match_exists:
+        if data["Final Stage Settings"]["Battle Type"] == "NOT FOUND":
+            data["Final Stage Settings"]["Battle Type"] = data["First Stage Settings"]["Battle Type"]
         
     return data
 
@@ -236,6 +336,14 @@ def main():
     csv_dir = r"e:\beyblade app\WBO-BBX-Winning-Combos-Data-Archive\event-threads\beyblade X events"
     csv_files = glob.glob(os.path.join(csv_dir, "*.csv"))
     
+    try:
+        with open('compiled_challonge_stages.json', 'r', encoding='utf-8') as f:
+            challonge_data = json.load(f)
+        c_dict = {c['URL'].lower(): c for c in challonge_data}
+    except FileNotFoundError:
+        print("compiled_challonge_stages.json not found. Proceeding without it.")
+        c_dict = {}
+
     all_data = []
     
     print(f"Found {len(csv_files)} CSV files. Starting processing...")
@@ -244,14 +352,13 @@ def main():
     for f in csv_files:
         print(f"Reading {os.path.basename(f)}...")
         try:
-            # We don't limit nrows now
             df = pd.read_csv(f)
             print(f"Processing {len(df)} rows in {os.path.basename(f)}...")
             for idx, row in df.iterrows():
                 html = row.get('full-page-html')
                 url = row.get('web_scraper_start_url')
                 if html:
-                    parsed = extract_from_html(html, url)
+                    parsed = extract_from_html(html, url, c_dict)
                     if parsed:
                         all_data.append(parsed)
                         
