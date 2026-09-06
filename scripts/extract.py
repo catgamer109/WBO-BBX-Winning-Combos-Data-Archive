@@ -2,8 +2,13 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import json
 import re
+import sys
+import os
 
-df = pd.read_csv('wbo_bbx_combos_with_dates.csv')
+input_csv = sys.argv[1] if len(sys.argv) > 1 else 'wbo_bbx_combos_with_dates.csv'
+output_json = 'extracted_data.json'
+
+df = pd.read_csv(input_csv)
 
 extracted_data = []
 
@@ -25,10 +30,14 @@ def process_post(html_content, author, post_date):
         
     # Extract links before we modify the soup structure too much
     links = {}
+    challonge_map = {}
     for a in soup.find_all('a'):
         href = a.get('href', '')
+        text_clean = clean_text(a.get_text())
         if 'Thread-' in href and 'Winning-Combinations' not in href and 'The-WBO-Beyblade-X-Format' not in href:
-            links[clean_text(a.get_text())] = href
+            links[text_clean] = href
+        elif 'challonge.com' in href:
+            challonge_map[text_clean] = href
             
     # Replace block-level tags and <br> with newlines
     for br in soup.find_all('br'):
@@ -102,7 +111,12 @@ def process_post(html_content, author, post_date):
             current_event['event_page_link'] = line.split(':', 1)[1].strip()
             continue
         elif line_lower.startswith('bracket link:'):
-            current_event['bracket_link'] = line.split(':', 1)[1].strip()
+            val = line.split(':', 1)[1].strip()
+            for k, v in challonge_map.items():
+                if k and k in val:
+                    val = v
+                    break
+            current_event['bracket_link'] = val
             continue
         elif line_lower in ('ranked', 'unranked', 'ranked/unranked') or line_lower.startswith('ranked ') or line_lower.startswith('unranked '):
             current_event['ranked_status'] = line.strip()
@@ -204,7 +218,16 @@ def clean_unicode(obj):
 
 extracted_data = clean_unicode(extracted_data)
 
-with open('extracted_data.json', 'w', encoding='utf-8') as f:
-    json.dump(extracted_data, f, indent=2, ensure_ascii=False)
+if os.path.exists(output_json):
+    with open(output_json, 'r', encoding='utf-8') as f:
+        existing_data = json.load(f)
+else:
+    existing_data = []
 
-print(f"Extracted {len(extracted_data)} events.")
+existing_data.extend(extracted_data)
+
+with open(output_json, 'w', encoding='utf-8') as f:
+    json.dump(existing_data, f, indent=2, ensure_ascii=False)
+
+print(f"Extracted {len(extracted_data)} new events.")
+print(f"Total events now: {len(existing_data)}")

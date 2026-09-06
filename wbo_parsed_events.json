@@ -154,9 +154,9 @@
       "Match Type": "Best of 3"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Best of 3"
     }
   },
   {
@@ -201,9 +201,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -225,9 +225,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -3428,9 +3428,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -11253,14 +11253,14 @@
       "Actual attendees": "42"
     },
     "First Stage Settings": {
-      "Bracket type": "double elimination",
+      "Bracket type": "swiss",
       "Battle Type": "deck",
-      "Match Type": "Quick advance"
+      "Match Type": "5 points"
     },
     "Final Stage Settings": {
       "Bracket type": "single elimination",
       "Battle Type": "deck",
-      "Match Type": "Quick advance"
+      "Match Type": "5 points"
     }
   },
   {
@@ -11743,7 +11743,7 @@
     "Final Stage Settings": {
       "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "4-point"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -11765,9 +11765,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -11789,9 +11789,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -11813,9 +11813,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -12253,7 +12253,7 @@
       "Match Type": "7 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -12440,9 +12440,9 @@
       "Match Type": "Best of 3"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Best of 3"
     }
   },
   {
@@ -13172,9 +13172,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -13196,9 +13196,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -13749,9 +13749,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -13773,9 +13773,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -14213,7 +14213,7 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "deck",
       "Match Type": "7 points"
     }
@@ -14306,7 +14306,7 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -14330,7 +14330,7 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -14945,9 +14945,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -14969,9 +14969,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "1on1",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -15266,9 +15266,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -17106,9 +17106,9 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -17132,9 +17132,9 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -17476,9 +17476,9 @@
       "Match Type": "7 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -19053,12 +19053,12 @@
     "First Stage Settings": {
       "Bracket type": "swiss",
       "Battle Type": "3on3",
-      "Match Type": "first to 5"
+      "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "swiss",
+      "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "5 points"
+      "Match Type": "7 points"
     }
   },
   {
@@ -19402,7 +19402,7 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -19926,9 +19926,9 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -19950,9 +19950,9 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -21063,9 +21063,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -21493,14 +21493,14 @@
       "Actual attendees": "81"
     },
     "First Stage Settings": {
-      "Bracket type": "single elimination",
+      "Bracket type": "swiss",
       "Battle Type": "3on3",
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "swiss",
+      "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "5 points"
+      "Match Type": "7 points"
     }
   },
   {
@@ -22372,9 +22372,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -24470,9 +24470,9 @@
       "Match Type": "Best of 3"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Best of 3"
     }
   },
   {
@@ -26766,9 +26766,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -27823,9 +27823,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -31409,9 +31409,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "double elimination",
+      "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "5 points"
+      "Match Type": "Best of 3"
     }
   },
   {
@@ -32493,9 +32493,9 @@
       "Match Type": "7 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "5 points"
     }
   },
   {
@@ -32517,9 +32517,9 @@
       "Match Type": "NOT FOUND"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -32909,7 +32909,7 @@
     "Final Stage Settings": {
       "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "4-point"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -34245,9 +34245,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -36805,9 +36805,9 @@
       "Match Type": "7 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -36875,9 +36875,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -40304,7 +40304,7 @@
       "Match Type": "7 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -40328,9 +40328,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -42801,9 +42801,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -44437,7 +44437,7 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
       "Match Type": "NOT FOUND"
     }
@@ -46515,9 +46515,9 @@
       "Match Type": "4 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "8 points"
     }
   },
   {
@@ -50183,9 +50183,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -52014,9 +52014,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -53262,7 +53262,7 @@
     "Final Stage Settings": {
       "Bracket type": "single elimination",
       "Battle Type": "3on3",
-      "Match Type": "7-point"
+      "Match Type": "7 points"
     }
   },
   {
@@ -54829,9 +54829,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -54964,9 +54964,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -55768,9 +55768,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -59848,9 +59848,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -59895,9 +59895,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "5 points"
     }
   },
   {
@@ -59919,9 +59919,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "4 points"
     }
   },
   {
@@ -62634,9 +62634,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -63344,9 +63344,9 @@
       "Match Type": "first to 7"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -63370,7 +63370,7 @@
     "Final Stage Settings": {
       "Bracket type": "double elimination",
       "Battle Type": "3on3",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -64601,9 +64601,9 @@
       "Match Type": "NOT FOUND"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "double elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -65128,9 +65128,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -66293,9 +66293,9 @@
       "Match Type": "Quick advance"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -66568,9 +66568,9 @@
       "Match Type": "5 points"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "7 points"
     }
   },
   {
@@ -66593,9 +66593,9 @@
       "Match Type": "Best of 3"
     },
     "Final Stage Settings": {
-      "Bracket type": "NOT FOUND",
+      "Bracket type": "single elimination",
       "Battle Type": "NOT FOUND",
-      "Match Type": "NOT FOUND"
+      "Match Type": "Quick advance"
     }
   },
   {
@@ -68213,14 +68213,14 @@
       "Actual attendees": "9"
     },
     "First Stage Settings": {
-      "Bracket type": "NOT FOUND",
-      "Battle Type": "3on3",
-      "Match Type": "NOT FOUND"
-    },
-    "Final Stage Settings": {
       "Bracket type": "round robin",
       "Battle Type": "3on3",
       "Match Type": "4 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
     }
   },
   {
@@ -70655,6 +70655,775 @@
       "Bracket type": "single elimination",
       "Battle Type": "3on3",
       "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "Mog's X roulette 3 - תל אביב",
+    "Location": "יפו, Central District",
+    "Event date": "Sun. September 6, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Mog-s-X-roulette-3--128555",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/mog_s_x_roulette_3"
+    ],
+    "Player count": {
+      "Actual attendees": "13"
+    },
+    "Optional rules": "Registered deck list",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "Mischief Group Up!: Part 13",
+    "Location": "Loganville, Georgia",
+    "Event date": "Sun. August 23, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Mischief-Group-Up-Part-13--128163?pid=1936355#pid1936355",
+    "Bracket link": [
+      "https://challonge.com/8wlojx4n"
+    ],
+    "Player count": {
+      "Actual attendees": "23"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "deck",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "NOT FOUND",
+      "Battle Type": "NOT FOUND",
+      "Match Type": "NOT FOUND"
+    }
+  },
+  {
+    "Tournament name": "DFW Beyblades Community Game Night #52",
+    "Location": "Duncanville, Texas",
+    "Event date": "Fri. September 4, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-DFW-Beyblades-Community-Game-Night-52--128468",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/y4ecaswb"
+    ],
+    "Player count": {
+      "Actual attendees": "36"
+    },
+    "Optional rules": "Registered deck list, Painted blades allowed, Reveal and reorder, Swap positions after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "DFW Beyblades Weekly Tournament #157",
+    "Location": "Dallas, Texas",
+    "Event date": "Thu. September 3, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-DFW-Beyblades-Weekly-Tournament-157--128465",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/17yxwd4i"
+    ],
+    "Player count": {
+      "Actual attendees": "20"
+    },
+    "Optional rules": "Registered deck list, Painted blades allowed, Reveal and reorder, Swap positions after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "DFW Beyblades Weekly Tournament #156",
+    "Location": "Dallas, Texas",
+    "Event date": "Wed. September 2, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-DFW-Beyblades-Weekly-Tournament-156--128429",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/hvtehzlr"
+    ],
+    "Player count": {
+      "Actual attendees": "15"
+    },
+    "Optional rules": "Registered deck list, Painted blades allowed, Reveal and reorder, Swap positions after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "Baby Shark (Beyblade X Limited)",
+    "Location": "Coquitlam, British Columbia",
+    "Event date": "Sat. September 5, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Baby-Shark-Beyblade-X-Limited--128018",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/KIOFavCharacter"
+    ],
+    "Player count": {
+      "Actual attendees": "22"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "counter battle",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "Del Rio Beyblade League at Pla-Mor Bowling #3",
+    "Location": "Del Rio, Texas",
+    "Event date": "Sat. September 5, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Del-Rio-Beyblade-League-at-Pla-Mor-Bowling-3--128258",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/del_rio_beyblade_league_at_pla_mor_bowling_3"
+    ],
+    "Player count": {
+      "Actual attendees": "15"
+    },
+    "Optional rules": "Registered deck list, Own finish, Painted blades allowed, Swap positions after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "Quick advance"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Quick advance"
+    }
+  },
+  {
+    "Tournament name": "The Battle for Glory",
+    "Location": "Fresno, California",
+    "Event date": "Sat. September 5, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-The-Battle-for-Glory--128242",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/the_battle_for_glory"
+    ],
+    "Player count": {
+      "Actual attendees": "37"
+    },
+    "Optional rules": "Own finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "4 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "Vortex Locals #1",
+    "Location": "Tsawwassen, British Columbia",
+    "Event date": "Fri. September 4, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Vortex-Locals-1",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/VortexLocal1",
+      "https://worldbeyblade.challonge.com/VortexLocals1"
+    ],
+    "Player count": {
+      "Actual attendees": "23"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "counter battle",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "The Omega trials #2 -Mid-Atlantic All-Star Invitational Qualifier",
+    "Location": "henrico, Virginia",
+    "Event date": "Sat. September 5, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-The-Omega-trials-2-Mid-Atlantic-All-Star-Invitational-Qualifier--128061",
+    "Bracket link": "NOT FOUND",
+    "Player count": {
+      "Actual attendees": "48"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "best-of-3"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "best-of-3"
+    }
+  },
+  {
+    "Tournament name": "BEYFEST LITE x TEAM DROOLERS Collab :)",
+    "Location": "Brooklyn, New York",
+    "Event date": "Sat. September 5, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-BEYFEST-LITE-x-TEAM-DROOLERS-Collab--128475?pid=1937586#pid1937586",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/beyfest_lite_x_team_droolers_collab"
+    ],
+    "Player count": {
+      "Actual attendees": "29"
+    },
+    "Optional rules": "Own finish, Out-of-bounds finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "[XBL 3] CS8 ✦ LEO SEASON",
+    "Location": "Islington, London",
+    "Event date": "Sun. August 16, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-XBL-3-CS8-%E2%9C%A6-LEO-SEASON--128039",
+    "Bracket link": [
+      "https://challonge.com/nb1zanbt",
+      "https://challonge.com/xbl38"
+    ],
+    "Player count": {
+      "Actual attendees": "22"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "4 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "double elimination",
+      "Battle Type": "3on3",
+      "Match Type": "4 points"
+    }
+  },
+  {
+    "Tournament name": "The Bey Stars",
+    "Location": "Corpus Christi, Texas",
+    "Event date": "Thu. August 27, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-The-Bey-Stars--128183",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/AlamoDH18"
+    ],
+    "Player count": {
+      "Actual attendees": "37"
+    },
+    "Optional rules": "Own finish, Out-of-bounds finish, Painted blades allowed, Loser selects position after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "Top Cut Battle League 8/31",
+    "Location": "Berwyn / Chicago, Illinois",
+    "Event date": "Mon. August 31, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Top-Cut-Battle-League-8-31--128415",
+    "Bracket link": [
+      "https://challonge.com/tcbl831"
+    ],
+    "Player count": {
+      "Actual attendees": "58"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "Lions Park Beyblade X #8",
+    "Location": "Cumberland, Indiana",
+    "Event date": "Fri. September 4, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Lions-Park-Beyblade-X-8--128107",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/alqm8pta",
+      "https://worldbeyblade.challonge.com/lions_park_beyblade_x_8"
+    ],
+    "Player count": {
+      "Actual attendees": "19"
+    },
+    "Optional rules": "Own finish, Out-of-bounds finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "MoCo Showdown #2",
+    "Location": "Clarksburg, Maryland",
+    "Event date": "Fri. July 24, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-MoCo-Showdown-2--126957",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/dxrnbmi7"
+    ],
+    "Player count": {
+      "Actual attendees": "21"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "Big Chillin' @ Bad Machines #6 - Kings of the Hill Re-Run",
+    "Location": "Cary, North Carolina",
+    "Event date": "Thu. September 3, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Big-Chillin-Bad-Machines-6-Kings-of-the-Hill-Re-Run--128149",
+    "Bracket link": "NOT FOUND",
+    "Player count": {
+      "Actual attendees": "20"
+    },
+    "Optional rules": "Own finish, Painted blades allowed, Loser selects position after battle",
+    "First Stage Settings": {
+      "Bracket type": "NOT FOUND",
+      "Battle Type": "counter battle",
+      "Match Type": "5-point"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "NOT FOUND",
+      "Battle Type": "NOT FOUND",
+      "Match Type": "NOT FOUND"
+    }
+  },
+  {
+    "Tournament name": "Southern Showdown #11",
+    "Location": "Spring, Texas",
+    "Event date": "Sun. August 30, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Southern-Showdown-11--128284",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/templates",
+      "https://worldbeyblade.challonge.com/d6o12xbf"
+    ],
+    "Player count": {
+      "Actual attendees": "18"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "4-point"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "4-point"
+    }
+  },
+  {
+    "Tournament name": "Blades Of Glory",
+    "Location": "Houston, Texas",
+    "Event date": "Sat. August 29, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Blades-Of-Glory",
+    "Bracket link": [
+      "https://challonge.com/r5frclhz"
+    ],
+    "Player count": {
+      "Actual attendees": "45"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "4-point"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "4-point"
+    }
+  },
+  {
+    "Tournament name": "Beyblade X @ Bad Machines #8.3 - Game and Geek Expo 2026 Rehearsal 3",
+    "Location": "Cary, North Carolina",
+    "Event date": "Sun. August 23, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Beyblade-X-Bad-Machines-8-3-Game-and-Geek-Expo-2026-Rehearsal-3--128093",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/977gfhiy"
+    ],
+    "Player count": {
+      "Actual attendees": "23"
+    },
+    "Optional rules": "Own finish, Painted blades allowed, Loser selects position after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "Beyblade X @ Bad Machines #8.2 - Game and Geek Expo 2026 Rehearsal 2",
+    "Location": "Cary, North Carolina",
+    "Event date": "Sun. August 23, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Beyblade-X-Bad-Machines-8-2-Game-and-Geek-Expo-2026-Rehearsal-2--128037",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/2achv8v5"
+    ],
+    "Player count": {
+      "Actual attendees": "20"
+    },
+    "Optional rules": "Own finish, Painted blades allowed, Loser selects position after battle",
+    "First Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "NOT FOUND",
+      "Battle Type": "NOT FOUND",
+      "Match Type": "NOT FOUND"
+    }
+  },
+  {
+    "Tournament name": "Beyblade X @ Bad Machines #8.1 - Game and Geek Expo 2026 Rehearsal 1",
+    "Location": "Cary, North Carolina",
+    "Event date": "Sun. August 23, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Beyblade-X-Bad-Machines-8-1-Game-and-Geek-Expo-2026-Rehearsal-1--128036",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/lj0f30b0"
+    ],
+    "Player count": {
+      "Actual attendees": "20"
+    },
+    "Optional rules": "Own finish, Painted blades allowed, Loser selects position after battle",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "BEYHAVEN 09/03/26!!!!",
+    "Location": "Casselberry, Florida",
+    "Event date": "Thu. September 3, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-BEYHAVEN-09-03-26--128396",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/u820omby"
+    ],
+    "Player count": {
+      "Actual attendees": "5"
+    },
+    "Optional rules": "Painted blades allowed",
+    "First Stage Settings": {
+      "Bracket type": "round robin",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "benbale x brawl #5",
+    "Location": "tel aviv, Southern District",
+    "Event date": "Thu. September 3, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-benbale-x-brawl-5--128315",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/25focg55"
+    ],
+    "Player count": {
+      "Actual attendees": "11"
+    },
+    "Optional rules": "Registered deck list",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "Bi-Weekly BBX #3 - Beybladin' X Spokane",
+    "Location": "Spokane Valley, Washington",
+    "Event date": "Tue. September 1, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Bi-Weekly-BBX-3-Beybladin-X-Spokane--128259?pid=1936775#pid1936775",
+    "Bracket link": [
+      "https://kb.challonge.com/en/article/rank-and-tie-break-statistics-1p5f7y4/",
+      "https://worldbeyblade.challonge.com/o24hl6y"
+    ],
+    "Player count": {
+      "Actual attendees": "30"
+    },
+    "Optional rules": "Own finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "Weekly Humble Rumble BBX - Pokemon / Special Format #4",
+    "Location": "New Port Richey, Florida",
+    "Event date": "Wed. September 2, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Weekly-Humble-Rumble-BBX-Pokemon-Special-Format-4--128344",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/weekly_humble_rumble_bbx_pokemon_special_format_4"
+    ],
+    "Player count": {
+      "Actual attendees": "9"
+    },
+    "Optional rules": "Registered deck list, Own finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "deck",
+      "Match Type": "Quick advance"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "deck",
+      "Match Type": "Quick advance"
+    }
+  },
+  {
+    "Tournament name": "Heavenly Clash (Erie 2026)",
+    "Location": "Erie, Pennsylvania",
+    "Event date": "Sat. August 29, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Heavenly-Clash-Erie-2026--127252",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/hum8ymcc"
+    ],
+    "Player count": {
+      "Actual attendees": "16"
+    },
+    "Optional rules": "Own finish, Out-of-bounds finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    }
+  },
+  {
+    "Tournament name": "The Red Bey District #21",
+    "Location": "Norfolk, Virginia",
+    "Event date": "Sun. August 23, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-The-Red-Bey-District-21--127298?pid=1933769#pid1933769",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/The_Red_Bey_District_21"
+    ],
+    "Player count": {
+      "Actual attendees": "29"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "Money Monday #9",
+    "Location": "Brooklyn, New York",
+    "Event date": "Mon. August 31, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Money-Monday-9--128418",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/geffslp4"
+    ],
+    "Player count": {
+      "Actual attendees": "36"
+    },
+    "Optional rules": "Own finish",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "7 points"
+    }
+  },
+  {
+    "Tournament name": "HIT ZONE S1E13: Wildfire",
+    "Location": "Fridley, Minnesota",
+    "Event date": "Sat. August 8, 2026",
+    "Ranked or unranked": "Ranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-HIT-ZONE-S1E13-Wildfire--127189",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/eulv4oaa"
+    ],
+    "Player count": {
+      "Actual attendees": "45"
+    },
+    "Optional rules": "Out-of-bounds finish, Painted blades allowed",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "HIT ZONE S1E12: Metal Empire Strikes Back (Semi-Limited Format)",
+    "Location": "Fridley, Minnesota",
+    "Event date": "Sat. August 1, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-HIT-ZONE-S1E12-Metal-Empire-Strikes-Back-Semi-Limited-Format--127181",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/MetalEmpireStrikesBack"
+    ],
+    "Player count": {
+      "Actual attendees": "38"
+    },
+    "Optional rules": "Out-of-bounds finish, Painted blades allowed",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "5 points"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    }
+  },
+  {
+    "Tournament name": "Beyblades at scuffle hill #1",
+    "Location": "collinsville, Virginia",
+    "Event date": "Sat. August 22, 2026",
+    "Ranked or unranked": "Unranked",
+    "Event thread link": "https://worldbeyblade.org/Thread-Beyblades-at-scuffle-hill-1--128127",
+    "Bracket link": [
+      "https://worldbeyblade.challonge.com/43616baz"
+    ],
+    "Player count": {
+      "Actual attendees": "11"
+    },
+    "Optional rules": "NOT FOUND",
+    "First Stage Settings": {
+      "Bracket type": "swiss",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
+    },
+    "Final Stage Settings": {
+      "Bracket type": "single elimination",
+      "Battle Type": "3on3",
+      "Match Type": "Best of 3"
     }
   }
 ]

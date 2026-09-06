@@ -18,14 +18,12 @@ def extract_from_html(html, url, c_dict):
         "Location": "NOT FOUND",
         "Event date": "NOT FOUND",
         "Ranked or unranked": "Unranked",
-        "Stadium type": "NOT FOUND",
         "Event thread link": url,
         "Bracket link": "NOT FOUND",
         "Player count": {"Actual attendees": "NOT FOUND"},
         "Optional rules": "NOT FOUND",
         "First Stage Settings": {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"},
-        "Final Stage Settings": {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"},
-        "Custom format": "NOT FOUND"
+        "Final Stage Settings": {"Bracket type": "NOT FOUND", "Battle Type": "NOT FOUND", "Match Type": "NOT FOUND"}
     }
     
     # Title & Location
@@ -63,19 +61,6 @@ def extract_from_html(html, url, c_dict):
     else:
         data["Ranked or unranked"] = "Unranked"
         
-    # Stadium Type
-    stadium_match = re.search(r'((?:[A-Z][a-zA-Z0-9]* +)*[A-Z][a-zA-Z0-9]* +(?:Bey)?[Ss]tadium)\b', text)
-    if stadium_match:
-        match_text = stadium_match.group(1).strip()
-        invalid_stadiums = [
-            "a stadium",
-            "the stadium",
-            "p stadium",
-            "match judges must disinfect stadium",
-            "match judges should disinfect stadium"
-        ]
-        data["Stadium type"] = "NOT FOUND" if match_text.lower() in invalid_stadiums else match_text
-
     # Bracket link & Early Challonge Lookup
     challonge_links = []
     clean_links = []
@@ -216,92 +201,6 @@ def extract_from_html(html, url, c_dict):
     if final_fmt: data["Final Stage Settings"]["Bracket type"] = final_fmt
     if final_pts: data["Final Stage Settings"]["Match Type"] = final_pts
 
-    # Custom Format Aggressive Parsing
-    if data["Ranked or unranked"] == "Unranked":
-        data["Custom format"] = "NOT FOUND"
-        text_lower = text.lower()
-        name_lower = data["Tournament name"].lower()
-        
-        # 1. Explicit WBO alternate formats
-        if 'x limited' in name_lower or text_lower.count('x limited') > 1 or re.search(r'\b(limited format|limited legal)\b', text_lower):
-            data["Custom format"] = "X Limited"
-        elif 'x classic' in name_lower or text_lower.count('x classic') > 1 or 'classic format' in text_lower:
-            data["Custom format"] = "X Classic"
-        elif 'x legacy' in name_lower or text_lower.count('x legacy') > 1 or re.search(r'\b(legacy format|legacy legal)\b', text_lower):
-            data["Custom format"] = "X Legacy"
-        elif 'team' in name_lower or 'team format' in text_lower or 'team tournament' in text_lower or text_lower.count('team battle') > 1:
-            data["Custom format"] = "Team format"
-        else:
-            headers_to_skip = [
-                "format", "event format", "tournament format", "format overview", 
-                "quick format info", "need-to-know information", "additional information", 
-                "event information", "contact information", "rules", "tournament rules",
-                "registration information", "banner by", "note", "notes", "overview"
-            ]
-            
-            boilerplate_phrases = [
-                "x format", "standard format", "bbx format", "beyblade x format", 
-                "x standard", "wbo standard", "wbo x format", "standard rules",
-                "metal needle", "mn bit", "ranked season", "evolving ban", "banned for the rest of the season",
-                "please read", "in addition to", "as over finish", "forgot", "what's the ban",
-                "this tournament will be played", "format rulebook", "swiss", "elimination",
-                "legal combinations", "format for this event", "format: x", "elxgsl bx format", 
-                "elxgsl unlimited format", "elxgsl cx format", "pure skill", "pm me if",
-                "join our", "cap(", "world beyblade organization", "for any questions",
-                "we want this format", "this event is", "hi! one of the regulars", "banner by"
-            ]
-            
-            garbage_patterns = [
-                r'registration information', r'additional information', r'tournament information',
-                r'event information', r'contact information', r'format info', r'rules',
-                r'banner by', r'see more details', r'please read', r'pm me if', r'join our',
-                r'cap\(', r'delta-red', r'crewcabanger', r'savanabanana',
-                r'banachobroly', r'bananaboyguyboo', r'the evil legends', r'the elxgsl',
-                r'the dallas beyblade association', r'world beyblade organization',
-                r'for any questions', r'we want this format', r'in addition to', r'due to potential',
-                r'as an event', r'this event is', r'more rules information', r'read through',
-                r'click the', r'join the', r'participants', r'tournament format cap'
-            ]
-            
-            for line in text.split('\n'):
-                line_clean = line.strip()
-                line_lower = line_clean.lower()
-                
-                if len(line_clean) < 15 or "http" in line_lower or "<" in line_clean:
-                    continue
-                    
-                if line_clean in ["DeltaRedBandit", "SuperBanther", "Blading Bandit", "Crewcabanger", "Savanabanana", "BanchoBroly", "Bananaboyguyboo", "BankaiBlader"]:
-                    continue
-                    
-                header_check = re.sub(r'[^a-z\s\-]', '', line_lower).strip()
-                if header_check in headers_to_skip or len(header_check) < 5:
-                    continue
-                    
-                is_garbage = False
-                for pat in garbage_patterns:
-                    if re.search(pat, line_lower):
-                        is_garbage = True
-                        break
-                if is_garbage:
-                    continue
-                    
-                if "format" in line_lower or "ban" in line_lower or "banned" in line_lower:
-                    if "?" in line_lower: continue
-                    
-                    if re.search(r'(format is|playing the) (3on3|3 on 3|3v3|3 vs3|1on1|1v1|5on5|5v5|deck)', line_lower): continue
-                    if re.search(r'(3on3|3 on 3|3v3|3 vs3|1on1|1v1|5on5|5v5|deck) format', line_lower): continue
-                    if "3on3, best of 3 format" in line_lower or "3-on-3 format" in line_lower: continue
-                    
-                    if not any(bp in line_lower for bp in boilerplate_phrases):
-                        if "banlist" in line_lower or "ban list" in line_lower or "restricted list" in line_lower or "banned" in line_lower:
-                            data["Custom format"] = "Ban List"
-                        else:
-                            if len(line_clean) > 100:
-                                data["Custom format"] = line_clean[:100] + "..."
-                            else:
-                                data["Custom format"] = line_clean
-                        break
-                                        
     # Optional Rules / Ranked Clauses
     predefined_optional_rules = [
         "Registered deck list", "Registered side deck", "Own finish", "Out-of-bounds finish",
@@ -333,8 +232,15 @@ def extract_from_html(html, url, c_dict):
     return data
 
 def main():
-    csv_dir = r"e:\beyblade app\WBO-BBX-Winning-Combos-Data-Archive\event-threads\beyblade X events"
-    csv_files = glob.glob(os.path.join(csv_dir, "*.csv"))
+    import sys
+    import os
+    append_mode = False
+    if len(sys.argv) > 1:
+        csv_files = [sys.argv[1]]
+        append_mode = True
+    else:
+        csv_dir = r"e:\beyblade app\WBO-BBX-Winning-Combos-Data-Archive\event-threads\beyblade X events"
+        csv_files = glob.glob(os.path.join(csv_dir, "*.csv"))
     
     try:
         with open('compiled_challonge_stages.json', 'r', encoding='utf-8') as f:
@@ -368,9 +274,18 @@ def main():
             print(f"Error reading {f}: {e}")
                     
     output_file = 'wbo_parsed_events.json'
-    print(f"Finished processing. Writing {len(all_data)} records to {output_file}...")
+    
+    if append_mode and os.path.exists(output_file):
+        with open(output_file, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+        existing_data.extend(all_data)
+        final_data = existing_data
+    else:
+        final_data = all_data
+
+    print(f"Finished processing. Writing {len(final_data)} records to {output_file}...")
     with open(output_file, 'w', encoding='utf-8') as out_f:
-        json.dump(all_data, out_f, indent=2, ensure_ascii=False)
+        json.dump(final_data, out_f, indent=2, ensure_ascii=False)
         
     end_time = time.time()
     print(f"Done in {end_time - start_time:.2f} seconds!")

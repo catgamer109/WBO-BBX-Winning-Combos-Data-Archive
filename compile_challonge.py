@@ -29,7 +29,17 @@ def estimate_points(score_cluster):
         return f"{min_winning} points"
 
 def process():
-    df = pd.read_csv('challonge_parsed/challonge-bulk-extractor-v7.csv')
+    import sys
+    import os
+    
+    append_mode = False
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+        append_mode = True
+    else:
+        input_file = 'challonge_parsed/challonge-bulk-extractor-v7.csv'
+        
+    df = pd.read_csv(input_file)
     
     results = []
     
@@ -65,10 +75,6 @@ def process():
             'Final Stage Points': final_points
         })
         
-    out_df = pd.DataFrame(results)
-    out_df.to_csv('compiled_challonge_stages.csv', index=False)
-    
-    # Save a clean JSON
     clean_records = []
     for r in results:
         clean_r = {}
@@ -79,10 +85,21 @@ def process():
                 clean_r[k] = v
         clean_records.append(clean_r)
         
-    with open('compiled_challonge_stages.json', 'w', encoding='utf-8') as f:
-        json.dump(clean_records, f, indent=2)
+    if append_mode and os.path.exists('compiled_challonge_stages.json'):
+        with open('compiled_challonge_stages.json', 'r', encoding='utf-8') as f:
+            existing_records = json.load(f)
+        existing_records.extend(clean_records)
+        final_records = existing_records
+    else:
+        final_records = clean_records
         
-    print(f"Compiled {len(out_df)} tournaments to compiled_challonge_stages.csv and .json")
+    out_df = pd.DataFrame(final_records)
+    out_df.to_csv('compiled_challonge_stages.csv', index=False)
+    
+    with open('compiled_challonge_stages.json', 'w', encoding='utf-8') as f:
+        json.dump(final_records, f, indent=2)
+        
+    print(f"Compiled {len(final_records)} tournaments to compiled_challonge_stages.csv and .json")
 
 if __name__ == '__main__':
     process()
