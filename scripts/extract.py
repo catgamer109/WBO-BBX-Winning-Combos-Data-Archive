@@ -40,6 +40,8 @@ def process_post(html_content, author, post_date):
             challonge_map[text_clean] = href
             
     # Replace block-level tags and <br> with newlines
+    for hr in soup.find_all('hr'):
+        hr.replace_with('\n---SPLIT---\n')
     for br in soup.find_all('br'):
         br.replace_with('\n')
     for block in soup.find_all(['div', 'p', 'hr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li']):
@@ -57,6 +59,7 @@ def process_post(html_content, author, post_date):
     current_event = None
     current_placement = None
     in_optional_rules = False
+    in_team_member_list = False
     
     def init_event(name, link_href):
         return {
@@ -100,41 +103,60 @@ def process_post(html_content, author, post_date):
         if not current_event:
             current_event = init_event('Unknown Event', None)
             
+        if line == '---SPLIT---':
+            current_placement = None
+            in_optional_rules = False
+            in_team_member_list = False
+            continue
+            
         # Check for event-level meta fields
+        meta_field_detected = False
+        meta_key = None
+        meta_val = None
+        
         if line_lower.startswith('date:') or line_lower.startswith('event date:'):
-            current_event['event_date'] = line.split(':', 1)[1].strip()
-            continue
+            meta_field_detected = True; meta_key = 'event_date'; meta_val = line.split(':', 1)[1].strip()
         elif line_lower.startswith('event name:'):
-            current_event['explicit_event_name'] = line.split(':', 1)[1].strip()
-            continue
+            meta_field_detected = True; meta_key = 'explicit_event_name'; meta_val = line.split(':', 1)[1].strip()
         elif line_lower.startswith('event page link:'):
-            current_event['event_page_link'] = line.split(':', 1)[1].strip()
-            continue
+            val = line.split(':', 1)[1].strip()
+            for k, v in links.items():
+                if k and k in val:
+                    val = v
+                    break
+            meta_field_detected = True; meta_key = 'event_page_link'; meta_val = val
         elif line_lower.startswith('bracket link:'):
             val = line.split(':', 1)[1].strip()
             for k, v in challonge_map.items():
                 if k and k in val:
                     val = v
                     break
-            current_event['bracket_link'] = val
-            continue
+            meta_field_detected = True; meta_key = 'bracket_link'; meta_val = val
         elif line_lower in ('ranked', 'unranked', 'ranked/unranked') or line_lower.startswith('ranked ') or line_lower.startswith('unranked '):
-            current_event['ranked_status'] = line.strip()
-            continue
+            meta_field_detected = True; meta_key = 'ranked_status'; meta_val = line.strip()
         elif line_lower.startswith('stadium:'):
-            current_event['stadium'] = line.split(':', 1)[1].strip()
-            continue
+            meta_field_detected = True; meta_key = 'stadium'; meta_val = line.split(':', 1)[1].strip()
         elif line_lower.startswith('first stage'):
-            current_event['first_stage_format'] = line.split(':', 1)[1].strip() if ':' in line else line
-            continue
+            meta_field_detected = True; meta_key = 'first_stage_format'; meta_val = line.split(':', 1)[1].strip() if ':' in line else line
         elif line_lower.startswith('final stage'):
-            current_event['final_stage_format'] = line.split(':', 1)[1].strip() if ':' in line else line
-            continue
+            meta_field_detected = True; meta_key = 'final_stage_format'; meta_val = line.split(':', 1)[1].strip() if ':' in line else line
         elif line_lower.startswith('player count:'):
-            current_event['player_count'] = line.split(':', 1)[1].strip()
-            continue
+            meta_field_detected = True; meta_key = 'player_count'; meta_val = line.split(':', 1)[1].strip()
         elif line_lower.startswith('optional rules'):
-            in_optional_rules = True
+            meta_field_detected = True; meta_key = 'optional_rules'; meta_val = None
+            
+        if meta_field_detected:
+            if current_event and current_event.get('placements'):
+                events.append(current_event)
+                current_event = init_event('Unknown Event', None)
+                current_placement = None
+                in_optional_rules = False
+                
+            if meta_key == 'optional_rules':
+                in_optional_rules = True
+            else:
+                current_event[meta_key] = meta_val
+            in_team_member_list = False
             continue
             
         if in_optional_rules:
@@ -147,6 +169,10 @@ def process_post(html_content, author, post_date):
         # Detect placement like "1st: Player" or "1st - Player" or "1."
         placement_match = re.match(r'^[^a-zA-Z0-9]*([1-8](?:st|nd|rd|th|ed|\.))(?:\s*place)?\b[:\-\s]*(.*)', line, re.IGNORECASE)
         if placement_match:
+            if in_team_member_list:
+                current_placement['combos'].append(line)
+                continue
+                
             rank = placement_match.group(1).lower()
             # Normalize misspellings
             rank = re.sub(r'1(?:th|ed|\.)$', '1st', rank)
@@ -174,6 +200,7 @@ def process_post(html_content, author, post_date):
                 current_placement = None
                 
             in_optional_rules = False
+            in_team_member_list = False
             continue
             
         # Inside placement -> it's a combo
@@ -196,8 +223,13 @@ def process_post(html_content, author, post_date):
                 
             if not current_placement['player'] and len(line) < 30 and not '-' in line and not line_lower.startswith('winnings'):
                 current_placement['player'] = line
+                in_team_member_list = False
             else:
                 current_placement['combos'].append(line)
+                if line_lower.startswith('captain:'):
+                    in_team_member_list = True
+                else:
+                    in_team_member_list = False
                 
     if current_event and current_event.get('placements'):
         events.append(current_event)
