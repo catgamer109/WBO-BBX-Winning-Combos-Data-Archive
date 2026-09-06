@@ -631,13 +631,17 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Kirito1696",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "Kirito1696",
+          "Will update once I get the combos from Kirito1696"
+        ]
       },
       {
         "rank": "2nd",
-        "player": "geetster99",
+        "player": "Unknown",
         "combos": [
+          "geetster99",
           "KnightLance 3-80Needle",
           "HellsScythe 4-60Ball",
           "DranSword 3-60High Needle"
@@ -645,7 +649,7 @@
       },
       {
         "rank": "3rd",
-        "player": "WolfRai",
+        "player": "Unknown",
         "combos": [
           "HellsScythe 4-80Ball",
           "WizardArrow 4-60Needle",
@@ -1418,32 +1422,77 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Ezra Jones",
+        "player": "Unknown",
         "combos": [
           "WizardArrow 5-60Point",
           "ViperTail 3-60Taper",
           "ViperTail 3-60Rush",
           "DranSword 4-60Low Flat",
           "SharkEdge 4-60Low Flat",
-          "KnightShield 5-80Ball"
+          "KnightShield 5-80Ball (Final Stage Only)"
         ]
       },
       {
         "rank": "2nd",
-        "player": "Wingeagle99",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "Wingeagle99"
+        ]
       },
       {
         "rank": "3rd",
-        "player": "#Fafnir",
+        "player": "Unknown",
         "combos": [
           "ViperTail 3-60 Flat",
           "SharkEdge 5-60 Taper",
           "SharkEdge 5-60 Point",
           "HellsScythe 5-80High Taper",
           "HellsScythe 5-80Point",
-          "HellsScythe 3-80Ball"
+          "HellsScythe 3-80Ball (Final Stage Only)"
         ]
+      },
+      {
+        "rank": "4th",
+        "player": "Unknown",
+        "combos": [
+          "Rockwell, North Carolina (12/02/2023)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "Wingeagle99"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Fire blader07",
+          "MF-H Gravity Perseus 85RF",
+          "MF-F Flame Cancer 230CS",
+          "Meteo L-Drago LW105WD",
+          "Screw Susanow CH120RF",
+          "MF-M Flame Cancer 230CS",
+          "MF-L Bakushin Leone 85MF"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "MF-H Gravity Perseus CH120MF",
+          "MF Gravity Perseus CH120MF",
+          "MF-M Flame Cancer 230CS",
+          "Flame Cancer 230CS",
+          "MF Screw Susanow D125RF"
+        ]
+      },
+      {
+        "rank": "4th",
+        "player": "Unknown",
+        "combos": []
       }
     ]
   },
@@ -3762,7 +3811,44 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Laban Vanot",
+        "player": "Unknown",
+        "combos": [
+          "KnightShield 4-60Taper",
+          "WizardArrow 4-80Needle",
+          "HellsScythe 3-80Ball"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "DranSword 4-80Flat",
+          "HellsScythe 4-60Ball",
+          "KnightLance 3-60Taper"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "DranSword 3-60Taper",
+          "HellsScythe 4-60High Needle",
+          "KnightLance 3-80Flat",
+          "SharkEdge 3-60Low Flat",
+          "KnightShield 3-80Needle",
+          "LeonClaw 5-60Point",
+          "SharkEdge 3-60Low Flat",
+          "KnightShield 3-80Needle",
+          "LeonClaw 5-60Point",
+          "Daichi11",
+          "SharkEdge 3-60Low Flat",
+          "KnightShield 3-80Needle",
+          "LeonClaw 5-60Point"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
         "combos": [
           "HellsScythe 3-60Ball",
           "KnightShield 5-80Taper",
@@ -3771,15 +3857,43 @@
       },
       {
         "rank": "2nd",
-        "player": "bsquared_92",
+        "player": "Unknown",
+        "combos": [
+          "bsquared_92"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "nightShield 4-60Taper",
+          "WizardArrow 4-80Needle",
+          "HellsScythe 3-80Ball",
+          "02/24/2024"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 9-60Ball",
+          "KnightShield 3-60Rush",
+          "HellsScythe 9-60Orb"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
         "combos": []
       },
       {
         "rank": "3rd",
-        "player": "PancakebladernightShield 4-60Taper",
+        "player": "Unknown",
         "combos": [
-          "WizardArrow 4-80Needle",
-          "HellsScythe 3-80Ball"
+          "strato-abyss19",
+          "PhoenixWing 5-60Point",
+          "WyvernGale 3-60Taper",
+          "UnicornSting 9-60Ball"
         ]
       }
     ]
@@ -4280,6 +4394,11 @@
       {
         "rank": "3rd",
         "player": "M1key",
+        "combos": []
+      },
+      {
+        "rank": "4th",
+        "player": "Meganecon",
         "combos": []
       }
     ]
@@ -6287,37 +6406,6 @@
     ]
   },
   {
-    "event_name": "Tournament: https://worldbeyblade.org/Thread-TableTo...pid1868730",
-    "link": "https://worldbeyblade.org/Thread-TableTop-Tavern-s-Beyblade-X-Tournament-for-August-3rd--112430?pid=1868730#pid1868730",
-    "author": "TheTCGTavern",
-    "post_date": "Aug. 08, 2024  8:23 PM",
-    "event_date": "August 3rd",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Dipndots",
-        "combos": []
-      },
-      {
-        "rank": "2nd",
-        "player": "ayyHowie",
-        "combos": [
-          "3-4th: Yushwa, M1key",
-          "5-8th: Jakkthatonedude, CrownAxe, Phenominator, Wrenagayde"
-        ]
-      }
-    ]
-  },
-  {
     "event_name": "Event Link: https://worldbeyblade.org/Thread-Norwich...-1--112121",
     "link": "https://worldbeyblade.org/Thread-Norwich-Beyblade-X-Episode-1--112121",
     "author": "FuzzNL",
@@ -7222,38 +7310,6 @@
           "CobaltDragoon 9-70Glide",
           "TyrannoBeat 3-60Taper",
           "WizardRod 9-60Hexa"
-        ]
-      }
-    ]
-  },
-  {
-    "event_name": "Multi Madness: Dran Draft",
-    "link": "https://worldbeyblade.org/Thread-Multi-Madness-Dran-Draft--112834",
-    "author": "RAW",
-    "post_date": "Sep. 05, 2024  6:09 PM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": ". Ynot98 DranSword 5-60Orb",
-        "combos": []
-      },
-      {
-        "rank": "2nd",
-        "player": ". Monz Steel Samurai 3-60Taper",
-        "combos": [
-          "Joint 3rd. BigStrike HellsScythe 3-60Taper",
-          "Jont 3rd. leXshaken DranSword 3-80Low Flat",
-          "Undefeated in Swiss. beybladegeek231 SharkEdge 4-60Flat"
         ]
       }
     ]
@@ -8301,7 +8357,7 @@
         "rank": "3rd",
         "player": "M1key:",
         "combos": [
-          "5:80 orb",
+          "5-80 orb",
           "ViperTail 9-60Low Flat",
           "PhoenixWing 3-60Rush"
         ]
@@ -9371,39 +9427,6 @@
     ]
   },
   {
-    "event_name": "https://worldbeyblade.org/Thread-Kamen-X-Bird-Multi-California-s-first-STOCK-X-Tournament-Invite-Only--113497",
-    "link": "https://worldbeyblade.org/Thread-Kamen-X-Bird-Multi-California-s-first-STOCK-X-Tournament-Invite-Only--113497",
-    "author": "Eddiehh",
-    "post_date": "Oct. 28, 2024  11:32 PM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "DranDagger 4-60R - Alchemist",
-        "combos": []
-      },
-      {
-        "rank": "2nd",
-        "player": "SharkEdge 3-60LF - The_Shredder",
-        "combos": []
-      },
-      {
-        "rank": "3rd",
-        "player": "SilverWolf 3-80FB - Shindog",
-        "combos": []
-      }
-    ]
-  },
-  {
     "event_name": "WBO Page: https://worldbeyblade.org/Thread-Paradis...se--113379",
     "link": "https://worldbeyblade.org/Thread-Paradise-Xtreme-Series-4-Trouble-in-Paradise--113379",
     "author": "Ice909",
@@ -10099,6 +10122,38 @@
       {
         "rank": "1st",
         "player": "PhoenixWing 3-60Taper",
+        "combos": []
+      },
+      {
+        "rank": "1st",
+        "player": "KnightLance 1-60Low Flat",
+        "combos": []
+      },
+      {
+        "rank": "1st",
+        "player": "SilverWolf 9-60Free Ball",
+        "combos": [
+          "2ed WhaleWave 5-60Point",
+          "2ed LeonCrest 7-60Gear Needle",
+          "2ed DranDagger 4-60Rush",
+          "3ed PhoenixWing 9-60Rush",
+          "3ed CobaltDragoon 7-60Cyclone",
+          "3ed WizardRod 1-60Hexa"
+        ]
+      },
+      {
+        "rank": "4th",
+        "player": "WhaleWave 3-60Taper",
+        "combos": []
+      },
+      {
+        "rank": "4th",
+        "player": "WizardRod 9-60Ball",
+        "combos": []
+      },
+      {
+        "rank": "4th",
+        "player": "CobaltDragoon 5-60Elevate",
         "combos": []
       }
     ]
@@ -13728,7 +13783,7 @@
           "HellsScythe 7-70Level",
           "HellsChain 9-60Ball",
           "HellsHammer 5-60Rush",
-          "Sideboard: WizardArrow, 1-60, Hexa"
+          "WizardArrow, 1-60, Hexa"
         ]
       },
       {
@@ -14622,8 +14677,35 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Stage: https://worldbeyblade.challonge.com/nerdmallnewyearbash",
+        "player": "Stage:",
         "combos": []
+      },
+      {
+        "rank": "1st",
+        "player": "@AllLuck777",
+        "combos": [
+          "TyrannoBeat 5-60H",
+          "SilverWolf 5-70O",
+          "WhaleWave 1-60LR"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WhaleWave 9-70P",
+          "PhoenixWing 3-60R",
+          "SilverWolf 9-60B"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "WhaleWave 7-60P",
+          "CobaltDragoon 3-60L",
+          "SilverWolf 9-60FB"
+        ]
       }
     ]
   },
@@ -17783,7 +17865,6 @@
           "PhoenixWing 1-60Low Rush",
           "WizardRod 9-60Ball",
           "CobaltDragoon 5-60Elevate",
-          "[b]4th Place: oldBenKenobi",
           "TyrannoBeat 3-70Point",
           "WizardRod 9-60Hexa",
           "PhoenixWing 1-60Rush"
@@ -17811,24 +17892,28 @@
         "rank": "1st",
         "player": "Sully",
         "combos": [
-          "Ratchets: 1-60, 3-60, 9-60, 7-60",
-          "Bits: low rush, ball, elevate"
+          "Ratchets: 1-60, 3-60, 9-60, 7-60"
         ]
       },
       {
         "rank": "2nd",
         "player": "CookieSophie",
         "combos": [
-          "Ratchets: 4-60, 5-70, 3-60, 9-60",
-          "Bits: Elevate, Hexa, Point, Under Needle"
+          "Ratchets: 4-60, 5-70, 3-60, 9-60"
         ]
       },
       {
         "rank": "3rd",
         "player": "Kaymon07",
         "combos": [
-          "Ratchets: 7-60, 5-70, 9-60, 5-60",
-          "Bits: Ball, rush, elevate, point"
+          "Ratchets: 7-60, 5-70, 9-60, 5-60"
+        ]
+      },
+      {
+        "rank": "4th",
+        "player": "OllieD2496",
+        "combos": [
+          "Ratchets: 1-60, 3-60, 5-60, 9-60"
         ]
       }
     ]
@@ -17990,7 +18075,27 @@
       {
         "rank": "3rd",
         "player": "Six5ths",
-        "combos": []
+        "combos": [
+          "3on3 First to 5 points First Stage | 6 Round Swiss",
+          "WizardRod 7-60RA(first stage)",
+          "GolemRock 3-60LR(first stage)",
+          "GolemRock 7-60RA(first and finals stage)",
+          "CobaltDragoon 5-60E(first and finals stage)",
+          "WizardRod 3-60L(first and finals stage)",
+          "WizardRod 1-60H(first stage)",
+          "KnightMail 7-60L(first stage)",
+          "KnightMail 7-60LR(first stage)",
+          "Tyranno Beat 5-60F(first and finals)",
+          "WizardRod 3-60B(finals only)",
+          "KnightMail 1-60H(finals only)",
+          "Six5ths",
+          "WizardRod 3-60B(first stage)",
+          "WizardRod 3-60L(first stage)",
+          "AeroPegasus 9-60P(first stage)",
+          "CobaltDragoon 1-60E(first and finals stage)",
+          "AeroPegasus 9-60L (first and finals stage)",
+          "WizardRod 3-60H(finals only)"
+        ]
       }
     ]
   },
@@ -21132,25 +21237,26 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Sans1570",
+        "player": "@",
         "combos": [
-          "ImpactDrake 1-60Low Rush",
-          "CobaltDragoon 9-60Elevate",
-          "PhoenixWing 5-60Rush"
+          "Sans1570",
+          "-ImpactDrake 1-60Low Rush",
+          "-CobaltDragoon 9-60Elevate",
+          "-PhoenixWing 5-60Rush"
         ]
       },
       {
         "rank": "2nd",
-        "player": "Drumdurm",
+        "player": "@",
         "combos": [
-          "WizardRod 1-60Ball",
-          "CobaltDragoon 9-60Elevate",
-          "PhoenixWing 1-60Low Rush"
+          "-WizardRod 1-60Ball",
+          "-CobaltDragoon 9-60Elevate",
+          "-PhoenixWing 1-60Low Rush"
         ]
       },
       {
         "rank": "3rd",
-        "player": "TheLinkus and @Dumbrumhum tied",
+        "player": "@",
         "combos": []
       }
     ]
@@ -22870,27 +22976,27 @@
         "rank": "1st",
         "player": "The_Gotham",
         "combos": [
-          "Bey1: SilverWolf 0-80Hexa",
-          "Bey2: WizardRod 9-80Ball",
-          "Bey3: CobaltDragoon 9-60Elevate"
+          "SilverWolf 0-80Hexa",
+          "WizardRod 9-80Ball",
+          "CobaltDragoon 9-60Elevate"
         ]
       },
       {
         "rank": "2nd",
         "player": "RockBladeCesar",
         "combos": [
-          "Bey1: CobaltDragoon 5-60Elevate",
-          "Bey2: AeroPegesus 3-60Low Rush",
-          "Bey3: WizardRod 9-60Ball"
+          "CobaltDragoon 5-60Elevate",
+          "AeroPegesus 3-60Low Rush",
+          "WizardRod 9-60Ball"
         ]
       },
       {
         "rank": "3rd",
         "player": "Devii.7",
         "combos": [
-          "Bey1: WizardRod 9-60Ball",
-          "Bey2: PhoenixWing 3-60Low Rush",
-          "Bey3: KnightMail 1-60Rush"
+          "WizardRod 9-60Ball",
+          "PhoenixWing 3-60Low Rush",
+          "KnightMail 1-60Rush"
         ]
       }
     ]
@@ -24351,29 +24457,6 @@
     ]
   },
   {
-    "event_name": "Krakenhits X Beyblade #9 tournament: https://worldbeyblade.org/Thread-Krakenh...-9--116889",
-    "link": "https://worldbeyblade.org/Thread-Krakenhits-X-Beyblade-Tournament-9--116889",
-    "author": "sbenv",
-    "post_date": "Apr. 26, 2025  9:04 PM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Legacy_Blader",
-        "combos": []
-      }
-    ]
-  },
-  {
     "event_name": "Event: https://worldbeyblade.org/Thread-TTTs-BB...25--116942",
     "link": "https://worldbeyblade.org/Thread-TTTs-BBX-Tournament-TT-Xtreme-Stadiums-26APR25--116942",
     "author": "TheTCGTavern",
@@ -24952,7 +25035,6 @@
         "rank": "1st",
         "player": "Sean",
         "combos": [
-          "Prize Money: $234.50 + Trophy",
           "TyrannoBeat 1-60Rush",
           "SilverWolf 5-80Hexa",
           "PhoenixWing 3-60Low Rush"
@@ -24962,7 +25044,6 @@
         "rank": "2nd",
         "player": "beymasterkai",
         "combos": [
-          "Prize Money: $67.50",
           "PhoenixWing 3-60Low Rush",
           "TyrannoBeat 9-60Rush",
           "CobaltDragoon 1-60Level"
@@ -24972,7 +25053,6 @@
         "rank": "3rd",
         "player": "JackDamon",
         "combos": [
-          "Prize Money: $33.50",
           "PhoenixWing 5-60Point",
           "WizardRod 9-60Ball",
           "TyrannoBeat 3-60Rush"
@@ -25275,7 +25355,7 @@
           "PhoenixWing 3-80Rush",
           "WizardRod 9-60Ball",
           "UnicornSting 5-70Point",
-          "Side deck: HellsHammer 3-70Hexa"
+          "HellsHammer 3-70Hexa"
         ]
       },
       {
@@ -25285,7 +25365,7 @@
           "PhoenixWing 1-60Rush",
           "DranDagger 9-60Point",
           "SharkEdge 3-60Flat",
-          "Sidedeck: Lance Knight 5-60Disk Ball"
+          "Lance Knight 5-60Disk Ball"
         ]
       },
       {
@@ -25295,7 +25375,7 @@
           "Cobalt Fragoon 9-80Gear Point",
           "SilverWolf 5-70Hexa",
           "PhoenixWing 3-80Low Rush",
-          "Sidedeck: WizardRod 4-80High Needle",
+          "WizardRod 4-80High Needle",
           "Special mention to samurai saber 3-60 wedge. Its really good and can tank and weaken most attacks"
         ]
       }
@@ -25621,7 +25701,7 @@
           "DranBrave R6-60T",
           "GhostCircle 1-80H",
           "WizardArc R0-80BS",
-          "Bounty Winner: (Dranbrave S6-60V) - BLADERPN"
+          "Dranbrave S6-60V"
         ]
       }
     ]
@@ -28495,8 +28575,7 @@
         "combos": [
           "ScorpioSpear 3-60U",
           "TyrannoBeat 1-60R",
-          "PhoenixWing 6-60K",
-          "Bounty Winner: (Random Booster FoxBrush Select) - reddmatrixx"
+          "PhoenixWing 6-60K"
         ]
       }
     ]
@@ -29521,7 +29600,7 @@
           "AeroPegasus 3-60Level",
           "CobaltDragoon 5-60Elevate",
           "WizardRod 9-60Ball",
-          "Used on on rounds 5 & 6: FoxBrush J1-60Zap"
+          "FoxBrush J1-60Zap"
         ]
       },
       {
@@ -30049,7 +30128,7 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Oyapapi",
+        "player": "Unknown",
         "combos": [
           "WizardRod 1-60Hexa",
           "PhoenixWing 7-60Rush",
@@ -30058,8 +30137,25 @@
       },
       {
         "rank": "2nd",
-        "player": "buicejox",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 3-60Low Rush",
+          "WizardRod 1-60Hexa",
+          "CobaltDragoon 5-60Elevate",
+          "AeroPegasus 7-60Level",
+          "AeroPegasus 7-60Level",
+          "WizardRod 1-60Hexa",
+          "CobaltDragoon 5-60Elevate"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "TyrannoBeat 1-60Low Rush",
+          "WizardRod 3-60Level",
+          "CobaltDragoon 5-60Elevate"
+        ]
       }
     ]
   },
@@ -32876,8 +32972,7 @@
           "Aero Pegasus 1-60R",
           "CobaltDragoon 9-60E",
           "WizardRod 3-60BS",
-          "PhoenixWing 1-60W",
-          "Bounty Winner: (Gear Case White ver.) - Fireredx7964"
+          "PhoenixWing 1-60W"
         ]
       }
     ]
@@ -35449,47 +35544,6 @@
     ]
   },
   {
-    "event_name": "Clash of Blades #6: https://worldbeyblade.org/Thread-Clash-o...-6--118920",
-    "link": "https://worldbeyblade.org/Thread-Clash-of-Blades-6--118920",
-    "author": "WonderLaunch",
-    "post_date": "Jul. 23, 2025  3:50 PM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "rayschrantz",
-        "combos": [
-          "PhoenixWing 1-60Rush",
-          "SilverWolf 9-80Free Ball",
-          "WhaleWave 5-60Taper"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "TreBlade",
-        "combos": [
-          "PhoenixWing 1-60Rush",
-          "ScorpioSpear 7-60Level",
-          "WizardRod 9-60Ball"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Joy7hief",
-        "combos": []
-      }
-    ]
-  },
-  {
     "event_name": "Event Link: https://worldbeyblade.org/Thread-BEYBLAD...RS--117979",
     "link": "https://worldbeyblade.org/Thread-BEYBLADE-X-BATTLE-BLADERS--117979",
     "author": "TigerMask",
@@ -35597,8 +35651,9 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Mrzen215",
+        "player": "Unknown",
         "combos": [
+          "Mrzen215",
           "PhoenixWing 3-60K",
           "Hover Wyvern 1-60R",
           "WizardRod 9-60B"
@@ -35606,7 +35661,7 @@
       },
       {
         "rank": "2nd",
-        "player": "Peanuts",
+        "player": "@Peanuts",
         "combos": [
           "CobaltDragoon 5-60E",
           "WizardRod 9-60H",
@@ -37710,7 +37765,7 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Tarxan",
+        "player": "Unknown",
         "combos": [
           "DranBuster 9-60Kick",
           "PhoenixWing 1-60Low Rush",
@@ -37719,13 +37774,14 @@
       },
       {
         "rank": "2nd",
-        "player": "HunterGG",
+        "player": "Unknown",
         "combos": []
       },
       {
         "rank": "3rd",
-        "player": "Dhawk50",
+        "player": "Unknown",
         "combos": [
+          "Dhawk50",
           "WyvernGale 1-60Kick",
           "PhoenixWing 3-60Low Rush",
           "ScorpioSpear 9-60Wedge"
@@ -41077,7 +41133,7 @@
           "WhaleWave 5-60Kick",
           "FoxBrush Slash 3-60Point",
           "WizardRod 9-60Hexa",
-          "Sideboard: SharkEdge 2-60Low Rush"
+          "SharkEdge 2-60Low Rush"
         ]
       },
       {
@@ -41087,7 +41143,7 @@
           "ImpactDrake 1-60Rush",
           "PhoenixWing 3-60Taper",
           "WizardRod 9-60Ball",
-          "Side Board: GolemRock 5-60Level"
+          "GolemRock 5-60Level"
         ]
       },
       {
@@ -41097,7 +41153,7 @@
           "TyrannoBeat 3-60Point",
           "PhoenixWing 1-60Rush",
           "WizardRod 9-60Low Orb",
-          "Sideboard: UnicornSting 5-60Hexa"
+          "UnicornSting 5-60Hexa"
         ]
       }
     ]
@@ -41912,8 +41968,7 @@
         "combos": [
           "Hover Wyvern 9-60Rush",
           "WizardRod 7-60Hexa",
-          "AeroPegasus 1-60Rubber Accel",
-          "Note: Used in Swiss & Grand"
+          "AeroPegasus 1-60Rubber Accel"
         ]
       },
       {
@@ -43508,8 +43563,7 @@
         "combos": [
           "Hover Wyvern 1-60R",
           "SharkScale 4-50LR",
-          "FoxBlast J3-60L",
-          "Bounty Winner: (Random Booster Vol. 7) - Albus"
+          "FoxBlast J3-60L"
         ]
       }
     ]
@@ -45380,7 +45434,7 @@
           "GolemRock 6-60Low Rush",
           "WizardRod 9-60Hexa",
           "CobaltDragoon 5-60Elevate",
-          "SIDE: PegasusBlast Jaggy 3-60Ball"
+          "PegasusBlast Jaggy 3-60Ball"
         ]
       },
       {
@@ -48175,27 +48229,27 @@
         "rank": "1st",
         "player": "🥇: Team Card Art",
         "combos": [
-          "bongobongo: WizardRod 1-60H",
-          "buicejox: CobaltDragoon 5-60E",
-          "CloroxWipes: TyrannoBeat 7-60R"
+          "WizardRod 1-60H",
+          "CobaltDragoon 5-60E",
+          "TyrannoBeat 7-60R"
         ]
       },
       {
         "rank": "2nd",
         "player": "🥈: Team W A S H E D",
         "combos": [
-          "Junebuggarella: CobaltDragoon 5-60E",
-          "Rokki33: SharkScale 1-60FB",
-          "LoloLegacy: WizardRod 7-60H"
+          "CobaltDragoon 5-60E",
+          "SharkScale 1-60FB",
+          "WizardRod 7-60H"
         ]
       },
       {
         "rank": "3rd",
         "player": "🥉: Team Beydaddies",
         "combos": [
-          "ACordz: AeroPegasus 1-60R",
-          "Oyapapi: ScarkScale 3-60LR",
-          "Kamen Y: ValkyrieBlast W9-60T"
+          "AeroPegasus 1-60R",
+          "ScarkScale 3-60LR",
+          "ValkyrieBlast W9-60T"
         ]
       }
     ]
@@ -49246,6 +49300,33 @@
         "player": "stage: 3on3",
         "combos": [
           "FInals: 3on3"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "DranzerSpiral 5-60Low Rush",
+          "Hover Wyvern 9-60Under Needle",
+          "WizardRod 1-60Hexa"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 9-60Ball",
+          "TyrannoRoar 3-60Rush",
+          "PhoenixWing 1-60Kick"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "HellsScythe 9-80Free Ball",
+          "WizardRod 1-60Rush",
+          "HellsHammer 9-60Unite"
         ]
       }
     ]
@@ -50629,7 +50710,7 @@
           "SharkScale 1-60L",
           "PhoenixWing 7-70P",
           "WizardRod 3-60B",
-          "Bounty Winner: (SamuraiCalibur 6-70M) - Christoff"
+          "SamuraiCalibur 6-70M"
         ]
       }
     ]
@@ -51680,7 +51761,6 @@
         "rank": "1st",
         "player": "Let It Drip",
         "combos": [
-          "Captain: JRF-TO",
           "ValkyrieBlast Wheel 4-50Low Rush",
           "AeroPegasus 7-60Level",
           "WizardRod 3-60Kick",
@@ -51692,7 +51772,6 @@
         "rank": "2nd",
         "player": "Rice and Beans",
         "combos": [
-          "Captain: Beyshredder13",
           "GolemRock 5-60Bound Spike",
           "SharkScale 1-60Low Rush",
           "PhoenixWing 3-60Rush",
@@ -51704,7 +51783,6 @@
         "rank": "3rd",
         "player": "X",
         "combos": [
-          "Captain: xenoseas",
           "SamuraiCalibur 3-80Level",
           "WizardRod 1-60Hexa",
           "PhoenixWing 6-60Rush"
@@ -51966,7 +52044,7 @@
         "rank": "1st",
         "player": "TalonTopher",
         "combos": [
-          "Ace Pokébey: ImpactDrake 1-80Wedge",
+          "ImpactDrake 1-80Wedge",
           "Hover Wyvern 7-60Kick",
           "PhoenixWing 3-60Rush",
           "SharkScale 1-70Low Rush",
@@ -51978,7 +52056,7 @@
         "rank": "2nd",
         "player": "TheRedEyeGator",
         "combos": [
-          "Ace Pokébey: SamuraiCalibur 7-70Kick",
+          "SamuraiCalibur 7-70Kick",
           "Hover Wyvern 9-60Under needle",
           "SliverWolf 9-70Elevate",
           "HellsBlast J3-60Low rush",
@@ -51990,7 +52068,7 @@
         "rank": "3rd",
         "player": "John_Beyblade",
         "combos": [
-          "Ace Pokébey: Rock Golem 6-60Wedge",
+          "Rock Golem 6-60Wedge",
           "WizardRod 1-60Hexa",
           "CobaltDragoon 5-60Elevate",
           "SharkScale 7-60Low rush",
@@ -52348,29 +52426,6 @@
           "CobaltDragoon 7-60Level",
           "WizardRod 1-60Hexa"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Thread: https://worldbeyblade.org/Thread-West-Co...er--119565",
-    "link": "https://worldbeyblade.org/Thread-West-Coast-Beyblade-TT-Series-ft-Sabrina-Carpenter--119565",
-    "author": "Jamcobs",
-    "post_date": "Oct. 10, 2025  12:25 AM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": ". ThaKingTai",
-        "combos": []
       }
     ]
   },
@@ -55596,47 +55651,6 @@
     ]
   },
   {
-    "event_name": "WBO page: https://worldbeyblade.org/Thread-Top-Cut...20--121011",
-    "link": "https://worldbeyblade.org/Thread-Top-Cut-Battle-League-10-20--121011",
-    "author": "Phantom_Blur",
-    "post_date": "Oct. 25, 2025  8:40 AM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
-    "player_count": null,
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "nstart",
-        "combos": [
-          "SharkScale 3-60Rush",
-          "TyrannoBeat 1-70Kick",
-          "Hover Wyvern 1-60Level"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "LuiRui",
-        "combos": [
-          "SharkScale 1-70Low Rush",
-          "WizardRod 1-60Hexa",
-          "ValkyrieVolt Massive6-60Point"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "",
-        "combos": []
-      }
-    ]
-  },
-  {
     "event_name": "Event: https://worldbeyblade.org/Thread-GAMEBRE...pid1903152",
     "link": "https://worldbeyblade.org/Thread-GAMEBREAKER-TOURNAMENT-7--121301?pid=1903152#pid1903152",
     "author": "GamebreakerMLT",
@@ -57240,7 +57254,6 @@
         "rank": "1st",
         "player": "Let It Drip",
         "combos": [
-          "Captain: JRF-TO",
           "AeroPegasus 7-70Low Rush",
           "SharkScale 7-60Kick",
           "Hover Wyvern 1-60Taper"
@@ -57250,7 +57263,6 @@
         "rank": "2nd",
         "player": "Rice and Beans",
         "combos": [
-          "Captain: D/D Rezeal",
           "AeroPegasus 1-60Rush",
           "TyrannoBeat 1-70Low Rush",
           "SilverWolf 9-70Hexa",
@@ -57262,7 +57274,6 @@
         "rank": "3rd",
         "player": "Evil Le6en6s",
         "combos": [
-          "Captain: AngeloDragoon",
           "WizardRod 1-60Hexa",
           "CobaltDragoon 7-60Rubber Accel",
           "SamuraiCalibur 9-70Taper",
@@ -57484,8 +57495,7 @@
           "WizardRod 1-60H",
           "SilverWolf 9-60FB",
           "SharkScale 3-60LR",
-          "CobaltDragoon 5-60E",
-          "Bounty Winner: (Drop Attack Battle Set) - Mel12"
+          "CobaltDragoon 5-60E"
         ]
       }
     ]
@@ -63370,7 +63380,7 @@
           "SharkScale 3-60LR",
           "CobaltDragoon 5-60E",
           "SolBlast H4-50LR",
-          "Bounty Winner: (Wolf Hunt F0-60DB / Gear Case White ver.) - Hackermans"
+          "Wolf Hunt F0-60DB"
         ]
       }
     ]
@@ -65959,8 +65969,8 @@
           "SharkScale 1-60Kick",
           "KnightMail 6-80Under Needle",
           "GolemRock 7-60Level",
-          "Keel Shark: 4-55Hexa",
-          "WhaleWave: 4-70Wedge"
+          "Keel Shark 4-55Hexa",
+          "WhaleWave 4-70Wedge"
         ]
       },
       {
@@ -70613,8 +70623,7 @@
           "GolemRock 7-60H",
           "WhaleWave 6-70L",
           "DranBuster 1-60LR",
-          "Optional Rule",
-          "Own Finish"
+          "Optional Rule"
         ]
       }
     ]
@@ -72025,26 +72034,46 @@
     ]
   },
   {
-    "event_name": "https://worldbeyblade.org/Thread-Waffles-and-enthusiasm-first-event-of-2026--122827?pid=1910739#pid1910739",
+    "event_name": "Waffles and enthusiasm first event of 2026",
     "link": "https://worldbeyblade.org/Thread-Waffles-and-enthusiasm-first-event-of-2026--122827?pid=1910739#pid1910739",
     "author": "GhostFish",
     "post_date": "Jan. 19, 2026  2:14 PM",
-    "event_date": null,
+    "event_date": "1/18/2026",
     "explicit_event_name": null,
     "event_page_link": null,
     "bracket_link": null,
     "ranked_status": "Unranked",
-    "stadium": null,
-    "first_stage_format": null,
-    "final_stage_format": null,
+    "stadium": "Takara Tomy BX-10 Xtreme Stadium",
+    "first_stage_format": "3 on 3 Swiss Bo1 first to 5pts",
+    "final_stage_format": "3 on 3 Single elimination Bo1 first to 7pts",
     "player_count": null,
     "optional_rules": [],
     "placements": [
       {
-        "rank": "2nd",
-        "player": "stage Single elimination Bo1 first to 7pts",
+        "rank": "1st",
+        "player": "pikachugamemstr",
         "combos": [
-          "Stadium Used: Takara Tomy BX-10 Xtreme Stadium"
+          "Hover Wyvern 9-60K",
+          "CobaltDragoon 5-60E",
+          "WizardRod 1-60H"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "FinalAvenger",
+        "combos": [
+          "MeteorDragoon 7-60L",
+          "WizardRod 1-60B",
+          "Hover Wyvern 9-60LR"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "MikelStealsWifi",
+        "combos": [
+          "Hover Wyvern 9-60K",
+          "FoxBrush H1-60R",
+          "MeteorDragoon 3-70Z"
         ]
       }
     ]
@@ -72857,8 +72886,7 @@
         "combos": [
           "Hover Wyvern 9-60R",
           "SharkScale 1-70LR",
-          "WizardRod 1-60H",
-          "Bounty Winner: (Random Booster Vol. 8) - Firered"
+          "WizardRod 1-60H"
         ]
       }
     ]
@@ -75123,17 +75151,17 @@
         "rank": "1st",
         "player": "Apex Predators",
         "combos": [
-          "geetster99: SolBlast Heavy9-60Jolt",
-          "Gaven: SharkScale 1-60Rush",
-          "CrisisCrusher07: WizardRod 6-60Hexa"
+          "SolBlast Heavy9-60Jolt",
+          "SharkScale 1-60Rush",
+          "WizardRod 6-60Hexa"
         ]
       },
       {
         "rank": "2nd",
         "player": "Cool Kidz",
         "combos": [
-          "Kabl: PhoenixBlast Heavy9-60Kick",
-          "sword blader: SharkScale 1-70Low Rush",
+          "PhoenixBlast Heavy9-60Kick",
+          "SharkScale 1-70Low Rush",
           "WolfSlayer18: WizardRod 1-60Hexa"
         ]
       },
@@ -75141,9 +75169,9 @@
         "rank": "3rd",
         "player": "Tarnished",
         "combos": [
-          "FishermanYon: WyvernHover 1-60Low Rush",
-          "Helsgydja: MeteorDragoon 7-70Level",
-          "Mr pokee: SharkScale 9-60Free Ball"
+          "WyvernHover 1-60Low Rush",
+          "MeteorDragoon 7-70Level",
+          "SharkScale 9-60Free Ball"
         ]
       }
     ]
@@ -75371,8 +75399,7 @@
         "combos": [
           "WizardRod 1-60H",
           "Hover Wyvern 9-60BS",
-          "SharkScale 4-50LR",
-          "Own Finish"
+          "SharkScale 4-50LR"
         ]
       }
     ]
@@ -83987,8 +84014,7 @@
         "combos": [
           "WizardRod 9-60B",
           "SharkScale 1-60FB",
-          "PhoenixWing 3-60W",
-          "Own Finish"
+          "PhoenixWing 3-60W"
         ]
       }
     ]
@@ -85925,8 +85951,7 @@
         "combos": [
           "SilverWolf 9-60FB",
           "SharkScale 5-60L",
-          "Hover Wyvern 3-60T",
-          "Own Finish"
+          "Hover Wyvern 3-60T"
         ]
       }
     ]
@@ -86886,8 +86911,7 @@
         "combos": [
           "SharkScale 1-70LR",
           "PhoenixWing 1-60R",
-          "CobaltDragoon 9-60E",
-          "Own Finish"
+          "CobaltDragoon 9-60E"
         ]
       }
     ]
@@ -87097,8 +87121,27 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "D/D Rezael",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "Gill Shark 5-60Zap (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Ray00",
+          "OrochiCluster 3-70Jolt (First Stage & Final Stage)",
+          "Hover Wyvern 3-60Rush (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -87809,8 +87852,26 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Habakirieffect",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "SharkScale 3-60Low Orb (First Stage & Final Stage)",
+          "Hover Wyvern1-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60 Low Orb (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "AeroPegasus 9-60Rush (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -88480,47 +88541,6 @@
           "SharkScale 1-60Jolt",
           "CobaltDragoon 5-60Elevate"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Event Page Link: https://worldbeyblade.org/Thread-Decks-a...16--124254",
-    "link": "https://worldbeyblade.org/Thread-Decks-and-Dice-BBX-Weekly-Tournament-16--124254",
-    "author": "Sukinato",
-    "post_date": "Mar. 17, 2026  5:17 PM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": "https://worldbeyblade.challonge.com/DnDBBX16",
-    "ranked_status": "UNRANKED",
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3, Best of 3, Swiss (First to 5)",
-    "final_stage_format": "3on3, Best of 3, Single Elimination (First to 7)",
-    "player_count": "10",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Corollee",
-        "combos": [
-          "PegasusBlast Free9-60Free Ball",
-          "SharkScale 7-60Rush",
-          "GolemRock 1-60Wedge"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "BladerCaleb",
-        "combos": [
-          "SilverWolf 3-60Free Ball",
-          "SharkScale 1-60Rush",
-          "WyvernHover 9-60Jolt"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "EyanKeim",
-        "combos": []
       }
     ]
   },
@@ -89251,8 +89271,28 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "7heaven",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "7heaven",
+          "WizardRod 9-60Ball (First Stage & Final Stage)",
+          "PhoenixWing 1-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "AeroPegasus 1-60Level (First Stage & Final Stage)",
+          "PhoenixWing 7-70Hexa (First Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 9-60Hexa (First Stage & Final Stage)",
+          "PheonixWing 3-60Flat (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -91149,8 +91189,7 @@
         "combos": [
           "PhoenixWing 5-60P",
           "CobaltDragoon 9-60E",
-          "AeroPegasus 3-60K",
-          "Own Finish"
+          "AeroPegasus 3-60K"
         ]
       }
     ]
@@ -91762,8 +91801,27 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Ringer",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "SharkScale 3-60Jolt (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 3-60Wedge (First Stage & Final Stage)",
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "AeroPegasus 9-60Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -93057,8 +93115,7 @@
         "combos": [
           "SharkScale 1-50FB",
           "WizardRod 1-60H",
-          "AeroPegasus 1-70J",
-          "Own Finish"
+          "AeroPegasus 1-70J"
         ]
       }
     ]
@@ -94851,29 +94908,6 @@
     ]
   },
   {
-    "event_name": "Dallas Beyblade Association - Randy's Rhino Ranch - Limited #4",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Randy-s-Rhino-Ranch-Limited-4--124721",
-    "author": "AngeloDragoon",
-    "post_date": "Apr. 05, 2026  1:10 AM",
-    "event_date": "04.02.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "16",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "JRF-TO",
-        "combos": []
-      }
-    ]
-  },
-  {
     "event_name": "Event Page Link: https://worldbeyblade.org/Thread-Boba-an...26--124581",
     "link": "https://worldbeyblade.org/Thread-Boba-and-Beys-04-05-26--124581",
     "author": "octobok",
@@ -95649,8 +95683,7 @@
         "combos": [
           "SharkScale 1-50LR",
           "WizardRod 1-70H",
-          "AeroPegasus 3-60P",
-          "Own Finish"
+          "AeroPegasus 3-60P"
         ]
       }
     ]
@@ -96512,7 +96545,23 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "D/D Rezael",
+        "player": "Unknown",
+        "combos": [
+          "XenoXcalibur 1-50Jolt (Final Stage)",
+          "WeissTiger 3-70Under Needle (Final Stage)",
+          "OrochiCluster 7-60Kick (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "TyrannoBeat 1-70Taper (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
         "combos": []
       }
     ]
@@ -96926,8 +96975,7 @@
         "combos": [
           "BahamutBlast Heavy9-60Level",
           "SharkScale 1-50I",
-          "KnightFortress GuardVertical8-70Hexa",
-          "Own Finish"
+          "KnightFortress GuardVertical8-70Hexa"
         ]
       }
     ]
@@ -97829,29 +97877,6 @@
           "ShinobiShadow 2-70Merge",
           "GhostCircle 1-80Yielding"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - JRF'S Pegasi Race- CX #3",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-JRF-S-Pegasi-Race-CX-3--125005",
-    "author": "AngeloDragoon",
-    "post_date": "Apr. 17, 2026  11:14 PM",
-    "event_date": "04.16.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "9",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "RandyþEngineer",
-        "combos": []
       }
     ]
   },
@@ -99449,8 +99474,7 @@
         "combos": [
           "SharkScale 3-60LR",
           "Wizard Rod 9-60D",
-          "AeroPegasus 9-70J",
-          "Own Finish"
+          "AeroPegasus 9-70J"
         ]
       }
     ]
@@ -100853,8 +100877,7 @@
         "combos": [
           "ValkyrieBlast H9-60R",
           "SharkScale 1-70LR",
-          "WizardRod 1-60H",
-          "Own Finish"
+          "WizardRod 1-60H"
         ]
       }
     ]
@@ -101432,29 +101455,6 @@
           "AeroPegasus 1-50Rubber Accel",
           "SilverWolf 8-70Low Orb"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Angelo's Dragoon Blitz - Open #14",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Angelo-s-Dragoon-Blitz-Open-14--125199",
-    "author": "AngeloDragoon",
-    "post_date": "Apr. 27, 2026  9:53 PM",
-    "event_date": "04.23.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "14",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "DawnX",
-        "combos": []
       }
     ]
   },
@@ -102296,29 +102296,6 @@
           "CobaltDragoon 5-60Elevate",
           "WizardRod 1-60Hexa"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Lui's Homage Showdown - Classic #8",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Lui-s-Homage-Showdown-Classic-8--125418",
-    "author": "AngeloDragoon",
-    "post_date": "May. 01, 2026  3:27 PM",
-    "event_date": "04.30.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "14",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "dynou6",
-        "combos": []
       }
     ]
   },
@@ -103224,8 +103201,7 @@
         "combos": [
           "SilverWolf 5-60D",
           "SharkScale 9-60J",
-          "AeroPegasus 1-60R",
-          "Own Finish"
+          "AeroPegasus 1-60R"
         ]
       }
     ]
@@ -103720,29 +103696,6 @@
           "SharkEdge 4-50Low Rush",
           "PhoenixFeather 3-60Level"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Katira's Feline Frenzy - Limited #5",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Katira-s-Feline-Frenzy-Limited-5--125518",
-    "author": "AngeloDragoon",
-    "post_date": "May. 04, 2026  10:28 PM",
-    "event_date": "05.03.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Round Robin (First to 5)",
-    "final_stage_format": "3on3; Double Elimination Split (Best of 3)",
-    "player_count": "5",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "DawnX",
-        "combos": []
       }
     ]
   },
@@ -105027,29 +104980,6 @@
           "Hover Wyvern 9-70K",
           "WizardRod 1-60H"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Lucius' Dark Revival - Limited #6",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Lucius-Dark-Revival-Limited-6--125565",
-    "author": "AngeloDragoon",
-    "post_date": "May. 08, 2026  4:36 PM",
-    "event_date": "05.07.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "10",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "AngeloDragoon",
-        "combos": []
       }
     ]
   },
@@ -106447,7 +106377,7 @@
           "ScorpioSpear 9-60Free Ball",
           "SharkScale 1-60Rush",
           "WizardRod 3-60Ball",
-          "Bounty Winner: (SharkScale 4-50UF) - Lio_blader"
+          "SharkScale 4-50UF"
         ]
       }
     ]
@@ -107324,29 +107254,6 @@
           "WizardRod 1-60Hexa",
           "Hover Wyvern 9-60Rush"
         ]
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Hasbro's Animal Planet - CX#4",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Hasbro-s-Animal-Planet-CX-4--125714",
-    "author": "AngeloDragoon",
-    "post_date": "May. 16, 2026  4:21 AM",
-    "event_date": "05.14.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Round Robin (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "8",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "RandyþEngineer",
-        "combos": []
       }
     ]
   },
@@ -108423,8 +108330,7 @@
         "combos": [
           "SharkScale 3-60FB",
           "BulletGriffon H",
-          "PegasusBlast H1-60T",
-          "Own Finish"
+          "PegasusBlast H1-60T"
         ]
       }
     ]
@@ -109587,31 +109493,50 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "AngeloDragoon",
-        "combos": []
-      }
-    ]
-  },
-  {
-    "event_name": "Dallas Beyblade Association - Blayde's Doro Catastrophe - Open #16",
-    "link": "https://worldbeyblade.org/Thread-Dallas-Beyblade-Association-Blayde-s-Doro-Catastrophe-Open-16",
-    "author": "AngeloDragoon",
-    "post_date": "May. 22, 2026  4:10 PM",
-    "event_date": "05.21.26",
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": null,
-    "ranked_status": null,
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 5)",
-    "final_stage_format": "3on3; Single Elimination (Best of 3)",
-    "player_count": "13",
-    "optional_rules": [],
-    "placements": [
+        "player": "Unknown",
+        "combos": [
+          "ImpactDrake 1-60Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Low Orb (First Stage & Final Stage)",
+          "Gill Shark 5-80Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Orangefox1234",
+          "WizardRod 1-60Hexa (First Stage & Final Stage)"
+        ]
+      },
       {
         "rank": "1st",
-        "player": "Ray00",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "Ray00",
+          "AeroPegasus 1-70Rush (First Stage & Final Stage)",
+          "MummyCurse 7-60Wedge (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "Dranbuster 1-50Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "AeroPegasus 7-60Jolt (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -112170,8 +112095,34 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "RandyþEngineer",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "KnightShield 7-70Hexa (First Stage & Final Stage)",
+          "Red Hulk 4-50Unite (First Stage & Final Stage)",
+          "RhinoHorn 1-80LowRush (First Stage)",
+          "RhinoHorn 7-70Flat (First Stage)",
+          "Obi-Wan Kenobi 6-60Free Ball (First Stage)",
+          "KnightShield 1-60Under Needle (First Stage)",
+          "KnightShield 7-60Elevate (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "CobaltDrake 1-60Point (First Stage & Final Stage)",
+          "LeonCrest 7-70Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Ryuzaki459",
+          "CobaltDrake 1-60Kick (First Stage & Final Stage)",
+          "ShinobiShadow 1-50Jolt (First Stage & Final Stage)",
+          "Red Hulk 4-70Igintion (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -112997,8 +112948,15 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "RandyþEngineer",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "MummyCurse 7-60Low Orb (First Stage & Final Stage)",
+          "RhinoHorn 1-80Low Rush (First Stage & Final Stage)",
+          "KnightLance 9-60Low Orb (First Stage)",
+          "MummyCurse 1-60Under Needle (First Stage)",
+          "Soar Phoenix 3-60Low Rush (First Stage)",
+          "TyrannoBeat 3-60Low Rush (First Stage)"
+        ]
       }
     ]
   },
@@ -115114,8 +115072,7 @@
         "combos": [
           "CobaltDragoon 7-60L",
           "BulletGriffon M",
-          "SharkScale 1-50R",
-          "Own Finish"
+          "SharkScale 1-50R"
         ]
       }
     ]
@@ -118604,8 +118561,52 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "AngeloDragoon",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "Venom 1-80Flat (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Cici_blades18",
+          "Talon Petra 3-70Point (First Stage & Final Stage)",
+          "TyrannoBeat 1-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "michael19",
+          "GoatTackle 5-80Needle (First Stage & Final Stage)",
+          "WyvernGale 5-70Unite (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "MummyCurse 7-60Low Orb (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "HoverWyvern 9-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Fares_masri1",
+          "HoverWyvern 9-60Kick (First Stage & Final Stage)",
+          "WizardRod 1-80Hexa (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -118627,8 +118628,52 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "RandyþEngineer",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "Venom 1-80Flat (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Cici_blades18",
+          "Talon Petra 3-70Point (First Stage & Final Stage)",
+          "TyrannoBeat 1-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "michael19",
+          "GoatTackle 5-80Needle (First Stage & Final Stage)",
+          "WyvernGale 5-70Unite (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "MummyCurse 7-60Low Orb (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "HoverWyvern 9-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Fares_masri1",
+          "HoverWyvern 9-60Kick (First Stage & Final Stage)",
+          "WizardRod 1-80Hexa (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -118788,8 +118833,28 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "TeDwag10",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "TeDwag10",
+          "WizardRod 7-60Hexa (First Stage & Final Stage)",
+          "AeroPegasus 1-60Rush (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "SilverWolf 7-60Hexa (First Stage & Final Stage)",
+          "Soar Phoenix 3-60Point (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "Longinusx24",
+          "WizardRod 1-60Hexa (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -119912,8 +119977,7 @@
         "combos": [
           "WizardRod 9-60FB",
           "BulletGriffon TK",
-          "AeroPegasus 1-60LR",
-          "Own Finish"
+          "AeroPegasus 1-60LR"
         ]
       }
     ]
@@ -123489,8 +123553,7 @@
         "combos": [
           "DranDelta PH3-60Nr",
           "WizardRod 9-60FB",
-          "SharkScale 3-70H",
-          "Own Finish"
+          "SharkScale 3-70H"
         ]
       }
     ]
@@ -127042,7 +127105,7 @@
           "MirageClock 4-55Low Orb",
           "WizardRod 1-60Narrow",
           "SharkScale 9-60 Free Ball",
-          "Bounty Winner: (SharkScale 4-50UF) - Blader ATC & Firered"
+          "SharkScale 4-50UF"
         ]
       }
     ]
@@ -128604,8 +128667,7 @@
         "combos": [
           "WizardRod 9-60FB",
           "SharkScale 5-60Nr",
-          "AeroPegasus 1-60R",
-          "Own Finish"
+          "AeroPegasus 1-60R"
         ]
       }
     ]
@@ -128948,8 +129010,18 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "AngeloDragoon",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "MeteorDragoon 5-60Level",
+          "CobaltDragoon 6-60 Elevate",
+          "CobaltDragoon 7-60Yielding",
+          "CobaltDragoon 5-60Elevate",
+          "ShelterDrake 7-60Jolt",
+          "ShelterDrake 6-60Jolt",
+          "Venom 1-80Ignition",
+          "Venom 1-80Cyclone",
+          "MammothTusk 9-65WallBall"
+        ]
       }
     ]
   },
@@ -130570,8 +130642,7 @@
         "combos": [
           "DranBuster 1-60LR",
           "Red Hulk 7-60R",
-          "Wizard Rod 9-60FB",
-          "Own Finish"
+          "Wizard Rod 9-60FB"
         ]
       }
     ]
@@ -132780,8 +132851,32 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Dotdotdad",
-        "combos": []
+        "player": "Unknown",
+        "combos": [
+          "SharkScale 4-50Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "SharkScale 7-60FreeBall (First Stage)",
+          "MeteorDragoon 5-70Level (First Stage)",
+          "MeteorDragoon 7-60Level (First Stage)",
+          "GustBat 9-60Taper (First Stage)",
+          "DranStrike 4-50Free Flat (First Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "WizardRod 1-60Hexa (First Stage & Final Stage)",
+          "PheonixBlast Heavy1-80Kick (First Stage)",
+          "PheonixWing 1-60Rush (First Stage)",
+          "SharkEdge 9-60Free Ball (First Stage)"
+        ]
       }
     ]
   },
@@ -132915,8 +133010,7 @@
         "combos": [
           "BulletGriffon R",
           "SharkScale 3-60FB",
-          "WizardRod 1-60H",
-          "Own Finish"
+          "WizardRod 1-60H"
         ]
       }
     ]
@@ -134510,7 +134604,7 @@
           "SharkScale 3-60Jolt",
           "EmperorFortress OW9-60Hex",
           "Bullet Griffin Jolt",
-          "Bounty Winner: (Dranstrike 4-50FF) - Rai22James"
+          "Dranstrike 4-50FF"
         ]
       }
     ]
@@ -134645,8 +134739,7 @@
         "combos": [
           "AeroPegaus 7-60K",
           "SharkScale 9-70H",
-          "WizardRod 1-60Nr",
-          "Own Finish"
+          "WizardRod 1-60Nr"
         ]
       }
     ]
@@ -135739,76 +135832,6 @@
     ]
   },
   {
-    "event_name": "Event Page Link: https://worldbeyblade.org/Thread-DMVBXL-...26--127006",
-    "link": "https://worldbeyblade.org/Thread-DMVBXL-Team-Battle-Manassas-08-15-26--127006",
-    "author": "Exia",
-    "post_date": "Aug. 16, 2026  9:42 AM",
-    "event_date": null,
-    "explicit_event_name": null,
-    "event_page_link": null,
-    "bracket_link": "https://dmvbeybladexleague.challonge.com/q5mns3l2",
-    "ranked_status": "UNRANKED",
-    "stadium": "Xtreme Stadium (TAKARA TOMY)",
-    "first_stage_format": "3on3; Swiss (First to 4)",
-    "final_stage_format": "3on3; Single Elimination (First to 4)",
-    "player_count": "39 (13 Teams)",
-    "optional_rules": [],
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Cafe Bich Nga",
-        "combos": [
-          "Captain: Exia",
-          "2nd: Guzzy",
-          "3rd: Reinelia787",
-          "WizardRod 1-60Free Ball",
-          "SharkScale 1-50Low Rush",
-          "GloryValkyrie Kick",
-          "AeroPegasus 1-60Rush",
-          "WizardRod 9-60Free Ball"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "ZCZ",
-        "combos": [
-          "Captain: ZeY",
-          "2nd: Corj3",
-          "3rd: Zore",
-          "MeteorDragoon 5-60Elevate",
-          "GolemRock 9-60Orb",
-          "WolfDelta PeakJaggy9-60Kick"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Ferrum Stella",
-        "combos": [
-          "Captain: KaydenChrys",
-          "2nd: Modulus",
-          "3rd: Nixus_VT",
-          "SharkScale 3-60Rush",
-          "ValkyrieDelta PeakHeavy9-60Kick",
-          "WizardRod 1-60Free Ball"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "Vincinalz",
-        "combos": []
-      },
-      {
-        "rank": "3rd",
-        "player": "Polymorph_22",
-        "combos": [
-          "WizardRod 1-60Free Ball",
-          "SharkScale 9-60Wedge",
-          "BulletGriffon Level"
-        ]
-      }
-    ]
-  },
-  {
     "event_name": "Event Page Link: https://worldbeyblade.org/Thread-Xtreme-...-6--127201",
     "link": "https://worldbeyblade.org/Thread-Xtreme-Dashwood-6--127201",
     "author": "anon7437",
@@ -136571,8 +136594,7 @@
         "combos": [
           "CobaltDragoon 5-80E",
           "SharkScale 4-60W",
-          "WizardRod 1-60FB",
-          "Own Finish"
+          "WizardRod 1-60FB"
         ]
       }
     ]
@@ -137264,8 +137286,7 @@
         "combos": [
           "SharkScale 3-70H",
           "HellsNether K",
-          "WizardRod 9-60FB",
-          "Own Finish"
+          "WizardRod 9-60FB"
         ]
       }
     ]
@@ -139260,8 +139281,74 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Sikuya",
+        "player": "Unknown",
         "combos": []
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "GolemRock 9-60Narrow (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "xm3n98",
+          "WhaleWave 5-60Ball (First Stage & Final Stage)",
+          "MammothTusk 7-60Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "Dagger Dran 5-60 Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Romethecreat0r",
+          "SharkEdge 1-60Low Rush (First Stage & Final Stage)",
+          "ShelterDrake 4-70Orb (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "LeonClaw 5-60Ball (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 1-60Rush (First Stage & Final Stage)",
+          "MummyCurse 9-60Hexa (Final Stage)",
+          "HoverWyvern 9-60Jolt (First Stage)",
+          "MummyCurse 9-60Free Ball (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Nola1000",
+          "Red Hulk 1-60Hexa (First Stage & Final Stage)",
+          "HoverWyvern 9-60Kick (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "CobaltDrake 9-60Rush (First Stage & Final Stage)",
+          "ImpactDrake 1-60Level (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -139283,8 +139370,74 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Voices",
+        "player": "Unknown",
         "combos": []
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "GolemRock 9-60Narrow (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "xm3n98",
+          "WhaleWave 5-60Ball (First Stage & Final Stage)",
+          "MammothTusk 7-60Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "Dagger Dran 5-60 Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Romethecreat0r",
+          "SharkEdge 1-60Low Rush (First Stage & Final Stage)",
+          "ShelterDrake 4-70Orb (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "LeonClaw 5-60Ball (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 1-60Rush (First Stage & Final Stage)",
+          "MummyCurse 9-60Hexa (Final Stage)",
+          "HoverWyvern 9-60Jolt (First Stage)",
+          "MummyCurse 9-60Free Ball (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Nola1000",
+          "Red Hulk 1-60Hexa (First Stage & Final Stage)",
+          "HoverWyvern 9-60Kick (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "CobaltDrake 9-60Rush (First Stage & Final Stage)",
+          "ImpactDrake 1-60Level (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -139306,8 +139459,74 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "DawnX",
+        "player": "Unknown",
         "combos": []
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "GolemRock 9-60Narrow (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "xm3n98",
+          "WhaleWave 5-60Ball (First Stage & Final Stage)",
+          "MammothTusk 7-60Hexa (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "Dagger Dran 5-60 Level (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Romethecreat0r",
+          "SharkEdge 1-60Low Rush (First Stage & Final Stage)",
+          "ShelterDrake 4-70Orb (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "LeonClaw 5-60Ball (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "1st",
+        "player": "Unknown",
+        "combos": [
+          "PhoenixWing 1-60Rush (First Stage & Final Stage)",
+          "MummyCurse 9-60Hexa (Final Stage)",
+          "HoverWyvern 9-60Jolt (First Stage)",
+          "MummyCurse 9-60Free Ball (First Stage)"
+        ]
+      },
+      {
+        "rank": "2nd",
+        "player": "Unknown",
+        "combos": [
+          "Nola1000",
+          "Red Hulk 1-60Hexa (First Stage & Final Stage)",
+          "HoverWyvern 9-60Kick (First Stage & Final Stage)"
+        ]
+      },
+      {
+        "rank": "3rd",
+        "player": "Unknown",
+        "combos": [
+          "CobaltDrake 9-60Rush (First Stage & Final Stage)",
+          "ImpactDrake 1-60Level (First Stage & Final Stage)"
+        ]
       }
     ]
   },
@@ -139577,8 +139796,7 @@
         "combos": [
           "DranStrike 5-60K",
           "SharkScale 1-50UF",
-          "WizardRod 9-60FB",
-          "Own Finish"
+          "WizardRod 9-60FB"
         ]
       }
     ]
