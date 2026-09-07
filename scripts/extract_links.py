@@ -1,10 +1,10 @@
 import json
 
-with open('extracted_data.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# Only process the 33 newly added events from the latest CSV
-data = data[-33:]
+# Only process the newly added events from the latest CSV
+data = data[-10:]
 
 thread_links = []
 challonge_links = []

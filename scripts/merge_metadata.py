@@ -44,7 +44,7 @@ def main():
             metadata_map[tid] = ev
             
     print("Loading extracted_data.json...")
-    with open('extracted_data.json', 'r', encoding='utf-8') as f:
+    with open('compiled_data/extracted_data.json', 'r', encoding='utf-8') as f:
         extracted_data = json.load(f)
         
     print("Merging metadata...")
@@ -99,7 +99,7 @@ def main():
     
     # Save the updated data
     print("Saving updated extracted_data.json...")
-    with open('extracted_data.json', 'w', encoding='utf-8') as f:
+    with open('compiled_data/extracted_data.json', 'w', encoding='utf-8') as f:
         json.dump(extracted_data, f, indent=2, ensure_ascii=False)
     print("Done!")
 

@@ -6,7 +6,7 @@ import sys
 import os
 
 input_csv = sys.argv[1] if len(sys.argv) > 1 else 'wbo_bbx_combos_with_dates.csv'
-output_json = 'extracted_data.json'
+output_json = 'compiled_data/extracted_data.json'
 
 df = pd.read_csv(input_csv)
 
