@@ -1,4 +1,4 @@
-This is an archive + visualizer of the WBO Winning Combinations at WBO Organized Events - Beyblade X (BBX) Thread.
+This is an archive + visualizer of the WBO Winning Combinations at WBO Organized Events - Beyblade X (BBX) Thread from Before Ranked Season 3 (9/1/2026).
 
 This archive includes:
 
