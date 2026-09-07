@@ -18,10 +18,12 @@
     searchInput: $('#searchInput'),
     rankingList: $('#rankingList'),
     sidebarStats: $('#sidebarStats'),
+    exportCsvBtn: $('#exportCsvBtn'),
   };
 
   let rawData = [];
   let allFilteredComboItems = [];
+  let currentItems = [];
 
   // Lookup maps built from wbo_bbx_parts.json
   // Maps full bit name (lowercase) -> abbreviation
@@ -158,6 +160,7 @@
     });
     let t;
     els.searchInput.addEventListener('input', () => { clearTimeout(t); t = setTimeout(update, 150); });
+    els.exportCsvBtn.addEventListener('click', exportCsv);
 
     els.rankingList.addEventListener('click', (e) => {
       const mode = els.viewMode.value;
@@ -325,6 +328,65 @@
     return { blade: finalBlade, ratchet, bit, lockChip, overBlade, assistBlade, full: str };
   }
 
+  function exportCsv() {
+    if (!currentItems || currentItems.length === 0) {
+      alert("No data to export.");
+      return;
+    }
+
+    const modeValue = els.viewMode.value;
+    const modeText = els.viewMode.options[els.viewMode.selectedIndex].text;
+    
+    let csvContent = "";
+    
+    if (modeValue === 'combos') {
+      csvContent = "Rank,Full Combo,Lock Chip,Over Blade,Blade,Assist Blade,Ratchet,Bit,Count\n";
+      currentItems.forEach((item, index) => {
+        const rank = index + 1;
+        const parsed = parseCombo(item.name);
+        
+        const escapeCSV = (str) => {
+          if (!str) return "";
+          if (str.includes(',') || str.includes('"')) {
+            return '"' + str.replace(/"/g, '""') + '"';
+          }
+          return str;
+        };
+
+        const fullCombo = escapeCSV(item.name);
+        const lockChip = escapeCSV(parsed.lockChip);
+        const blade = escapeCSV(parsed.blade);
+        const overBlade = escapeCSV(parsed.overBlade);
+        const assistBlade = escapeCSV(parsed.assistBlade);
+        const ratchet = escapeCSV(parsed.ratchet);
+        const bit = escapeCSV(parsed.bit);
+        
+        csvContent += `${rank},${fullCombo},${lockChip},${overBlade},${blade},${assistBlade},${ratchet},${bit},${item.count}\n`;
+      });
+    } else {
+      csvContent = "Rank,Name,Count\n";
+      currentItems.forEach((item, index) => {
+        const rank = index + 1;
+        let name = item.name;
+        if (name.includes(',') || name.includes('"')) {
+          name = '"' + name.replace(/"/g, '""') + '"';
+        }
+        csvContent += `${rank},${name},${item.count}\n`;
+      });
+    }
+
+    // Create a blob and download link
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `BeybladeX_Data_${modeText.replace(/\s+/g, '_')}.csv`);
+    link.style.visibility = 'hidden';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   function update() {
     const mode = els.viewMode.value;
     const placement = els.placementFilter.value;
@@ -412,6 +474,8 @@
 
     const totalUnique = items.length;
     if (topN > 0) items = items.slice(0, topN);
+
+    currentItems = items;
 
     const maxCount = items.length > 0 ? items[0].count : 1;
 
