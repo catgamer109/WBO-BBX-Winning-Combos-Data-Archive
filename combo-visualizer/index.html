@@ -49,6 +49,25 @@
       </div>
 
       <div class="filter-group">
+        <label class="filter-label" for="dateFilter">Date Range</label>
+        <select class="filter-select" id="dateFilter">
+          <option value="all">All Time</option>
+          <option value="past_week">Past Week</option>
+          <option value="past_2_weeks">Past 2 Weeks</option>
+          <option value="this_month">This Month</option>
+          <option value="custom">Custom Range</option>
+        </select>
+      </div>
+
+      <div class="filter-group custom-date-group hidden" id="customDateGroup">
+        <div class="custom-date-inputs">
+          <input type="date" class="filter-input" id="startDate" title="Start Date" />
+          <span class="date-separator">to</span>
+          <input type="date" class="filter-input" id="endDate" title="End Date" />
+        </div>
+      </div>
+
+      <div class="filter-group">
         <label class="filter-label" for="topN">Show Top</label>
         <select class="filter-select" id="topN">
           <option value="10">10</option>

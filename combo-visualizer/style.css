@@ -39,6 +39,24 @@ html, body {
   margin-top: -14px;
 }
 
+.hidden {
+  display: none !important;
+}
+
+.custom-date-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date-separator {
+  color: #888;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .filter-group {
   display: flex;
   flex-direction: column;
@@ -186,4 +204,72 @@ html, body {
   .sidebar { width: 100%; border-right: none; border-bottom: 1px solid #2a2a2a; }
   .rank-item__bar-wrap { display: none; }
   .list-header__col--bar { display: none; }
+  .sub-combos-row { padding-left: 20px; }
+  .sub-combo-bar-wrap { display: none; }
+}
+
+/* Sub Combos */
+.rank-item {
+  cursor: pointer;
+}
+.rank-item.expanded {
+  background: #1f1f1f;
+  border-bottom: none;
+}
+.sub-combos-row {
+  background: #1f1f1f;
+  border-bottom: 1px solid #1e1e1e;
+  padding: 0 20px 16px 68px;
+}
+.sub-combos-container {
+  background: #151515;
+  border-radius: 6px;
+  padding: 12px;
+  border: 1px solid #2a2a2a;
+}
+.sub-combos-title {
+  font-size: 11px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+.sub-combos-title strong {
+  color: #ddd;
+}
+.sub-combo-item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 4px 0;
+}
+.sub-combo-name {
+  flex: 1;
+  color: #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sub-combo-count {
+  width: 48px;
+  text-align: right;
+  color: #888;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+.sub-combo-bar-wrap {
+  width: 100px;
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+.sub-combo-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: #2a2a2a;
+}
+.sub-combo-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: #7483db;
 }

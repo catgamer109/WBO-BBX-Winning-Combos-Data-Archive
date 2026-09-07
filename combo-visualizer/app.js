@@ -10,6 +10,10 @@
     viewMode: $('#viewMode'),
     placementFilter: $('#placementFilter'),
     rankedFilter: $('#rankedFilter'),
+    dateFilter: $('#dateFilter'),
+    customDateGroup: $('#customDateGroup'),
+    startDate: $('#startDate'),
+    endDate: $('#endDate'),
     topN: $('#topN'),
     searchInput: $('#searchInput'),
     rankingList: $('#rankingList'),
@@ -17,10 +21,12 @@
   };
 
   let rawData = [];
+  let allFilteredComboItems = [];
 
   // Lookup maps built from wbo_bbx_parts.json
   // Maps full bit name (lowercase) -> abbreviation
   let bitNameToAbbr = {};
+  let bitAbbrs = new Set();
   // Maps blade alias (lowercase) -> canonical Name
   let bladeAliasToName = {};
 
@@ -52,6 +58,12 @@
     if (parts.Bits) {
       for (const bit of parts.Bits) {
         bitNameToAbbr[bit.Name.toLowerCase()] = bit.Abbreviation;
+        bitAbbrs.add(bit.Abbreviation.toLowerCase());
+        if (bit.Aliases) {
+          for (const alias of bit.Aliases) {
+            bitNameToAbbr[alias.toLowerCase()] = bit.Abbreviation;
+          }
+        }
       }
     }
 
@@ -87,9 +99,29 @@
   function abbreviateCombo(str) {
     str = str.trim();
 
-    // Find the ratchet pattern (digits-digits) to split blade from ratchet+bit
-    const ratchetMatch = str.match(/^(.+?)(\s*)(\d+-\d+)\s*(.*)$/);
-    if (!ratchetMatch) return str;
+    // Find the ratchet pattern to split blade from ratchet+bit
+    const ratchetMatch = str.match(/^(.+?)(\s*)((?:\d+|M|m)[-–—−]\d+)\s*(.*)$/);
+    if (!ratchetMatch) {
+       // Check for Blade + Bit (no ratchet)
+       const lastSpace = str.lastIndexOf(' ');
+       if (lastSpace > 0) {
+         let potentialBlade = str.slice(0, lastSpace);
+         let potentialBit = str.slice(lastSpace + 1);
+         
+         const bitLower = potentialBit.toLowerCase();
+         if (bitNameToAbbr[bitLower]) {
+           potentialBit = bitNameToAbbr[bitLower];
+           
+           const bladeLower = potentialBlade.toLowerCase();
+           if (bladeAliasToName[bladeLower]) {
+             potentialBlade = bladeAliasToName[bladeLower];
+           }
+           
+           return `${potentialBlade} ${potentialBit}`;
+         }
+       }
+       return str;
+    }
 
     let bladeRaw = ratchetMatch[1].trim();
     const spaceBeforeRatchet = ratchetMatch[2];
@@ -114,21 +146,139 @@
   }
 
   function wireUp() {
-    [els.viewMode, els.placementFilter, els.rankedFilter, els.topN].forEach(
+    [els.viewMode, els.placementFilter, els.rankedFilter, els.dateFilter, els.startDate, els.endDate, els.topN].forEach(
       (el) => el.addEventListener('change', update)
     );
+    els.dateFilter.addEventListener('change', () => {
+      if (els.dateFilter.value === 'custom') {
+        els.customDateGroup.classList.remove('hidden');
+      } else {
+        els.customDateGroup.classList.add('hidden');
+      }
+    });
     let t;
     els.searchInput.addEventListener('input', () => { clearTimeout(t); t = setTimeout(update, 150); });
+
+    els.rankingList.addEventListener('click', (e) => {
+      const mode = els.viewMode.value;
+      const li = e.target.closest('.rank-item');
+      if (!li) return;
+      
+      const existingSubList = li.nextElementSibling;
+      if (existingSubList && existingSubList.classList.contains('sub-combos-row')) {
+          existingSubList.remove();
+          li.classList.remove('expanded');
+          return;
+      }
+      
+      document.querySelectorAll('.sub-combos-row').forEach(el => el.remove());
+      document.querySelectorAll('.rank-item.expanded').forEach(el => el.classList.remove('expanded'));
+
+      const nameEl = li.querySelector('.rank-item__name');
+      if (!nameEl) return;
+      const clickedName = nameEl.textContent;
+      
+      let topCombos = [];
+      let targetLabel = clickedName;
+      
+      if (mode === 'combos') {
+          const parsedClicked = parseCombo(clickedName);
+          const targetBlade = parsedClicked.blade;
+          if (!targetBlade) return;
+          targetLabel = targetBlade;
+          
+          topCombos = allFilteredComboItems.filter(item => {
+              if (item.name === clickedName) return false;
+              const parsed = parseCombo(item.name);
+              return parsed.blade === targetBlade;
+          });
+      } else {
+          topCombos = allFilteredComboItems.filter(item => {
+              const parsed = parseCombo(item.name);
+              switch (mode) {
+                  case 'blades': return parsed.blade === clickedName;
+                  case 'ratchets': return parsed.ratchet === clickedName;
+                  case 'bits': return parsed.bit === clickedName;
+                  case 'lock-chips': return parsed.lockChip === clickedName;
+                  case 'over-blades': return parsed.overBlade === clickedName;
+                  case 'assist-blades': return parsed.assistBlade === clickedName;
+                  default: return false;
+              }
+          });
+      }
+      
+      const otherCombos = topCombos.slice(0, 5);
+      
+      if (otherCombos.length === 0) return;
+      
+      li.classList.add('expanded');
+      
+      const subRow = document.createElement('li');
+      subRow.className = 'sub-combos-row';
+      
+      const maxSubCount = otherCombos[0].count;
+      
+      const subListHTML = otherCombos.map(d => {
+          const barPct = ((d.count / maxSubCount) * 100).toFixed(1);
+          return `<div class="sub-combo-item">
+              <span class="sub-combo-name" title="${esc(d.name)}">${esc(d.name)}</span>
+              <span class="sub-combo-count">${d.count}</span>
+              <div class="sub-combo-bar-wrap"><div class="sub-combo-bar"><div class="sub-combo-bar-fill" style="width:${barPct}%"></div></div></div>
+          </div>`;
+      }).join('');
+      
+      let titleText = `Top combos with <strong>${esc(targetLabel)}</strong>`;
+      if (mode === 'combos') {
+          titleText = `Top other <strong>${esc(targetLabel)}</strong> combos`;
+      }
+      
+      subRow.innerHTML = `<div class="sub-combos-container">
+          <div class="sub-combos-title">${titleText}</div>
+          ${subListHTML}
+      </div>`;
+      
+      li.insertAdjacentElement('afterend', subRow);
+    });
+  }
+
+  function parseEventDate(event) {
+    let dateStr = event.event_date || event.post_date;
+    if (!dateStr) return null;
+    // Remove "Sat. ", "Sun. " etc. if present at start
+    dateStr = dateStr.replace(/^[A-Za-z]+\.\s*/, '');
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return null;
+    return d;
   }
 
   function parseCombo(str) {
     str = str.trim();
-    const m = str.match(/^(.+?)\s*(\d+-\d+)\s*(.+)$/);
-    if (!m) return { blade: str, ratchet: '', bit: '', lockChip: '', overBlade: '', assistBlade: '', full: str };
+    const m = str.match(/^(.+?)\s*((?:\d+|M|m)[-–—−]\d+)\s*(.*)$/);
     
-    let bladeRaw = m[1].trim();
-    const ratchet = m[2].trim();
-    const bit = m[3].trim();
+    let bladeRaw = '';
+    let ratchet = '';
+    let bit = '';
+    
+    if (m) {
+      bladeRaw = m[1].trim();
+      ratchet = m[2].trim();
+      bit = m[3].trim();
+    } else {
+      const lastSpace = str.lastIndexOf(' ');
+      if (lastSpace > 0) {
+        const potentialBlade = str.slice(0, lastSpace);
+        const potentialBit = str.slice(lastSpace + 1);
+        if (bitAbbrs.has(potentialBit.toLowerCase())) {
+          bladeRaw = potentialBlade;
+          ratchet = '';
+          bit = potentialBit;
+        } else {
+          bladeRaw = str;
+        }
+      } else {
+        bladeRaw = str;
+      }
+    }
     
     let lockChip = '';
     let overBlade = '';
@@ -179,15 +329,46 @@
     const mode = els.viewMode.value;
     const placement = els.placementFilter.value;
     const ranked = els.rankedFilter.value;
+    const dateRange = els.dateFilter.value;
+    const startVal = els.startDate.value;
+    const endVal = els.endDate.value;
     const topN = parseInt(els.topN.value, 10);
     const search = els.searchInput.value.trim().toLowerCase();
+    
+    // Hardcode 'now' to a fixed point if needed, but Date.now() is fine for a live app.
+    const now = new Date();
 
     // Count
     const counts = {};
+    const comboCounts = {};
     let totalEntries = 0;
 
     for (const event of rawData) {
       if (ranked !== 'all' && event.ranked_status !== ranked) continue;
+      
+      const evtDate = parseEventDate(event);
+      if (evtDate && dateRange !== 'all') {
+        if (dateRange === 'past_week') {
+          const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+          if (evtDate < weekAgo) continue;
+        } else if (dateRange === 'past_2_weeks') {
+          const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+          if (evtDate < twoWeeksAgo) continue;
+        } else if (dateRange === 'this_month') {
+          if (evtDate.getMonth() !== now.getMonth() || evtDate.getFullYear() !== now.getFullYear()) continue;
+        } else if (dateRange === 'custom') {
+          if (startVal) {
+            const startD = new Date(startVal);
+            if (evtDate < startD) continue;
+          }
+          if (endVal) {
+            const endD = new Date(endVal);
+            endD.setHours(23, 59, 59, 999);
+            if (evtDate > endD) continue;
+          }
+        }
+      }
+
       if (!event.placements) continue;
       for (const p of event.placements) {
         if (placement !== 'all' && p.rank !== placement) continue;
@@ -208,6 +389,9 @@
           }
           if (!key) continue;
           counts[key] = (counts[key] || 0) + 1;
+          if (parsed.full) {
+            comboCounts[parsed.full] = (comboCounts[parsed.full] || 0) + 1;
+          }
           totalEntries++;
         }
       }
@@ -221,6 +405,10 @@
     if (search) {
       items = items.filter((d) => d.name.toLowerCase().includes(search));
     }
+
+    allFilteredComboItems = Object.entries(comboCounts)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count);
 
     const totalUnique = items.length;
     if (topN > 0) items = items.slice(0, topN);

@@ -1460,33 +1460,6 @@
           "HellsScythe 5-80P",
           "HellsScythe 3-80B"
         ]
-      },
-      {
-        "rank": "4th",
-        "player": "Unknown",
-        "combos": []
-      },
-      {
-        "rank": "1st",
-        "player": "Unknown",
-        "combos": []
-      },
-      {
-        "rank": "2nd",
-        "player": "Unknown",
-        "combos": []
-      },
-      {
-        "rank": "3rd",
-        "player": "Unknown",
-        "combos": [
-          "Flame Cancer 230CS"
-        ]
-      },
-      {
-        "rank": "4th",
-        "player": "Unknown",
-        "combos": []
       }
     ],
     "location": "Rockwell, North Carolina"
@@ -3069,7 +3042,7 @@
         "combos": [
           "WizardRod 5-60H",
           "HellsHammer 9-60P",
-          "Knightshield 5-80Disc Ball"
+          "KnightShield 5-80DB"
         ]
       },
       {
@@ -5353,7 +5326,7 @@
         "combos": [
           "KnightShield 5-60B",
           "WizardArrow 4-60N",
-          "HellsChain 3-60HighTaper"
+          "HellsChain 3-60HT"
         ]
       }
     ],
@@ -5749,16 +5722,16 @@
         "rank": "1st",
         "player": "MechaMax:",
         "combos": [
-          "HellsChain 5-60B First and",
-          "HellsScythe 3-60T First and",
-          "PhoenixWing 9-60R First and"
+          "HellsChain 5-60B",
+          "HellsScythe 3-60T",
+          "PhoenixWing 9-60R"
         ]
       },
       {
         "rank": "2nd",
         "player": "holly2016:",
         "combos": [
-          "Phoenix Wing 3-70P First and",
+          "Phoenix Wing 3-70P",
           "Wizard Rod 9-60H",
           "DranBuster 1-60R",
           "TyrannoBeat 3-60R",
@@ -5769,9 +5742,9 @@
         "rank": "3rd",
         "player": "Scidre:",
         "combos": [
-          "CobaltDragoon 5-60P First and",
-          "PhoenixWing 3-60R First and",
-          "WizardRod 9-60B First and"
+          "CobaltDragoon 5-60P",
+          "PhoenixWing 3-60R",
+          "WizardRod 9-60B"
         ]
       }
     ],
@@ -6550,7 +6523,7 @@
           "PhoenixWing 3-60R",
           "SharkEdge 9-60LF",
           "DranSword 5-60GF",
-          "TyrannoBeat 3-60Disc Ball"
+          "TyrannoBeat 3-60DB"
         ]
       }
     ],
@@ -6995,7 +6968,7 @@
         "player": "Phenominator",
         "combos": [
           "UnicornSting 1-60O",
-          "WizardArrow 5-60Hex",
+          "WizardArrow 5-60H",
           "DranDagger 3-60U"
         ]
       }
@@ -7466,7 +7439,7 @@
         "rank": "1st",
         "player": "imcrispy",
         "combos": [
-          "Roar Tyranno 5-6P",
+          "Roar Tyranno 5-60P",
           "PhoenixWing 9-60R",
           "Venom 3-60T"
         ]
@@ -9011,7 +8984,7 @@
         "rank": "1st",
         "player": "#Fafnir",
         "combos": [
-          "Lightning L-Drago 9-60F",
+          "Lightning L-Drago (Upper Type) 9-60F",
           "PhoenixWing 3-60R",
           "TyrannoBeat 5-60P",
           "CobaltDragoon 1-60E",
@@ -9336,7 +9309,7 @@
         "rank": "2nd",
         "player": "Angelow01",
         "combos": [
-          "Lightning L-Drago 1-60E",
+          "Lightning L-Drago (Upper Type) 1-60E",
           "WizardRod 9-70H",
           "HellsChain 9-60O"
         ]
@@ -9606,7 +9579,7 @@
         "player": "AQueso:",
         "combos": [
           "SilverWolf 5-60FB",
-          "StingUnicorn 9-60O",
+          "UnicornSting 9-60O",
           "PhoenixWing 3-60P"
         ]
       },
@@ -10002,10 +9975,10 @@
         "player": "Latte",
         "combos": [
           "Dranbuster 1-60LF",
-          "Silver Wolf 5-80H",
+          "SilverWolf 5-80H",
           "Phoenix Wing 5-60P",
           "Wizard Rod 9-60B",
-          "Silver Wolf 5-80E",
+          "SilverWolf 5-80E",
           "Phoenix Wing 5-60O"
         ]
       },
@@ -10021,60 +9994,6 @@
       }
     ],
     "location": "Sumner, Washington"
-  },
-  {
-    "event_name": "https://worldbeyblade.org/Thread-Edmonton-AB-Spooktacular-Showdown-2024--113543",
-    "link": "https://worldbeyblade.org/Thread-Edmonton-AB-Spooktacular-Showdown-2024--113543",
-    "author": "Sarin'Tal",
-    "post_date": "Nov. 11, 2024  12:40 PM",
-    "event_date": "Sun. October 27, 2024",
-    "explicit_event_name": "[Edmonton, AB] Spooktacular Showdown 2024",
-    "event_page_link": "https://worldbeyblade.org/Thread-Edmonton-AB-Spooktacular-Showdown-2024--113543",
-    "bracket_link": "https://challonge.com/u5nvd0gl",
-    "ranked_status": "Unranked",
-    "first_stage_format": "3on3 Swiss Quick Advance",
-    "final_stage_format": "3on3 Single Elimination Quick Advance",
-    "player_count": "25",
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "PhoenixWing 3-60Taper",
-        "combos": []
-      },
-      {
-        "rank": "1st",
-        "player": "KnightLance 1-60Low Flat",
-        "combos": []
-      },
-      {
-        "rank": "1st",
-        "player": "SilverWolf 9-60Free Ball",
-        "combos": [
-          "WhaleWave 5-60P",
-          "LeonCrest 7-60GN",
-          "DranDagger 4-60R",
-          "PhoenixWing 9-60R",
-          "CobaltDragoon 7-60C",
-          "WizardRod 1-60H"
-        ]
-      },
-      {
-        "rank": "4th",
-        "player": "WhaleWave 3-60Taper",
-        "combos": []
-      },
-      {
-        "rank": "4th",
-        "player": "WizardRod 9-60Ball",
-        "combos": []
-      },
-      {
-        "rank": "4th",
-        "player": "CobaltDragoon 5-60Elevate",
-        "combos": []
-      }
-    ],
-    "location": "Edmonton, Alberta"
   },
   {
     "event_name": "Banana Games x OBBC Vol. 1 - 11/09/24",
@@ -10962,13 +10881,6 @@
           "SilverWolf 9-60FB",
           "KnightMail 7-60H"
         ]
-      },
-      {
-        "rank": "3rd",
-        "player": "omari1fan",
-        "combos": [
-          "DranBuster...Cyclone"
-        ]
       }
     ],
     "location": "Hewitt, New Jersey"
@@ -11044,7 +10956,7 @@
         "rank": "2nd",
         "player": "BurnLibra:",
         "combos": [
-          "Scythe Incendio 9-60Rush,",
+          "Scythe Incendio 9-60Rush",
           "SilverWolf 9-80H",
           "CobaltDragoon 1-60FB"
         ]
@@ -11777,47 +11689,6 @@
     "location": "Anaheim, California"
   },
   {
-    "event_name": "1-2-3 Go Shoot!?",
-    "link": "https://worldbeyblade.org/Thread-Multi-Madness-Wizard-Random-1-2-3-Go-Shoot--114472",
-    "author": "RAW",
-    "post_date": "Dec. 10, 2024  9:31 AM",
-    "event_date": "Sun. December 8, 2024",
-    "explicit_event_name": "Multi Madness: Wizard Random - 1-2-3 Go Shoot!?",
-    "event_page_link": "https://worldbeyblade.org/Thread-Multi-Madness-Wizard-Random-1-2-3-Go-Shoot--114472",
-    "bracket_link": [
-      "https://challonge.com/vCKoh7RJNc#/signup/f47imgl8hr",
-      "https://challonge.com/mm_01_06"
-    ],
-    "ranked_status": "Unranked",
-    "first_stage_format": "3on3 Swiss 4 Points",
-    "final_stage_format": "3on3 Double Elimination 7 Points",
-    "player_count": "36",
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Bak2Bey",
-        "combos": [
-          "Crimson Garuda // Cobalt Dragoon // Silver Wolf"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "J_Blader",
-        "combos": [
-          "Cobalt Dragoon"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Sully (YouTube // TikTok)",
-        "combos": [
-          "Phoenix Wing // Tyranno Beat // Tyranno Roar"
-        ]
-      }
-    ],
-    "location": "Wembley, London"
-  },
-  {
     "event_name": "Event - https://worldbeyblade.org/Thread-Samurai...he-Midwest",
     "link": "https://worldbeyblade.org/Thread-Samurai-Saber-cuts-through-the-Midwest",
     "author": "doublestar",
@@ -12484,7 +12355,7 @@
         "player": "DevolaPopola!",
         "combos": [
           "Wizard Rod 5-50H",
-          "Tyranno Beat 1-60C",
+          "TyrannoBeat 1-60C",
           "Phoenix Wing 3-60L"
         ]
       },
@@ -12574,7 +12445,7 @@
         "rank": "2nd",
         "player": ", Ghostuntouchabl:",
         "combos": [
-          "Shark edge 3-60R",
+          "SharkEdge 3-60R",
           "WizardRod 5-70DB",
           "LeonCrest 3-80T"
         ]
@@ -13650,7 +13521,7 @@
           "HellsScythe 7-70L",
           "HellsChain 9-60B",
           "HellsHammer 5-60R",
-          "WizardArrow, 1-60, Hexa"
+          "WizardArrow 1-60H"
         ]
       },
       {
@@ -14142,7 +14013,7 @@
         "rank": "2nd",
         "player": "beaujams",
         "combos": [
-          "PhoenixWing 360 Rush",
+          "PhoenixWing 3-60R",
           "Keel Shark 9-60T",
           "DranDagger 4-60F"
         ]
@@ -14463,7 +14334,7 @@
         "combos": [
           "WizardRod 1-60LR",
           "CobaltDragoon 3-60E",
-          "WhaleWave 9-60LowFlat"
+          "WhaleWave 9-60LF"
         ]
       },
       {
@@ -14692,7 +14563,7 @@
         "combos": [
           "KnightMail 1-80L",
           "CobaltDrake 9-60E",
-          "TyrannoBeat 1-60Low-Rush",
+          "TyrannoBeat 1-60LR",
           "CrimsonGaruda 1-60LR"
         ]
       },
@@ -14929,7 +14800,7 @@
         "rank": "1st",
         "player": "Takedo",
         "combos": [
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "CobaltDragoon 5-60E",
           "TyrannoBeat 7-70R"
         ]
@@ -15297,7 +15168,7 @@
           "WizardRod 0-80UN",
           "WizardRod 1-60TP",
           "Roar Tyranno 7-60GP",
-          "Lightning L-Drago 5-60E"
+          "Lightning L-Drago (Upper Type) 5-60E"
         ]
       },
       {
@@ -15347,13 +15218,6 @@
           "HellsHammer 9-60LF",
           "DranSword 3-60F",
           "ShinobiShadow 3-80B"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "weeandy8",
-        "combos": [
-          "Roar Tyranno, hells scythe, wizard rod, impact drake,"
         ]
       }
     ]
@@ -16138,7 +16002,7 @@
           "CobaltDragoon 9-60E",
           "AeroPegasus 1-60LR",
           "AeroPegasus 1-60H",
-          "TyrannoBeat 9 -70Rush"
+          "TyrannoBeat 9-70R"
         ]
       },
       {
@@ -16941,7 +16805,7 @@
         "rank": "2nd",
         "player": ". Castbey",
         "combos": [
-          "PhoenixWing 4-70Point 1st Stage",
+          "PhoenixWing 4-70P",
           "TyrannoBeat 4-70P",
           "TyrannoRoar 3-60T",
           "WhaleWave 3-80R"
@@ -17316,7 +17180,7 @@
         "combos": [
           "CobaltDragoon 9-60E",
           "WizardRod 5-60B",
-          "KnightMail 1-60aper"
+          "KnightMail 1-60T"
         ]
       },
       {
@@ -17858,7 +17722,7 @@
           "WizardRod 1-60H",
           "KnightMail 7-60L",
           "KnightMail 7-60LR",
-          "Tyranno Beat 5-60F",
+          "TyrannoBeat 5-60F",
           "WizardRod 3-60B",
           "KnightMail 1-60H",
           "WizardRod 3-60B",
@@ -18381,7 +18245,7 @@
         "rank": "2nd",
         "player": ". CrazyBey01",
         "combos": [
-          "Wizard Rod Hexa",
+          "Wizard Rod H",
           "Impact Drake 7-60R"
         ]
       },
@@ -19462,7 +19326,7 @@
         "player": "Ice909",
         "combos": [
           "WizardRod 9-60L",
-          "RockGolem 7-60LR",
+          "GolemRock 7-60LR",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -20206,7 +20070,7 @@
         "player": "Mago",
         "combos": [
           "CobaltDragoon 9-60E",
-          "Lightning L-Drago 3-60LR",
+          "Lightning L-Drago (Upper Type) 3-60LR",
           "WizardRod 1-60H"
         ]
       },
@@ -20347,8 +20211,8 @@
         "player": "bsquared",
         "combos": [
           "DracielShield 9-60LR",
-          "Lightning L-Drago 1-60F",
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 1-60F",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "CobaltDragoon 5-60E"
         ]
       }
@@ -20957,18 +20821,18 @@
         "rank": "1st",
         "player": "@",
         "combos": [
-          "-ImpactDrake 1-60LR",
-          "-CobaltDragoon 9-60E",
-          "-PhoenixWing 5-60R"
+          "ImpactDrake 1-60LR",
+          "CobaltDragoon 9-60E",
+          "PhoenixWing 5-60R"
         ]
       },
       {
         "rank": "2nd",
         "player": "@",
         "combos": [
-          "-WizardRod 1-60B",
-          "-CobaltDragoon 9-60E",
-          "-PhoenixWing 1-60LR"
+          "WizardRod 1-60B",
+          "CobaltDragoon 9-60E",
+          "PhoenixWing 1-60LR"
         ]
       },
       {
@@ -21810,7 +21674,7 @@
           "WizardRod 1-60H",
           "AeroPegasus 9-60E",
           "CobaltDrake 5-60L",
-          "Lightning L-Drago 5-60L"
+          "Lightning L-Drago (Upper Type) 5-60L"
         ]
       },
       {
@@ -22059,7 +21923,7 @@
         "rank": "3rd",
         "player": "Maddog22",
         "combos": [
-          "StingUnicorn 9-60D",
+          "UnicornSting 9-60D",
           "SilverWolf 3-60HN",
           "LeonCrest 9-80S"
         ]
@@ -22261,7 +22125,7 @@
         "rank": "1st",
         "player": "Rising_Phoenix",
         "combos": [
-          "WizardRod 1-60LowRush",
+          "WizardRod 1-60LR",
           "CobaltDragoon 5-60E",
           "AeroPegasus 9-60R",
           "AeroPegasus 7-60R",
@@ -22581,7 +22445,7 @@
         "combos": [
           "StormPegasis 4-60RA",
           "AeroPegasus 6-60L",
-          "SoarPhoenix 9-60R"
+          "PhoenixWing 9-60R"
         ]
       },
       {
@@ -22597,7 +22461,7 @@
         "rank": "3rd",
         "player": "antxcore",
         "combos": [
-          "Lightning L-Drago 3-60C",
+          "Lightning L-Drago (Upper Type) 3-60C",
           "CobaltDragoon 9-60E",
           "Rock Golem 7-60LR"
         ]
@@ -22939,27 +22803,27 @@
         "rank": "1st",
         "player": "HowdyImMax",
         "combos": [
-          "[ ] WizardRod 9-60B",
-          "[ ] HellsScythe 5-60P",
-          "[ ] PhoenixWing 3-60R"
+          "WizardRod 9-60B",
+          "HellsScythe 5-60P",
+          "PhoenixWing 3-60R"
         ]
       },
       {
         "rank": "2nd",
         "player": "Wndrful",
         "combos": [
-          "[ ] WizardRod 1-60B",
-          "[ ] CobaltDragoon 9-60E",
-          "[ ] AeroPegasus 6-60L"
+          "WizardRod 1-60B",
+          "CobaltDragoon 9-60E",
+          "AeroPegasus 6-60L"
         ]
       },
       {
         "rank": "3rd",
         "player": "iixnt",
         "combos": [
-          "[ ] WizardRod 9-60H",
-          "[ ] AeroPegasus 1-60L",
-          "[ ] GolemRock 7-60LR"
+          "WizardRod 9-60H",
+          "AeroPegasus 1-60L",
+          "GolemRock 7-60LR"
         ]
       }
     ],
@@ -23042,7 +22906,7 @@
         "combos": [
           "Optimus Primal 1-60LF",
           "CobaltDragoon 9-60E",
-          "ImpactDrake 3-60LowRush"
+          "ImpactDrake 3-60LR"
         ]
       },
       {
@@ -23258,7 +23122,7 @@
         "player": "Kamui2626",
         "combos": [
           "ShinobiShadow 3-85GF",
-          "Lightning L-Drago 2-70S",
+          "Lightning L-Drago (Upper Type) 2-70S",
           "SphinxCowl 2-80BS"
         ]
       },
@@ -23484,7 +23348,7 @@
         "combos": [
           "DranDagger 4-60GF",
           "WizardArc R4-55DB",
-          "DarkPerseus B6-80W"
+          "PerseusDark B6-80W"
         ]
       },
       {
@@ -24462,7 +24326,7 @@
         "combos": [
           "Phoenix Wing 6-60P",
           "Wizard Rod 7-60H",
-          "Silver Wolf 7-80LR"
+          "SilverWolf 7-80LR"
         ]
       },
       {
@@ -25162,7 +25026,7 @@
         "player": "LightningRyuga",
         "combos": [
           "WizardRod 9-60B",
-          "Lightning L-Drago 3-60H",
+          "Lightning L-Drago (Upper Type) 3-60H",
           "PhoenixWing 1-60P"
         ]
       }
@@ -25187,7 +25051,7 @@
         "player": "Discoteka",
         "combos": [
           "DragoonStorm 3-85HN",
-          "Lightning L-Drago 2-80TP",
+          "Lightning L-Drago (Upper Type) 2-80TP",
           "BearScratch 4-70RA"
         ]
       },
@@ -25196,7 +25060,7 @@
         "player": "Yushwa",
         "combos": [
           "Knife Shinobi 3-85A",
-          "Dark Perseus Bumper 2-70DB",
+          "PerseusDark B2-70DB",
           "GhostCircle 4-55RA"
         ]
       },
@@ -25284,8 +25148,8 @@
         "player": ". rayxray (No Force Bonus)",
         "combos": [
           "PhoenixWing 3-60W",
-          "WizardRod 9-60LowOrb",
-          "AeroPegasus 5-60LowRush"
+          "WizardRod 9-60LO",
+          "AeroPegasus 5-60LR"
         ]
       },
       {
@@ -26238,44 +26102,6 @@
     "location": "Tel Aviv, Tel Aviv"
   },
   {
-    "event_name": "https://worldbeyblade.org/Thread-Oops-All-Attack--117020",
-    "link": "https://worldbeyblade.org/Thread-Oops-All-Attack--117020",
-    "author": "TahuOnFire",
-    "post_date": "May. 18, 2025  1:40 AM",
-    "event_date": "Sat. May 17, 2025",
-    "explicit_event_name": "Oops! All Attack!",
-    "event_page_link": "https://worldbeyblade.org/Thread-Oops-All-Attack--117020",
-    "bracket_link": "https://worldbeyblade.challonge.com/8as7yoks",
-    "ranked_status": "Unranked",
-    "first_stage_format": "Swiss 5 Points",
-    "final_stage_format": "Single Elimination 7 Points",
-    "player_count": "21",
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "Zeppeli",
-        "combos": [
-          "PhoenixWing, 1-60, 9-60, R,T,GF"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "Ghostuntouchabl",
-        "combos": [
-          "CobaltDragoon, WhaleWave, PhoenixWing, 9-60, 5-60, LR"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Headache",
-        "combos": [
-          "KnightLance, DranBuster, PhoenixWing, 1-60, 9-60, R"
-        ]
-      }
-    ],
-    "location": "Clovis, California"
-  },
-  {
     "event_name": "WBO Page: https://worldbeyblade.org/Thread-Kansas-...nt--117250",
     "link": "https://worldbeyblade.org/Thread-Kansas-City-Beyblade-Club-May-2025-Ranked-Tournament--117250",
     "author": "Ginsu_Weaver",
@@ -26520,8 +26346,8 @@
         "player": "TheRogueBlader",
         "combos": [
           "KnightMail 1-60R",
-          "Cobalt Dragoon 7-60L",
-          "Wizard Rod 9-60LowOrb"
+          "CobaltDragoon 7-60L",
+          "WizardRod 9-60LO"
         ]
       },
       {
@@ -26544,7 +26370,7 @@
           "AeroPegasus 3-60LR",
           "ScorpioSpear 7-60L",
           "SilverWolf 9-60B",
-          "AeroPegasus 1-60LowRush"
+          "AeroPegasus 1-60LR"
         ]
       }
     ],
@@ -26971,7 +26797,7 @@
         "player": "AQueso",
         "combos": [
           "SilverWolf 3-60UN",
-          "RockGolem 6-60W",
+          "GolemRock 6-60W",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -27204,11 +27030,11 @@
         "player": "BearNap",
         "combos": [
           "AeroPegasus 1-60K",
-          "WizardRod 9–60Ball",
-          "ImpactDrake 9–80Wedge",
-          "KnightMail 7–70Low Rush",
+          "WizardRod 9-60B",
+          "ImpactDrake 9-80W",
+          "KnightMail 7-70LR",
           "CobaltDragoon 4-55E",
-          "PhoenixWing 7–60Unite"
+          "PhoenixWing 7-60U"
         ]
       },
       {
@@ -28006,7 +27832,7 @@
         "player": "Nickfuzzy",
         "combos": [
           "TyrannoBeat 1-60LR",
-          "Lightning L-Drago 3-60L",
+          "Lightning L-Drago (Upper Type) 3-60L",
           "WizardRod 9-60B"
         ]
       },
@@ -28363,7 +28189,7 @@
         "player": "aledxis",
         "combos": [
           "SamuraiSaber 7-60H",
-          "TyrannoBeat 1-60LowRush",
+          "TyrannoBeat 1-60LR",
           "CobaltDragoon 4-55E"
         ]
       },
@@ -28631,7 +28457,7 @@
         "player": "Arfo",
         "combos": [
           "ImpactDrake 5-60H",
-          "ScorpioSpear 9-6T",
+          "ScorpioSpear 9-60T",
           "WizardRod 1-60R"
         ]
       },
@@ -28772,7 +28598,6 @@
         "player": "castrx",
         "combos": [
           "WhaleWave 1-60F",
-          "FoxBrush 3-60LR",
           "TyrannoBeat 7-60P"
         ]
       }
@@ -28983,8 +28808,8 @@
         "player": "Openwaters2",
         "combos": [
           "PhoenixWing 3-60R",
-          "WizardRod, 9-60H",
-          "TyrannoBeat, 5-60P"
+          "WizardRod 9-60H",
+          "TyrannoBeat 5-60P"
         ]
       },
       {
@@ -29196,7 +29021,7 @@
         "combos": [
           "WizardRod 9-60B",
           "AeroPegasus 5-60L",
-          "BeatTyranno 1-60LR"
+          "TyrannoBeat 1-60LR"
         ]
       },
       {
@@ -29646,7 +29471,7 @@
         "combos": [
           "DranBrave S3-60LF",
           "DranBuster 1-60LR",
-          "Lightning L-Drago 7-60K"
+          "Lightning L-Drago (Upper Type) 7-60K"
         ]
       },
       {
@@ -32360,7 +32185,7 @@
         "combos": [
           "Hover Wyvern 1-60K",
           "GolemRock 7-60H",
-          "Lightning L-Drago 4-55L",
+          "Lightning L-Drago (Upper Type) 4-55L",
           "ScorpioSpear 3-60FB",
           "KnightMail 3-60L"
         ]
@@ -32735,7 +32560,7 @@
           "HellsScythe 3-80B",
           "Helm Knight 4-60F",
           "SharkEdge 3-60R",
-          "Arrow Wizard 4-80P"
+          "WizardArrow 4-80P"
         ]
       },
       {
@@ -33283,7 +33108,7 @@
         "player": "MurderWaffle",
         "combos": [
           "DranBuster 1-60R",
-          "PhoenixWing 960Gear Needle",
+          "PhoenixWing 9-60GN",
           "WizardRod 5-60O"
         ]
       }
@@ -33761,7 +33586,7 @@
         "rank": "1st",
         "player": "Lyanri",
         "combos": [
-          "Arrow Wizard 4-80B",
+          "WizardArrow 4-80B",
           "Tusk Mammoth 3-60T",
           "PhoenixWing 9-60R"
         ]
@@ -33771,7 +33596,7 @@
         "player": "St_Purrtrick",
         "combos": [
           "PhoenixWing 9-60R",
-          "Courage Dran ? 3-60LF",
+          "DranBrave S3-60LF",
           "WizardRod 5-70B"
         ]
       },
@@ -33779,7 +33604,7 @@
         "rank": "3rd",
         "player": "CheriBerryPie",
         "combos": [
-          "BusterDran 1-60Q",
+          "DranBuster 1-60Q",
           "WizardRod 5-60R",
           "PhoenixWing 9-60P"
         ]
@@ -34223,7 +34048,7 @@
         "combos": [
           "KnightMail 9-70H",
           "TriceraPress 6-60R",
-          "BeatTyranno 1-60LR"
+          "TyrannoBeat 1-60LR"
         ]
       },
       {
@@ -34266,7 +34091,7 @@
         "player": "Laban Vanot",
         "combos": [
           "WizardRod 5-70H",
-          "PhoenixWing 1-60LowRush",
+          "PhoenixWing 1-60LR",
           "PhoenixWing 1-60R",
           "SilverWolf 9-60E"
         ]
@@ -34275,7 +34100,7 @@
         "rank": "2nd",
         "player": "NoodleBoy",
         "combos": [
-          "TyrannoBeat 1-60LowRush",
+          "TyrannoBeat 1-60LR",
           "Hover Wyvern 7-60P",
           "PhoenixWing 5-60R"
         ]
@@ -34541,7 +34366,7 @@
         "player": "AngeloDragoon",
         "combos": [
           "CobaltDragoon 9-70RA",
-          "DragoonStorm M-85Accel",
+          "DragoonStorm M-85A",
           "CobaltDrake 3-60O"
         ]
       },
@@ -35219,7 +35044,7 @@
         "rank": "3rd",
         "player": "Matthew11",
         "combos": [
-          "Arrow Wizard 4-80B",
+          "WizardArrow 4-80B",
           "Keel Shark 1-60Q",
           "Scythe Incendio 3-60T"
         ]
@@ -35754,7 +35579,7 @@
         "combos": [
           "KnightMail 1-60LR",
           "TriceraPress 7-60W",
-          "Hover Wyvern 9-60Hex"
+          "Hover Wyvern 9-60H"
         ]
       }
     ],
@@ -35791,7 +35616,6 @@
         "player": "Phoenix48",
         "combos": [
           "GolemRock 6-60H",
-          "DranBrave 3-60R",
           "PhoenixWing 1-60P"
         ]
       },
@@ -35962,7 +35786,7 @@
         "player": "AngeloDragoon",
         "combos": [
           "Keel Shark 3-60U",
-          "TriceraSpiky M-85Low Flat",
+          "TriceraSpiky M-85LF",
           "BlackShell 9-70Z"
         ]
       },
@@ -36190,9 +36014,9 @@
         "rank": "1st",
         "player": "ZephGD",
         "combos": [
-          "PhoenixWing 3-30LR",
+          "PhoenixWing 3-60LR",
           "Hover Wyvern 1-60H",
-          "BlastPegasus J5-60R",
+          "PegasusBlast J5-60R",
           "UnicornSting 6-60O",
           "WizardRod 9-60B",
           "CobaltDragoon 5-60E",
@@ -36288,7 +36112,7 @@
         "player": "Starling",
         "combos": [
           "CobaltDragoon 5-60E",
-          "BeatTyranno 9-60R",
+          "TyrannoBeat 9-60R",
           "PhoenixWing 1-60LR"
         ]
       },
@@ -37019,8 +36843,8 @@
         "rank": "1st",
         "player": "BearNap",
         "combos": [
-          "WizardRod 7–70Ball",
-          "PhoenixWing 7–60Low Orb",
+          "WizardRod 7-70B",
+          "PhoenixWing 7-60LO",
           "AeroPegasus 6-60O"
         ]
       },
@@ -37039,7 +36863,7 @@
         "rank": "3rd",
         "player": "M1key",
         "combos": [
-          "PhoenixWing 3–60Rush",
+          "PhoenixWing 3-60R",
           "ImpactDrake 1-60LR",
           "WizardRod 9-60B"
         ]
@@ -37154,8 +36978,7 @@
         "player": "BurstEdgeX",
         "combos": [
           "CobaltDragoon 5-60E",
-          "WizardRod 9-60B",
-          "PhoenixWing 1-60?"
+          "WizardRod 9-60B"
         ]
       },
       {
@@ -37416,7 +37239,7 @@
         "combos": [
           "ValkyrieBlast W5-60LR",
           "WizardRod 3-60FB",
-          "SoarPhoenix 1-60K"
+          "PhoenixWing 1-60K"
         ]
       },
       {
@@ -37434,7 +37257,7 @@
         "combos": [
           "WizardRod 1-60R",
           "Hover Wyvern 9-60L",
-          "Lightning L-Drago 3-80Q"
+          "Lightning L-Drago (Upper Type) 3-80Q"
         ]
       }
     ],
@@ -37547,7 +37370,7 @@
         "player": "tman",
         "combos": [
           "PhoenixWing 1-60K",
-          "StingUnicorn 9-60FreeBall",
+          "UnicornSting 9-60FB",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -37565,7 +37388,7 @@
         "player": "jubert",
         "combos": [
           "TyrannoBeat 1-60R",
-          "PhoenixWing 7-60LowRush",
+          "PhoenixWing 7-60LR",
           "CobaltDragoon 5-60L"
         ]
       }
@@ -37840,7 +37663,7 @@
         "rank": "3rd",
         "player": "(TIE): FlappyBeef",
         "combos": [
-          "SilverWolf M-85Ball",
+          "SilverWolf M-85B",
           "Hover Wyvern 9-60K",
           "ImpactDrake 4-60R"
         ]
@@ -38084,7 +37907,7 @@
         "rank": "2nd",
         "player": "PlainEggSalad",
         "combos": [
-          "WhaleWave M-85Rubber Accel",
+          "WhaleWave M-85RA",
           "Hover Wyvern 5-60LO",
           "PegasusBlast W0-70K"
         ]
@@ -38427,7 +38250,7 @@
         "rank": "1st",
         "player": "Sandywaffler",
         "combos": [
-          "CobaltDragoon 5-60Elavate",
+          "CobaltDragoon 5-60E",
           "WizardRod 9-60B",
           "ScorpioSpear 3-60K"
         ]
@@ -38518,7 +38341,7 @@
         "rank": "1st",
         "player": "Yushwa",
         "combos": [
-          "WizardRod 5–70Hexa",
+          "WizardRod 5-70H",
           "AeroPegasus 1-60K",
           "CobaltDragoon 5-60E"
         ]
@@ -38885,7 +38708,7 @@
         "rank": "2nd",
         "player": "Covert5",
         "combos": [
-          "PhoenixWing 3- 60Low Rush",
+          "PhoenixWing 3-60LR",
           "CobaltDragoon 4-55E",
           "AeroPegasus 1-60L"
         ]
@@ -39111,7 +38934,7 @@
         "player": "AngeloDragoon",
         "combos": [
           "SamuraiSaber 9-70H",
-          "Shadow Shinobi M-85Wedge",
+          "ShinobiShadow M-85W",
           "Darth Vader 9-80G",
           "General Greivous 1-60P",
           "KnightShield 0-80T"
@@ -39237,7 +39060,7 @@
         "rank": "1st",
         "player": "ICrazyEater",
         "combos": [
-          "Blast Hornet WM-85DB",
+          "HornetBlast WM-85DB",
           "Hover Wyvern 1-60R",
           "SamuraiCalibur 5-60FB",
           "PhoenixWing 9-60W"
@@ -39351,44 +39174,6 @@
       }
     ],
     "location": "Calgary, Alberta"
-  },
-  {
-    "event_name": "https://worldbeyblade.org/Thread-Beyblade-Pick-a-Part--119668",
-    "link": "https://worldbeyblade.org/Thread-Beyblade-Pick-a-Part--119668",
-    "author": "TahuOnFire",
-    "post_date": "Aug. 16, 2025  7:17 PM",
-    "event_date": "Sat. August 16, 2025",
-    "explicit_event_name": "Beyblade Pick-a-Part",
-    "event_page_link": "https://worldbeyblade.org/Thread-Beyblade-Pick-a-Part--119668",
-    "bracket_link": "https://challonge.com/pickapart",
-    "ranked_status": "Unranked",
-    "first_stage_format": "Swiss 5 Points",
-    "final_stage_format": "Single Elimination 7 Points",
-    "player_count": "25",
-    "placements": [
-      {
-        "rank": "1st",
-        "player": "BisonRock",
-        "combos": [
-          "Phoenix Wing, Tyranno Beat, Hover Wyvern, 3-70, 1-60, Hexa"
-        ]
-      },
-      {
-        "rank": "2nd",
-        "player": "ZephGD",
-        "combos": [
-          "Shark Scale, 3-60, 1-60, Ball, Hexa, Low Rush"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Jimmychanga",
-        "combos": [
-          "Tricerapress, T Rex, Pegasus Blast w/ Slash, 1-60, 3-60, Rush"
-        ]
-      }
-    ],
-    "location": "Clovis, California"
   },
   {
     "event_name": "Event Link: https://worldbeyblade.org/Thread-Beyblad...ey--119720",
@@ -39641,8 +39426,9 @@
         "rank": "2nd",
         "player": "Team Xenith",
         "combos": [
-          "WyvernHover 9-60Kick / AeroPegasus",
-          "WizardRod 1-60Low Rush /",
+          "WyvernHover 9-60Kick",
+          "AeroPegasus 9-60K",
+          "WizardRod 1-60LR",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -40398,7 +40184,7 @@
         "rank": "1st",
         "player": "Thomas C",
         "combos": [
-          "@TyrannoBeat 3-70P",
+          "TyrannoBeat 3-70P",
           "PhoenixWing 3-60K",
           "WizardRod 1-60H"
         ]
@@ -40598,7 +40384,7 @@
         "rank": "3rd",
         "player": "(tie) - CheriBerryPie:",
         "combos": [
-          "Lightning L-Drago 6-60E",
+          "Lightning L-Drago (Upper Type) 6-60E",
           "WizardArrow 5-60WB",
           "Rock Leone 3-60R"
         ]
@@ -40607,9 +40393,9 @@
         "rank": "3rd",
         "player": "(tie)- AeroGBeyGo:",
         "combos": [
-          "KnifeShinobi 1-60V",
+          "Knife Shinobi 1-60V",
           "HellsHammer 3-60RA",
-          "ShadowShinobi 0-80W"
+          "ShinobiShadow 0-80W"
         ]
       }
     ],
@@ -40737,14 +40523,6 @@
         "combos": [
           "PegasusBlast W1-60L",
           "RhinoArc W9-60LO"
-        ]
-      },
-      {
-        "rank": "3rd",
-        "player": "Glizzy and the Guzzler (ambuuninja & Lyonbeats)",
-        "combos": [
-          "PerseusArc ? 5-60FB",
-          "PegasusBlast 9-60H"
         ]
       }
     ],
@@ -41618,7 +41396,7 @@
         "rank": "2nd",
         "player": "Sniperblader225",
         "combos": [
-          "Arrow Wizard 9-60B"
+          "WizardArrow 9-60B"
         ]
       },
       {
@@ -41661,7 +41439,7 @@
         "rank": "2nd",
         "player": "norman",
         "combos": [
-          "DranBuster 5-60Low Llat",
+          "DranBuster 5-60LF",
           "PhoenixWing 3-60P",
           "TyrannoBeat 1-60K"
         ]
@@ -41672,7 +41450,7 @@
         "combos": [
           "SharkScale 3-60U",
           "TyrannoBeat 1-60K",
-          "TriceraPress 7-60Freeball"
+          "TriceraPress 7-60FB"
         ]
       },
       {
@@ -42136,7 +41914,6 @@
         "rank": "3rd",
         "player": "Blarg101",
         "combos": [
-          "PegasusBlast 3-60FB",
           "WizardRod 9-60B",
           "TyrannoBeat 1-60K",
           "ScorpioSpear 3-60FB",
@@ -42856,7 +42633,8 @@
         "player": "Latte ($70)",
         "combos": [
           "ValkyrieBlast J9-60LR",
-          "SharkScale 1-60R/LR",
+          "SharkScale 1-60R",
+          "SharkScale 1-60LR",
           "WizardRod 3-60B",
           "ScorpioSpear 9-60FB"
         ]
@@ -43370,7 +43148,7 @@
         "rank": "3rd",
         "player": "Voices",
         "combos": [
-          "Wriggle Kraken Slash 1-60K",
+          "KrakenWriggle S1-60K",
           "PegasusBlast W9-60E",
           "DranBrave A3-60LF"
         ]
@@ -43631,7 +43409,7 @@
         "rank": "2nd",
         "player": "st@n",
         "combos": [
-          "ReaperBlast J3-60UF",
+          "HellsBlast J3-60UF",
           "KnightMail 9-60K",
           "SharkEdge 1-60LR"
         ]
@@ -43642,7 +43420,7 @@
         "combos": [
           "KnightMail 9-60LR",
           "TyrannoBeat 7-70R",
-          "Hover Wyvern S 1-60P"
+          "Hover Wyvern 1-60P"
         ]
       }
     ],
@@ -43772,7 +43550,7 @@
         "rank": "3rd",
         "player": "Marcibunny:",
         "combos": [
-          "Arrow Wizard 5-80F",
+          "WizardArrow 5-80F",
           "WizardRod 3-60U",
           "Saber Samurai 5-60T"
         ]
@@ -43895,7 +43673,7 @@
         "rank": "1st",
         "player": "Nightmare Goku",
         "combos": [
-          "WizardRod 1-60Freeball",
+          "WizardRod 1-60FB",
           "CobaltDragoon 5-60E",
           "SilverWolf 3-60B"
         ]
@@ -44137,7 +43915,7 @@
         "combos": [
           "SharkScale 7-60K",
           "TriceraPress 3-70LR",
-          "Arrow Wizard 5-60W",
+          "WizardArrow 5-60W",
           "AeroPegasus 3-70LR"
         ]
       }
@@ -44910,7 +44688,6 @@
         "rank": "1st",
         "player": "Alan Briffa",
         "combos": [
-          "Sterling Wolf 4-60?",
           "Soar Phoenix 1-60R",
           "Sword Dran 5-60B"
         ]
@@ -44918,17 +44695,12 @@
       {
         "rank": "2nd",
         "player": "Malcolm Briffa",
-        "combos": [
-          "Arrow Wizard 3-80?",
-          "WizardRod 5-60?",
-          "Sterling Wolf 3-60?"
-        ]
+        "combos": []
       },
       {
         "rank": "3rd",
         "player": "bladerz",
         "combos": [
-          "WizardRod 5-60?",
           "Soar Phoenix 5-60B",
           "Sword Dran 3-60R"
         ]
@@ -45051,7 +44823,6 @@
         "rank": "2nd",
         "player": "Dec",
         "combos": [
-          "PegasusBlast 9-60R",
           "Hover Wyvern 7-60LR",
           "WizardRod 5-60LO",
           "SharkScale 4-50LR"
@@ -45132,7 +44903,8 @@
         "player": "Latte",
         "combos": [
           "ValkyrieBlast J9-60LR",
-          "SharkScale 1-60R/LR",
+          "SharkScale 1-60R",
+          "SharkScale 1-60LR",
           "WizardRod 3-60B",
           "ScorpioSpear 9-60FB"
         ]
@@ -45317,7 +45089,7 @@
         "player": "LuxB",
         "combos": [
           "CobaltDragoon 1-60E",
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "WizardRod 9-60H"
         ]
       },
@@ -45537,7 +45309,7 @@
         "player": "BladerBoo22",
         "combos": [
           "TyrannoRoar 1-60P",
-          "PhoenixWing 3-60LowRush",
+          "PhoenixWing 3-60LR",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -45554,8 +45326,8 @@
         "rank": "3rd",
         "player": "LegendOM",
         "combos": [
-          "ValkyrieVolt A7-60LowFlat",
-          "SharkScale 4-50LowRush",
+          "ValkyrieVolt A7-60LF",
+          "SharkScale 4-50LR",
           "CobaltDragoon 9-60E"
         ]
       }
@@ -45742,8 +45514,8 @@
         "combos": [
           "PhoenixWing 3-60R",
           "SharkScale 5-60K",
-          "WizardRod 9-60Ball -",
-          "WizardRod 1-60Hexa -"
+          "WizardRod 9-60B",
+          "WizardRod 1-60H"
         ]
       }
     ],
@@ -45788,7 +45560,7 @@
         "rank": "3rd",
         "player": "Montati",
         "combos": [
-          "TyrannoBeat 1-80Rushl",
+          "TyrannoBeat 1-80R",
           "SharkScale 4-50LR",
           "AeroPegasus 1-60K"
         ]
@@ -46089,7 +45861,7 @@
         "combos": [
           "TyrannoBeat 1-60H",
           "TyrannoBeat 3-60P",
-          "Tyranno Roar 9-60W"
+          "TyrannoRoar 9-60W"
         ]
       },
       {
@@ -46413,7 +46185,7 @@
         "combos": [
           "Rock Golem 7-60H",
           "AeroPegasus 1-60LR",
-          "Silver Wolf 3-60B"
+          "SilverWolf 3-60B"
         ]
       },
       {
@@ -46468,7 +46240,7 @@
           "UnicornSting 3-60L",
           "Optimus Primal 4-55LR",
           "Optimus Primal 2-60LR",
-          "Spiderman 5-60T"
+          "Spider-Man 5-60T"
         ]
       },
       {
@@ -46551,7 +46323,7 @@
         "combos": [
           "CobaltDragoon 5-60E",
           "AeroPegasus 1-60H",
-          "SharkScale 4-50LowRush"
+          "SharkScale 4-50LR"
         ]
       },
       {
@@ -46787,7 +46559,6 @@
         "player": "Jespir",
         "combos": [
           "WizardRod 1-60H",
-          "CerberusBlast 7-60LR",
           "CobaltDragoon 5-60E"
         ]
       }
@@ -46831,7 +46602,7 @@
         "player": "Cra_ZThundaRohd",
         "combos": [
           "AeroPegasus 1-60R",
-          "WizardRod 9-60Under N",
+          "WizardRod 9-60UN",
           "CobaltDragoon 5-60E"
         ]
       }
@@ -46858,7 +46629,7 @@
         "combos": [
           "WizardRod 1-60H",
           "Hover Wyvern 9-60K",
-          "Shark Scale 1-70LR"
+          "SharkScale 1-70LR"
         ]
       },
       {
@@ -46953,7 +46724,7 @@
         "rank": "2nd",
         "player": "Hilpok",
         "combos": [
-          "Sharkscale 9-60UN",
+          "SharkScale 9-60UN",
           "SilverWolf 3-60W",
           "PhoenixWing 1-60R",
           "AeroPegasus 9-70L",
@@ -46965,7 +46736,7 @@
         "rank": "3rd",
         "player": "Inamoto",
         "combos": [
-          "KnifeShinobi 3-60L",
+          "Knife Shinobi 3-60L",
           "PhoenixWing 4-50UF",
           "SharkScale 9-60H",
           "WizardRod 5-60FB"
@@ -48246,7 +48017,7 @@
         "rank": "1st",
         "player": "",
         "combos": [
-          "Reaper Incendio R 5-60U",
+          "HellsReaper R5-60U",
           "SamuraiSaber 1-60K",
           "Sterling Wolf 5-60H"
         ]
@@ -48266,7 +48037,7 @@
         "combos": [
           "WizardRod 3-80LR",
           "Shadow Shinobi 1-80R",
-          "Tyranno Roar 1-60N"
+          "TyrannoRoar 1-60N"
         ]
       }
     ],
@@ -48430,7 +48201,7 @@
         "player": "Jayden Flores",
         "combos": [
           "Hover Wyvern 9-60K",
-          "PhoenixWing 1-60LowRush",
+          "PhoenixWing 1-60LR",
           "HellsBlast W3-60L"
         ]
       },
@@ -48438,7 +48209,7 @@
         "rank": "2nd",
         "player": "Beyblader j1",
         "combos": [
-          "KnightMail 3-60LowRush",
+          "KnightMail 3-60LR",
           "GolemRock 6-60H",
           "TyrannoBeat 1-60L"
         ]
@@ -48799,7 +48570,7 @@
         "player": "",
         "combos": [
           "PhoenixWing 1-60R",
-          "WizardRod 9-60FreeBall",
+          "WizardRod 9-60FB",
           "SharkScale 3-60LR"
         ]
       },
@@ -49019,7 +48790,7 @@
         "player": "Helixneo",
         "combos": [
           "WizardRod 1-70H",
-          "SharkScale 3-60LowRush",
+          "SharkScale 3-60LR",
           "Hover Wyvern 9-60K"
         ]
       },
@@ -49424,7 +49195,6 @@
         "rank": "2nd",
         "player": "Oreovix",
         "combos": [
-          "FoxBlast 1-60L",
           "SilverWolf 9-60H",
           "SharkScale 3-60LR"
         ]
@@ -49512,7 +49282,7 @@
         "rank": "1st",
         "player": "Voices",
         "combos": [
-          "Wriggle Kraken Slash 3-70T",
+          "KrakenWriggle S3-70T",
           "WhaleWave 7-80C",
           "SharkEdge 4-50UF"
         ]
@@ -49735,14 +49505,14 @@
         "combos": [
           "SamuraiCalibur 1-70L",
           "CobaltDragoon 5-60E",
-          "RockGolem 1-60K"
+          "GolemRock 1-60K"
         ]
       },
       {
         "rank": "2nd",
         "player": "CosmoDragon",
         "combos": [
-          "AeroPegasus 1-60Rubber Excel",
+          "AeroPegasus 1-60RA",
           "CobaltDragoon 5-60E",
           "WizardRod 9-60UN"
         ]
@@ -49777,7 +49547,7 @@
         "rank": "1st",
         "player": "RequiemGod",
         "combos": [
-          "WizardRod 9-60WallBall",
+          "WizardRod 9-60WB",
           "SilverWolf 9-70B",
           "SharkScale 1-60LR"
         ]
@@ -50474,7 +50244,7 @@
         "combos": [
           "WizardRod 9-60",
           "DranBuster 1-60LF",
-          "Lightning L-Drago 3-60LowFlat"
+          "Lightning L-Drago (Upper Type) 3-60LF"
         ]
       }
     ],
@@ -50579,8 +50349,7 @@
         "player": "Darky_777",
         "combos": [
           "WizardRod 1-60LR",
-          "SharkScale 7-60K",
-          "SolBlast 9-60H"
+          "SharkScale 7-60K"
         ]
       }
     ],
@@ -50839,7 +50608,7 @@
         "player": "KUNTAL SARKAR",
         "combos": [
           "WizardRod 9-60B",
-          "Lightning L-Drago (Upper) 5-60E",
+          "Lightning L-Drago (Upper Type) 5-60E",
           "HellsScythe 9-70FB"
         ]
       },
@@ -51305,7 +51074,7 @@
         "rank": "2nd",
         "player": "CheriBerryPie:",
         "combos": [
-          "Lightning L-Drago 7-60LF",
+          "Lightning L-Drago (Upper Type) 7-60LF",
           "PegasusFlame J9-60LR",
           "Rock Leone 1-60H"
         ]
@@ -51553,14 +51322,14 @@
         "combos": [
           "WizardRod 7-60K",
           "CobaltDragoon 5-60E",
-          "SharkScale 3-60LowRush"
+          "SharkScale 3-60LR"
         ]
       },
       {
         "rank": "2nd",
         "player": "Team VOID (SetzerAce, JoRodaudiofatigue)",
         "combos": [
-          "PegasusBlast J7-60LowRush",
+          "PegasusBlast J7-60LR",
           "WizardRod 9-60UN",
           "PhoenixWing 3-60R"
         ]
@@ -51639,7 +51408,7 @@
         "rank": "1st",
         "player": "L.O.Q.",
         "combos": [
-          "KnightMail 760R",
+          "KnightMail 7-60R",
           "ScorpioSpear 9-60WB",
           "SharkScale 5-60K",
           "SilverWolf 7-70RA",
@@ -51742,7 +51511,7 @@
         "rank": "2nd",
         "player": "EVOlved ViZiiON",
         "combos": [
-          "Lightning L-Drago 1-60F",
+          "Lightning L-Drago (Upper Type) 1-60F",
           "SilverWolf 9-60H",
           "Rock Leone 6-60T"
         ]
@@ -52185,7 +51954,6 @@
         "player": "ElijahDLD",
         "combos": [
           "AeroPegasus 9-60K",
-          "ValkyrieBlast 4-50LR",
           "DranBuster 1-60R"
         ]
       },
@@ -52290,7 +52058,7 @@
         "rank": "3rd",
         "player": "Tor_Skirata",
         "combos": [
-          "SharkScale 5-60LowRush",
+          "SharkScale 5-60LR",
           "PhoenixWing 1-60R",
           "WizardRod 7-60H"
         ]
@@ -52404,7 +52172,7 @@
         "rank": "1st",
         "player": "ADAblading",
         "combos": [
-          "AeroPegasus 1-60LowRush",
+          "AeroPegasus 1-60LR",
           "PhoenixWing 5-60K",
           "PegasusBlast W3-60P"
         ]
@@ -52423,7 +52191,7 @@
         "player": "SpecialEd",
         "combos": [
           "CobaltDragoon 4-50LR",
-          "Shark Edge 3-60T",
+          "SharkEdge 3-60T",
           "PhoenixWing 1-60R"
         ]
       }
@@ -53915,7 +53683,7 @@
         "rank": "1st",
         "player": "Maxley",
         "combos": [
-          "Courage Dran S 3-60V",
+          "DranBrave S3-60V",
           "WizardRod 6-60FB",
           "Sword Dran 5-60T"
         ]
@@ -53935,7 +53703,7 @@
         "combos": [
           "Buster Dran 1-60LF",
           "SilverWolf 7-60UN",
-          "Beat Tyranno 3-60R"
+          "TyrannoBeat 3-60R"
         ]
       }
     ],
@@ -54181,7 +53949,7 @@
           "DranSword 1-70F",
           "DragoonStorm 6-60GP",
           "DranSword 1-70F",
-          "Lightning L-Drago 6-60E",
+          "Lightning L-Drago (Upper Type) 6-60E",
           "HellsHammer 7-70V",
           "CobaltDragoon 3-60E",
           "Hover Wyvern 7-70R",
@@ -54751,7 +54519,7 @@
         "player": "ShadowBlade94",
         "combos": [
           "SilverWolf 5-60UN",
-          "SwordDran 1-80R",
+          "DranSword 1-80R",
           "WizardRod 9-60B"
         ]
       },
@@ -55294,7 +55062,7 @@
         "combos": [
           "Impact Drake 1-60GF",
           "Hover Wyvern 9-60LR",
-          "DranBuster M-85Under Flat"
+          "DranBuster M-85UF"
         ]
       }
     ],
@@ -55504,7 +55272,7 @@
         "player": "OGPinoyBlader",
         "combos": [
           "WizardRod 1-60L",
-          "ClockMirage M-85Under Needle",
+          "ClockMirage M-85UN",
           "ValkyrieBlast W7-70LR"
         ]
       },
@@ -55593,8 +55361,8 @@
         "rank": "2nd",
         "player": "FlappyBeef",
         "combos": [
-          "Fort Hornet Jaggy 9-60K",
-          "Tide Whale M-85Quake",
+          "HornetFort J9-60K",
+          "WhaleWave M-85Q",
           "KnightMail 6-70H"
         ]
       },
@@ -55612,7 +55380,7 @@
         "player": "CheriBerryPie",
         "combos": [
           "Tide Whale 9-60LR",
-          "Lightning L-Drago 6-70LF",
+          "Lightning L-Drago (Upper Type) 6-70LF",
           "PhoenixWing 3-60GP"
         ]
       }
@@ -55681,7 +55449,7 @@
         "rank": "1st",
         "player": "DruidMS",
         "combos": [
-          "Blast Dran D 3-60LR",
+          "DranBlast D3-60LR",
           "ScorpioSpear 9-70F",
           "WizardRod 1-60H"
         ]
@@ -55771,7 +55539,7 @@
         "combos": [
           "Hover Wyvern 9-60K",
           "WizardRod 1-60H",
-          "Pegasus Blast A 3-60LR"
+          "PegasusBlast A3-60LR"
         ]
       }
     ],
@@ -55854,7 +55622,7 @@
         "player": "ADAblading",
         "combos": [
           "WizardRod 1-60B",
-          "ScaleShark 3-60H",
+          "SharkScale 3-60H",
           "AeroPegasus 1-70R"
         ]
       },
@@ -56456,7 +56224,7 @@
         "player": "Miles_Carr5",
         "combos": [
           "SilverWolf 9-60G",
-          "Umbra Hornet Assault 4-50TK",
+          "HornetEclipse A4-50TK",
           "SharkScale 1-60LR"
         ]
       },
@@ -56641,7 +56409,7 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Beelzebeys (3 - 0)",
+        "player": "Beelzebeys",
         "combos": [
           "SharkScale 4-50LR",
           "PhoenixWing 1-60R",
@@ -56650,16 +56418,16 @@
       },
       {
         "rank": "2nd",
-        "player": "Nickfuzzy (2-1)",
+        "player": "Nickfuzzy",
         "combos": [
-          "🦖TyrannoBeat 1-60R",
-          "🦈 SharkScale 4-50LR",
-          "🦅 PhoenixWing 1-70P"
+          "TyrannoBeat 1-60R",
+          "SharkScale 4-50LR",
+          "PhoenixWing 1-70P"
         ]
       },
       {
         "rank": "3rd",
-        "player": "MythicScorpious (2-1)",
+        "player": "MythicScorpious",
         "combos": [
           "Hover Wyvern 9-60R",
           "WizardRod 1-60H",
@@ -57328,7 +57096,7 @@
         "rank": "3rd",
         "player": "Shuten Blaze",
         "combos": [
-          "HoverWyvern 1-70K",
+          "Hover Wyvern 1-70K",
           "WizardRod 1-60H",
           "SharkScale 3-60LR"
         ]
@@ -57354,8 +57122,8 @@
         "rank": "1st",
         "player": "markinu",
         "combos": [
-          "Wand Wizard 9-60B",
-          "Soar Phoenix 1-60R",
+          "WizardRod 9-60B",
+          "PhoenixWing 1-60R",
           "DranBuster 3-60LF"
         ]
       },
@@ -57363,8 +57131,8 @@
         "rank": "2nd",
         "player": "mezz",
         "combos": [
-          "Wand Wizard 9-60LO",
-          "Soar Phoenix 1-60H",
+          "WizardRod 9-60LO",
+          "PhoenixWing 1-60H",
           "SharkScale 3-60LR"
         ]
       },
@@ -57372,9 +57140,9 @@
         "rank": "3rd",
         "player": "BladerX",
         "combos": [
-          "Wand Wizard 1-60FB",
-          "Soar Phoenix 7-60H",
-          "Arc Wizard 4-55LO"
+          "WizardRod 1-60FB",
+          "PhoenixWing 7-60H",
+          "WizardArc R4-55LO"
         ]
       }
     ],
@@ -57751,7 +57519,7 @@
           "Hover Wyvern 9-60R",
           "WizardRod 1-60H",
           "SharkScale 3-60LR",
-          "Blast Cerberus Wheel 9-60L"
+          "CerberusBlast W9-60L"
         ]
       },
       {
@@ -57885,7 +57653,7 @@
         "combos": [
           "AeroPegasus 1-60LR",
           "PegasusBlast W9-70T",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -58430,7 +58198,7 @@
           "AeroPegasus 1-60K",
           "SharkScale 3-60LR",
           "SilverWolf 9-60H",
-          "WhaleWave M-85Zap"
+          "WhaleWave M-85Z"
         ]
       },
       {
@@ -58446,7 +58214,7 @@
         "rank": "3rd",
         "player": "Ray00",
         "combos": [
-          "SharkScale 4-50LowRush",
+          "SharkScale 4-50LR",
           "SilverWolf 9-60H",
           "Hover Wyvern 3-60K",
           "GolemRock 1-60L",
@@ -58630,8 +58398,8 @@
         "rank": "3rd",
         "player": "FlappyBeef",
         "combos": [
-          "Fort Hornet Jaggy 9-60K",
-          "Wriggle Kraken Round 6-70RA",
+          "HornetFort J9-60K",
+          "KrakenWriggle R6-70RA",
           "SolEclipse A1-60H"
         ]
       }
@@ -58668,7 +58436,7 @@
         "player": "D/D Rezael",
         "combos": [
           "AeroPegasus 1-80F",
-          "TriceraPress M-85High Needle",
+          "TriceraPress M-85HN",
           "MammothTusk 7-80U"
         ]
       },
@@ -58720,7 +58488,7 @@
         "rank": "3rd",
         "player": "estefannicolas",
         "combos": [
-          "MightBlast H7-60L",
+          "EmperorBlast H7-60L",
           "SharkScale 1-60R",
           "Hover Wyvern 0-60K"
         ]
@@ -59196,7 +58964,7 @@
         "player": "micah.ramage",
         "combos": [
           "WizardRod 1-60H",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "Hover Wyvern 9-60K"
         ]
       },
@@ -59400,8 +59168,8 @@
           "SilverWolf 9-70FB",
           "SamuraiSaber 3-60L",
           "SharkScale 7-60LR",
-          "Clock Mirage 4-55UN",
-          "Blast Kraken Free 0-60WB",
+          "ClockMirage 4-55UN",
+          "KrakenBlast F0-60WB",
           "WizardRod 1-60H",
           "CobaltDragoon 5-60E",
           "FoxEclipse J4-50U",
@@ -59422,8 +59190,8 @@
           "AeroPegasus 1-60K",
           "SharkScale 3-60LR",
           "Hover Wyvern 1-70R",
-          "DranBuster Turbo",
-          "KnightMail Operate",
+          "DranBuster Tr",
+          "KnightMail Op",
           "TyrannoBeat 7-70WB",
           "ClockMirage 4-55UN"
         ]
@@ -59541,7 +59309,7 @@
         "rank": "1st",
         "player": "Yoshua542",
         "combos": [
-          "WizardRod 3-90UN",
+          "WizardRod 3-60UN",
           "PhoenixWing 3-60R",
           "UnicornSting 1-60B"
         ]
@@ -59785,7 +59553,7 @@
         "rank": "3rd",
         "player": "WhiteMomba",
         "combos": [
-          "FortBlast H3-60H",
+          "HornetBlast H3-60H",
           "ScorpioSpear 7-70LF",
           "SharkScale 4-50P"
         ]
@@ -59855,16 +59623,16 @@
         "rank": "1st",
         "player": "Team TismPrism",
         "combos": [
-          "Bite Croc 6-60LR",
-          "Arc Wizard Bumper 5-60FB",
-          "Beat Tyranno 9-60K",
+          "CrocoCrunch 6-60LR",
+          "WizardArc B5-60FB",
+          "TyrannoBeat 9-60K",
           "GolemRock 1-60H",
           "LeonCrest 4-50UN",
           "SharkEdge 3-60L",
           "WizardRod 4-50B",
           "HellsScythe 7-60B",
           "SamuraiSaber 6-60UN",
-          "Sting Unicorn 4-50LO",
+          "UnicornSting 4-50LO",
           "WhaleWave 4-50R",
           "WizardRod 7-60B"
         ]
@@ -59875,7 +59643,7 @@
         "combos": [
           "DranSword 9-70TP",
           "GolemRock 1-60H",
-          "Roar Tyranno 9-60W",
+          "TyrannoRoar 9-60W",
           "SharkEdge 3-60R",
           "ShinobiShadow 6-80T",
           "SilverWolf 3-80FB"
@@ -59886,11 +59654,11 @@
         "player": "Team DeepOldOnes",
         "combos": [
           "ClockMirage 4-55LO",
-          "Keel Shark 9-60LF",
+          "SharkEdge 9-60LF",
           "Optimus Primal 9-70UF",
           "SharkScale 4-50GR",
-          "Wand Wizard 1-60H",
-          "Wriggle Wizard Wheel 7-60RA"
+          "WizardRod 1-60H",
+          "WizardWriggle W7-60RA"
         ]
       }
     ]
@@ -59915,7 +59683,7 @@
         "combos": [
           "WizardRod 1-60H",
           "PegasusBlast D3-70LR",
-          "SharkScale 9-6K",
+          "SharkScale 9-60K",
           "AeroPegasus 7-60R"
         ]
       },
@@ -59933,7 +59701,7 @@
         "rank": "3rd",
         "player": "Von.vibe",
         "combos": [
-          "SharkScale 1-70Level,",
+          "SharkScale 1-70L",
           "Hover Wyvern 1-60K",
           "WizardRod 9-60O",
           "SamuraiCalibur 5-60T"
@@ -60011,7 +59779,7 @@
         "player": "SaveMyBees",
         "combos": [
           "SharkScale 5-60RA",
-          "Blast Hornet H 1-60K",
+          "HornetBlast H1-60K",
           "Hover Wyvern 9-60LR"
         ]
       },
@@ -60184,7 +59952,7 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "Crimson Fate 🥇",
+        "player": "Crimson Fate",
         "combos": [
           "WizardRod 1-60R",
           "Hover Wyvern 9-60L",
@@ -60193,7 +59961,7 @@
       },
       {
         "rank": "2nd",
-        "player": "Arsel00 🥈",
+        "player": "Arsel00",
         "combos": [
           "SharkScale 1-70TK",
           "CobaltDragoon 3-60E",
@@ -60203,9 +59971,9 @@
       },
       {
         "rank": "3rd",
-        "player": "JEHRJonny 🥉",
+        "player": "JEHRJonny",
         "combos": [
-          "WizardRod 1 -60Rush",
+          "WizardRod 1-60R",
           "SharkScale 3-70LR",
           "CobaltDragoon 9-60E",
           "AeroPegasus 1-60R"
@@ -60728,7 +60496,7 @@
         "combos": [
           "Hover Wyvern 9-60K",
           "EmperorBrave H3-60LR",
-          "WizardRod Operate"
+          "WizardRod Op"
         ]
       }
     ],
@@ -60884,7 +60652,7 @@
         "rank": "1st",
         "player": "MR_south",
         "combos": [
-          "HoverWyvern 3-60C",
+          "Hover Wyvern 3-60C",
           "CobaltDragoon 1-60L",
           "TyrannoBeat 9-60W"
         ]
@@ -60903,7 +60671,7 @@
         "player": "carlosflow",
         "combos": [
           "AeroPegasus 7-60R",
-          "SharkScale 9-60LowRush",
+          "SharkScale 9-60LR",
           "WizardRod 1-60B"
         ]
       }
@@ -61227,7 +60995,7 @@
         "combos": [
           "CobaltDragoon 5-60E",
           "ValkyrieBlast W1-70LR",
-          "ClockMirage M-85Under Needle"
+          "ClockMirage M-85UN"
         ]
       },
       {
@@ -61408,7 +61176,7 @@
         "player": "AngeloDragoon",
         "combos": [
           "Optimus Primal 3-60F",
-          "Megatron Operate",
+          "Megatron Op",
           "Shockwave 9-70UN",
           "CobaltDrake 4-50UF",
           "Starscream 3-80N"
@@ -62274,7 +62042,7 @@
           "SharkScale 3-60LR",
           "CobaltDragoon 5-60E",
           "SolBlast H4-50LR",
-          "Wolf Hunt F 0-60DB"
+          "WolfHunt F0-60DB"
         ]
       }
     ],
@@ -62298,7 +62066,7 @@
         "rank": "1st",
         "player": "Kayotic",
         "combos": [
-          "Emperor Blast Heavy 1-60LowRush",
+          "EmperorBlast H1-60LR",
           "WizardRod 1-70H",
           "SharkScale 1-80R"
         ]
@@ -62308,7 +62076,7 @@
         "player": "Wndrful",
         "combos": [
           "AeroPegasus 1-60R",
-          "PegasusBlast W3-60LowRush",
+          "PegasusBlast W3-60LR",
           "SharkScale 5-60L"
         ]
       },
@@ -62318,7 +62086,7 @@
         "combos": [
           "PhoenixWing 1-60R",
           "WizardRod 6-60H",
-          "HoverWyvern 7-60LowRush"
+          "Hover Wyvern 7-60LR"
         ]
       }
     ],
@@ -62433,28 +62201,32 @@
         "rank": "1st",
         "player": "Rogue Blader XY + Mothsruletoday",
         "combos": [
-          "CobaltDragoon 1-60P + PegasusBlast Wheel9-60L"
+          "CobaltDragoon 1-60P",
+          "PegasusBlast W9-60L"
         ]
       },
       {
         "rank": "2nd",
         "player": "bugturtles + bewligfhwei",
         "combos": [
-          "DranBrave J5-60V + Hover Wyvern 1-60LR"
+          "DranBrave J5-60V",
+          "Hover Wyvern 1-60LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "Jonathanbp1 + Antt",
         "combos": [
-          "HellsChain 5-70FB + DranBuster 1-70LF"
+          "HellsChain 5-70FB",
+          "DranBuster 1-70LF"
         ]
       },
       {
         "rank": "3rd",
         "player": "Maff28 + SgtLemon",
         "combos": [
-          "ScorpioSpear 6-70W + RhinoHorn Tr"
+          "ScorpioSpear 6-70W",
+          "RhinoHorn Tr"
         ]
       }
     ],
@@ -62613,7 +62385,7 @@
         "player": "RandyþEngineer",
         "combos": [
           "KnightShield 1-60UN",
-          "Wolf Blast Wheel 3-60LR",
+          "WolfBlast W3-60LR",
           "SilverWolf 9-60B",
           "KnightShield 1-60W",
           "SilverWolf 7-60H"
@@ -62883,7 +62655,7 @@
         "combos": [
           "WizardRod 5-60L",
           "Hover Wyvern 1-60LR",
-          "ClockMirage 3-65UN"
+          "ClockMirage 9-65UN"
         ]
       },
       {
@@ -63114,7 +62886,7 @@
         "player": "Joeyocker:",
         "combos": [
           "SharkEdge 1-60LR",
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "GolemRock 9-60H"
         ]
       },
@@ -63368,7 +63140,7 @@
         "player": "ProCookiez",
         "combos": [
           "WizardRod 1-60H",
-          "SharkScale 3- 60LR",
+          "SharkScale 3-60LR",
           "Hover Wyvern 9-60K"
         ]
       },
@@ -64109,9 +63881,9 @@
         "rank": "3rd",
         "player": "Kelsie33",
         "combos": [
-          "Wriggle Kraken Slash 3-85O",
+          "KrakenWriggle S3-85O",
           "WizardRod 1-60R",
-          "ScaleShark 4-50UF"
+          "SharkScale 4-50UF"
         ]
       }
     ],
@@ -64706,8 +64478,8 @@
         "rank": "1st",
         "player": "AustieFrosty",
         "combos": [
-          "Shark Scale 9-60LR",
-          "Wizard Rod 1-60H",
+          "SharkScale 9-60LR",
+          "WizardRod 1-60H",
           "Hover Wyvern 3-60R"
         ]
       },
@@ -64715,17 +64487,17 @@
         "rank": "2nd",
         "player": "Bowserboss1220",
         "combos": [
-          "Silver Wolf 9-60G",
-          "Clock mirage 4-55, under needle",
-          "Phoenix wing 1-60P"
+          "SilverWolf 9-60G",
+          "ClockMirage 4-55UN",
+          "PhoenixWing 1-60P"
         ]
       },
       {
         "rank": "3rd",
         "player": "Pegasusgod69",
         "combos": [
-          "Golem Rock 7-60K",
-          "Pegasus Blast Heavy 9-60L",
+          "GolemRock 7-60K",
+          "PegasusBlast H9-60L",
           "Wizard Rod 1-60H"
         ]
       }
@@ -64760,7 +64532,7 @@
         "player": "ManuAura",
         "combos": [
           "CerberusFlame W6-60WB",
-          "StagAntler R9-70LO",
+          "BucksAntler R9-70LO",
           "KrakenWriggle S9-60LR"
         ]
       },
@@ -65071,7 +64843,7 @@
         "rank": "2nd",
         "player": "doritoman",
         "combos": [
-          "Lightning L-Drago 5-60L",
+          "Lightning L-Drago (Upper Type) 5-60L",
           "CrimsonGaruda 3-60H",
           "WeissTiger 6-60UF"
         ]
@@ -65300,11 +65072,11 @@
           "AeroPegasus 1-60K",
           "WizardRod 1-70H",
           "SharkScale 3-60LR",
-          "DranBuster Turbo",
-          "KnightMail Operate",
+          "DranBuster Tr",
+          "KnightMail Op",
           "DranSword 1-60R",
           "HellsScythe 7-60K",
-          "Tyranno Roar 9-60W"
+          "TyrannoRoar 9-60W"
         ]
       }
     ],
@@ -65515,7 +65287,7 @@
         "rank": "1st",
         "player": "AngeloDragoon",
         "combos": [
-          "TriceraPress M-85Rubber Accel",
+          "TriceraPress M-85RA",
           "TyrannoRoar 3-60C",
           "MammothTusk 9-70WB",
           "WizardArrow 9-80UN",
@@ -65537,7 +65309,7 @@
         "combos": [
           "TyrannoBeat 1-80F",
           "XenoXcalibur 3-60LF",
-          "PhoenixRudder Operate"
+          "PhoenixRudder Op"
         ]
       }
     ],
@@ -65930,7 +65702,7 @@
         "combos": [
           "AeroPegasus 1-60R",
           "ValkyrieBlast W9-60T",
-          "WizardRod 470Kick"
+          "WizardRod 4-70K"
         ]
       },
       {
@@ -66072,7 +65844,7 @@
         "rank": "2nd",
         "player": "Grimm98",
         "combos": [
-          "TuskMammoth 1-70K",
+          "MammothTusk 1-70K",
           "GolemRock 1-60LO",
           "SharkScale 3-60R"
         ]
@@ -66333,7 +66105,7 @@
         "rank": "1st",
         "player": "Dawson",
         "combos": [
-          "DranBuster 9-60LowFlat",
+          "DranBuster 9-60LF",
           "WizardRod 1-60H",
           "PhoenixWing 3-60R"
         ]
@@ -66343,7 +66115,7 @@
         "player": "erahxerah",
         "combos": [
           "CobaltDragoon 7-60L",
-          "EmperorBlast H1-60LowRush",
+          "EmperorBlast H1-60LR",
           "Lightning L-Drago (Upper Type) 4-55E"
         ]
       },
@@ -66928,7 +66700,7 @@
         "rank": "2nd",
         "player": "Pizzaman3000",
         "combos": [
-          "HoverWyvern 1-60L",
+          "Hover Wyvern 1-60L",
           "SharkScale 1-70UF",
           "WizardRod 9-60P"
         ]
@@ -66937,7 +66709,7 @@
         "rank": "3rd",
         "player": "ALVP97",
         "combos": [
-          "HoverWyvern 1-60L",
+          "Hover Wyvern 1-60L",
           "SharkScale 1-70LF",
           "PhoenixWing 3-60LR"
         ]
@@ -67053,7 +66825,7 @@
         "player": "!BLADER! K",
         "combos": [
           "SharkScale 1-70LR",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -67097,7 +66869,7 @@
         "combos": [
           "WolfHunt H0-60K",
           "SilverWolf 0-70B",
-          "ScaleShark 4-50LR"
+          "SharkScale 4-50LR"
         ]
       },
       {
@@ -67174,9 +66946,9 @@
         "rank": "1st",
         "player": "The Muppets DonTheDude thejollyjax CatchingBricks",
         "combos": [
-          "SoarPhoenix 3-60LR",
+          "PhoenixWing 3-60LR",
           "WizardRod 1-60H",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -67194,7 +66966,7 @@
         "combos": [
           "CrimsonGaruda 7-60B",
           "EmperorEclipse M7-60H",
-          "Fox Brush J 5-60LR"
+          "FoxBrush J5-60LR"
         ]
       }
     ],
@@ -67218,7 +66990,7 @@
         "rank": "1st",
         "player": "ADAblading",
         "combos": [
-          "AeroPegasus 1-60LowRush",
+          "AeroPegasus 1-60LR",
           "PhoenixWing 5-60K",
           "PegasusBlast W3-60P"
         ]
@@ -67237,7 +67009,7 @@
         "player": "SpecialEd",
         "combos": [
           "CobaltDragoon 4-50LR",
-          "Shark Edge 3-60T",
+          "SharkEdge 3-60T",
           "PhoenixWing 1-60R"
         ]
       }
@@ -67455,7 +67227,7 @@
           "PhoenixRudder 9-70H",
           "PhoenixWing 7-70R",
           "GhostCircle 0-80BS",
-          "Lightning L-Drago 3-60LF"
+          "Lightning L-Drago (Upper Type) 3-60LF"
         ]
       },
       {
@@ -67629,10 +67401,10 @@
         "rank": "2nd",
         "player": "RandyþEngineer",
         "combos": [
-          "SamuraiSaber M-85Under Needle",
+          "SamuraiSaber M-85UN",
           "KnightShield 1-80HN",
           "WolfHunt H4-50UF",
-          "WizardRod M-85Under Needle"
+          "WizardRod M-85UN"
         ]
       },
       {
@@ -67973,7 +67745,7 @@
         "player": "Iliketacos102",
         "combos": [
           "PegasusBlast W1-60K",
-          "IncendioReaper S4-50LR",
+          "HellsReaper S4-50LR",
           "PerseusDark J9-60H"
         ]
       }
@@ -68277,7 +68049,7 @@
         "rank": "2nd",
         "player": "Cheeezy",
         "combos": [
-          "CerberusBlast W3-60FreeBall",
+          "CerberusBlast W3-60FB",
           "CobaltDragoon 7-60L",
           "WyvernHover 9-60K",
           "MeteorDragoon 5-60E",
@@ -68762,18 +68534,18 @@
         "rank": "1st",
         "player": "StrikeBlast",
         "combos": [
-          "Shark Scale 7-60FB",
-          "Wizard Rod 1-60LO",
-          "Cobalt Dragoon 5-60E"
+          "SharkScale 7-60FB",
+          "WizardRod 1-60LO",
+          "CobaltDragoon 5-60E"
         ]
       },
       {
         "rank": "2nd",
         "player": "SHKR",
         "combos": [
-          "Phoenix Wing 1-70LR",
-          "Shark Scale 3-60R",
-          "Wizard Rod 1-60LO"
+          "PhoenixWing 1-70LR",
+          "SharkScale 3-60R",
+          "WizardRod 1-60LO"
         ]
       },
       {
@@ -68781,8 +68553,8 @@
         "player": "KamenY",
         "combos": [
           "Wizard Rod 1-60H",
-          "Meteor Dragoon 7-60L",
-          "Shark Scale 9-60LR"
+          "MeteorDragoon 7-60L",
+          "SharkScale 9-60LR"
         ]
       }
     ],
@@ -69036,7 +68808,7 @@
         "rank": "2nd",
         "player": "Meekos",
         "combos": [
-          "PhoenixWing Operate",
+          "PhoenixWing Op",
           "SolEclipse D9-60FB",
           "EmperorMight H4-70TK"
         ]
@@ -69851,7 +69623,7 @@
           "HornetMight W7-60T",
           "EmperorBlast H9-60LR",
           "KrakenWriggle B7-70HT",
-          "Antler Stag Round 1-60LO",
+          "BucksAntler R1-60LO",
           "DranBrave J3-60R"
         ]
       }
@@ -70028,7 +69800,7 @@
         "player": "Spriggan87",
         "combos": [
           "SharkScale 4-50LR",
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "AeroPegasus 1-60R"
         ]
       },
@@ -70926,7 +70698,7 @@
           "ClockMirage 4-55LO",
           "MeteorDragoon 7-60L",
           "CobaltDragoon 5-70E",
-          "Lightning L-Drago 5-60A"
+          "Lightning L-Drago (Upper Type) 5-60A"
         ]
       }
     ],
@@ -71884,7 +71656,7 @@
         "rank": "1st",
         "player": "FastTimes11",
         "combos": [
-          "SharkScale 6-60Freeball",
+          "SharkScale 6-60FB",
           "WizardRod 7-60LO",
           "WyvernHover 1-60K"
         ]
@@ -72159,7 +71931,7 @@
           "HellsBlast J6-60P",
           "GolemRock 1-60UN",
           "HellsChain 5-60HT",
-          "SharkScale Turbo"
+          "SharkScale Tr"
         ]
       },
       {
@@ -72977,7 +72749,7 @@
         "player": "keola44",
         "combos": [
           "SharkScale 1-60LR",
-          "StagBlast J3-60K",
+          "BucksBlast J3-60K",
           "TyrannoBeat 9-70R"
         ]
       }
@@ -73329,7 +73101,7 @@
         "rank": "3rd",
         "player": "Shawn514",
         "combos": [
-          "SharkScale 3-60LowRush",
+          "SharkScale 3-60LR",
           "WizardRod 1-70H",
           "PhoenixWing 1-60K"
         ]
@@ -73905,7 +73677,7 @@
         "rank": "1st",
         "player": "TheRealDeetus",
         "combos": [
-          "HoverWyvern 1-70LR",
+          "Hover Wyvern 1-70LR",
           "WizardRod 1-60H",
           "SharkScale 4-50L"
         ]
@@ -73915,7 +73687,7 @@
         "player": "RiskEvaOne",
         "combos": [
           "FoxBlast W9-60H",
-          "HoverWyvern 1-60J",
+          "Hover Wyvern 1-60J",
           "CobaltDragoon 3-60E"
         ]
       },
@@ -73924,7 +73696,7 @@
         "player": "Lowriderst",
         "combos": [
           "WizardRod 1-60H",
-          "HoverWyvern 9-60J",
+          "Hover Wyvern 9-60J",
           "CobaltDragoon 5-60E",
           "SharkScale 4-50L"
         ]
@@ -74358,8 +74130,8 @@
         "rank": "1st",
         "player": "Amuji",
         "combos": [
-          "Shark Scale 4-50LR",
-          "Meteor Dragoon 7-60L",
+          "SharkScale 4-50LR",
+          "MeteorDragoon 7-60L",
           "Wizard Rod 1-60H"
         ]
       },
@@ -74367,18 +74139,18 @@
         "rank": "2nd",
         "player": "doom Donut",
         "combos": [
-          "Wizard Rod 1-60H",
-          "Silver Wolf 9-60W",
-          "Knight Mail 6-60LR"
+          "WizardRod 1-60H",
+          "SilverWolf 9-60W",
+          "KnightMail 6-60LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "Trick Dice",
         "combos": [
-          "Shark Scale 3-60LR",
+          "SharkScale 3-60LR",
           "Hover Wyvern 9-60K",
-          "Aero Pegasus 1-60R"
+          "AeroPegasus 1-60R"
         ]
       }
     ],
@@ -74970,15 +74742,15 @@
         "combos": [
           "WyvernHover 9-60J",
           "WizardRod 1-60H",
-          "SharkScale 1-70LowRush"
+          "SharkScale 1-70LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "FastTimes11",
         "combos": [
-          "WizardRod 7-60LowOrb",
-          "Sharkscale 6-60FreeBall",
+          "WizardRod 7-60LO",
+          "Sharkscale 6-60FB",
           "WyvernHover 2-60K"
         ]
       }
@@ -75414,7 +75186,7 @@
         "combos": [
           "CobaltDragoon 1-60E",
           "SharkScale 3-60FB",
-          "WizardRod 7-60LowRush"
+          "WizardRod 7-60LR"
         ]
       },
       {
@@ -76306,7 +76078,7 @@
         "combos": [
           "SilverWolf 0-60H",
           "WizardRod 1-60K",
-          "StagBlast H9-60LF"
+          "BucksBlast H9-60LF"
         ]
       },
       {
@@ -76394,7 +76166,7 @@
         "combos": [
           "SilverWolf 0-60H",
           "WizardRod 1-60K",
-          "StagBlast H9-60LF"
+          "BucksBlast H9-60LF"
         ]
       },
       {
@@ -76436,8 +76208,8 @@
         "rank": "1st",
         "player": "Braves",
         "combos": [
-          "HoverWyvern 1-60H",
-          "WizardRod 9-60LowOrb",
+          "Hover Wyvern 1-60H",
+          "WizardRod 9-60LO",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -76480,7 +76252,7 @@
         "rank": "1st",
         "player": "Breecy",
         "combos": [
-          "CerberusBlast W6-60-60Free Ball",
+          "CerberusBlast W6-60FB",
           "SharkScale 9-70LR",
           "WizardRod 1-60H"
         ]
@@ -76489,7 +76261,7 @@
         "rank": "2nd",
         "player": "BB_X_ONI",
         "combos": [
-          "KeelShark 1-60LR",
+          "SharkEdge 1-60LR",
           "Bite Croc 3-60P",
           "SharkScale 9-60FB"
         ]
@@ -76660,7 +76432,7 @@
         "player": "HellKaiserZero",
         "combos": [
           "CobaltDragoon 5-60E",
-          "WizardRod 1-70Hrxa",
+          "WizardRod 1-70H",
           "SharkScale 1-60LO"
         ]
       },
@@ -76703,7 +76475,7 @@
         "rank": "1st",
         "player": "voltnutt",
         "combos": [
-          "ClockMirage M-85Under Needle",
+          "ClockMirage M-85UN",
           "SilverWolf 7-70L",
           "WizardRod 1-60LR"
         ]
@@ -77097,7 +76869,7 @@
         "player": "Sabre~",
         "combos": [
           "DranDagger 3-60J",
-          "TyrannoRoar Operate",
+          "TyrannoRoar Op",
           "DranSword 9-70UF"
         ]
       },
@@ -77142,8 +76914,8 @@
         "rank": "1st",
         "player": "PredaX 🏆",
         "combos": [
-          "Shark Scale 1-60RA",
-          "Fox Blast Heavy 3-60L",
+          "SharkScale 1-60RA",
+          "FoxBlast H3-60L",
           "Hover Wyvern 9-60R"
         ]
       },
@@ -77152,17 +76924,17 @@
         "player": "Trin 🥈",
         "combos": [
           "Hover Wyvern 9-60R",
-          "Wizard Rod 1-60H",
-          "Shark Scale 1-70LR"
+          "WizardRod 1-60H",
+          "SharkScale 1-70LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "Kamen W 🥉",
         "combos": [
-          "Tyranno Beat 1-60K",
-          "Cobalt Dragoon 6-60E",
-          "Knight Mail 3-60R"
+          "TyrannoBeat 1-60K",
+          "CobaltDragoon 6-60E",
+          "KnightMail 3-60R"
         ]
       }
     ],
@@ -77230,7 +77002,7 @@
         "rank": "1st",
         "player": "Lathyrium",
         "combos": [
-          "WizardRod Turbo",
+          "WizardRod Tr",
           "WizardRod 1-60F",
           "WizardRod 5-60A"
         ]
@@ -77239,7 +77011,7 @@
         "rank": "2nd",
         "player": "Simon Supronimo",
         "combos": [
-          "WizardRod Turbo",
+          "WizardRod Tr",
           "WizardRod 1-80V",
           "WizardRod 3-70F"
         ]
@@ -77250,7 +77022,7 @@
         "combos": [
           "WizardRod 7-60Q",
           "WizardRod 1-60C",
-          "WizardRod M-85Under Flat"
+          "WizardRod M-85UF"
         ]
       }
     ],
@@ -77286,7 +77058,7 @@
         "player": "JBkai13",
         "combos": [
           "CobaltDragoon 5-60E",
-          "Blast Hornet Heavy 7-60K",
+          "HornetBlast H7-60K",
           "WizardRod 1-70H"
         ]
       },
@@ -77321,7 +77093,7 @@
         "player": "ColdFastFood",
         "combos": [
           "WizardRod 1-60K",
-          "StagBlast H9-60L",
+          "BucksBlast H9-60L",
           "SilverWolf 0-60H"
         ]
       },
@@ -79400,7 +79172,7 @@
         "rank": "3rd",
         "player": "Shuten Blaze",
         "combos": [
-          "RockGolem 7-60LR",
+          "GolemRock 7-60LR",
           "MummyCurse 9-60FB",
           "EmperorBlast H3-60L"
         ]
@@ -79450,7 +79222,7 @@
         "player": "Latte",
         "combos": [
           "ScorpioSpear 9-60FB",
-          "SharkScale Turbo",
+          "SharkScale Tr",
           "WyvernHover 1-60M",
           "EmperorBlast H9-60E"
         ]
@@ -79625,7 +79397,7 @@
         "rank": "2nd",
         "player": "JustA",
         "combos": [
-          "SharkScale Operate",
+          "SharkScale Op",
           "EmperorMight B1-60RA",
           "LeonFang F9-60H",
           "LeonFang H9-60H",
@@ -79667,7 +79439,7 @@
         "combos": [
           "EmperorBrave J5-60K",
           "DranArc H9-60LR",
-          "Antler Fox Slash 1-60H"
+          "FoxAntler S1-60H"
         ]
       },
       {
@@ -81792,7 +81564,7 @@
         "player": "Achilles X",
         "combos": [
           "ShelterDrake 1-70LR",
-          "Antler Valkerion Heavy 9-60K",
+          "ValkyrieAntler H9-60K",
           "MummyCurse 1-60LO",
           "Stun Medusa 9-60B",
           "GolemRock 3-60FB",
@@ -81849,7 +81621,7 @@
         "combos": [
           "WizardRod 1-60H",
           "SharkScale 9-60LR",
-          "HoverWyvern 9-70R"
+          "Hover Wyvern 9-70R"
         ]
       },
       {
@@ -82259,7 +82031,7 @@
         "player": "Beytality X",
         "combos": [
           "SharkScale 1-70R",
-          "AeroPegasus 9-60lowRush",
+          "AeroPegasus 9-60LR",
           "SilverWolf 9-70W"
         ]
       },
@@ -82758,10 +82530,10 @@
         "player": "HumanAirstrike",
         "combos": [
           "SolFlare D9-60T",
-          "HellsScythe Turbo",
+          "HellsScythe Tr",
           "KnightShield 1-70H",
           "EmperorBrave H4-60L",
-          "CerberusArc FreeM-85Under Needle"
+          "CerberusArc FM-85UN"
         ]
       },
       {
@@ -82841,7 +82613,7 @@
         "rank": "1st",
         "player": "knee",
         "combos": [
-          "Fort Hornet Round 7-60T",
+          "HornetFort R7-60T",
           "GolemRock 1-60UN",
           "Red Hulk 1-80R",
           "MeteorDragoon 3-70J"
@@ -82851,7 +82623,7 @@
         "rank": "2nd",
         "player": "Mr_Something_S",
         "combos": [
-          "EmperorMight HeavyOperate",
+          "EmperorMight HOp",
           "SharkScale 4-50UF",
           "UnicornSting 5-60GP"
         ]
@@ -82860,7 +82632,7 @@
         "rank": "3rd",
         "player": "Tryas_Markeys",
         "combos": [
-          "PegasusBlast AssaultTurbo",
+          "PegasusBlast ATr",
           "SharkScale 4-50UF",
           "DranSword 3-60F"
         ]
@@ -82896,7 +82668,7 @@
         "player": "morgorath",
         "combos": [
           "TyrannoBeat 7-70W",
-          "GolemRock Operate",
+          "GolemRock Op",
           "WyvernHover 1-70K"
         ]
       },
@@ -83683,7 +83455,7 @@
         "player": "soupy4K",
         "combos": [
           "WyvernGale 9-60FB",
-          "WyvernGale Operate",
+          "WyvernGale Op",
           "SharkScale 1-70LR",
           "WizardRod 1-60FB"
         ]
@@ -83871,7 +83643,7 @@
         "player": "Neyblade",
         "combos": [
           "Red Hulk 1-60LR",
-          "SilverWolf 9-90B",
+          "SilverWolf 9-60B",
           "TyrannoBeat 3-60R"
         ]
       },
@@ -86183,7 +85955,7 @@
         "rank": "2nd",
         "player": "Laughing Chaos",
         "combos": [
-          "ClockMirage 7-55FreeBall",
+          "ClockMirage 7-55FB",
           "PhoenixWing 9-60R",
           "SharkScale 1-70LR",
           "MummyCurse 1-60E",
@@ -88508,8 +88280,8 @@
         "combos": [
           "EmperorBlast H3-60LR",
           "SharkScale 1-60K",
-          "MeteorDragoon 9-70Rubber Accel -",
-          "KnightMail Operate",
+          "MeteorDragoon 9-70RA",
+          "KnightMail Op",
           "WizardRod 1-70FB"
         ]
       },
@@ -88519,7 +88291,7 @@
         "combos": [
           "CobaltDragoon 5-60E",
           "WizardRod 1-60H",
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "AeroPegasus 4-50LR",
           "FoxBlast H7-60L"
         ]
@@ -88593,7 +88365,7 @@
           "SharkScale 9-60FB",
           "AeroPegasus 1-60LR",
           "MeteorDragoon 7-70L",
-          "ClockMirage M-85Ball"
+          "ClockMirage M-85B"
         ]
       },
       {
@@ -88770,7 +88542,7 @@
         "rank": "1st",
         "player": "Anael616",
         "combos": [
-          "BiteCroc 9-60LR",
+          "CrocoCrunch 9-60LR",
           "GolemRock 7-60LO",
           "DracielShield 4-60BS",
           "WeissTiger 6-60K",
@@ -88783,7 +88555,7 @@
         "player": "Wildrose",
         "combos": [
           "Talon Ptera 5-60K",
-          "ReaperArc J7-60H",
+          "HellsArc J7-60H",
           "HellsHammer 5-80L"
         ]
       },
@@ -89220,7 +88992,7 @@
         "combos": [
           "SharkScale 4-50R",
           "Optimus Primal 1-60LR",
-          "Lightning L-Drago 7-60L"
+          "Lightning L-Drago (Upper Type) 7-60L"
         ]
       },
       {
@@ -91551,7 +91323,7 @@
         "combos": [
           "SharkScale 1-50LR",
           "WizardRod 1-60H",
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "SharkScale 3-60FB",
           "PhoenixWing 7-60J"
         ]
@@ -91560,7 +91332,7 @@
         "rank": "2nd",
         "player": "CoolBoyHarris",
         "combos": [
-          "HoverWyvern 7-60K",
+          "Hover Wyvern 7-60K",
           "WhaleWave 5-60R",
           "PhoenixWing 2-60LR",
           "GolemRock 7-80LO",
@@ -91574,7 +91346,7 @@
           "WizardRod 1-60H",
           "CobaltDragoon 5-60E",
           "AeroPegasus 3-60L",
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "SharkScale 1-50LR"
         ]
       }
@@ -91749,13 +91521,12 @@
         "rank": "2nd",
         "player": "Team Dai Gurren",
         "combos": [
-          "Darky_777",
           "SolBlast H3-60R",
           "AeroPegasus 1-50P",
           "SilverWolf 9-70H",
           "Hover Wyvern 9-60K",
           "SharkScale 1-50R",
-          "WizardRod 1-60FreeBall"
+          "WizardRod 1-60FB"
         ]
       },
       {
@@ -92016,7 +91787,7 @@
         "combos": [
           "PhoenixRudder 7-60W",
           "SharkEdge 1-60LR",
-          "Lightning L-Drago 3-60UF"
+          "Lightning L-Drago (Upper Type) 3-60UF"
         ]
       },
       {
@@ -92747,7 +92518,7 @@
         "rank": "1st",
         "player": "Wq5n",
         "combos": [
-          "Lightning L-Drago 3-60LF",
+          "Lightning L-Drago (Upper Type) 3-60LF",
           "WizardRod 9-60LO",
           "CobaltDragoon 5-60E"
         ]
@@ -92844,7 +92615,7 @@
         "rank": "2nd",
         "player": "Sleepy_Specter_",
         "combos": [
-          "WyvernHovern 1-50R",
+          "Hover Wyvern 1-50R",
           "SilverWolf 9-60FB",
           "SharkScale 3-60LR"
         ]
@@ -93774,9 +93545,9 @@
         "rank": "3rd",
         "player": "West Moon Dog",
         "combos": [
-          "Cobalt Dragoon 4-60Elevate, First & Final",
-          "Wizard Rod 1-60Ball, First & Final",
-          "Phoenix Wing 9-60Rush, First & Final"
+          "CobaltDragoon 4-60E",
+          "WizardRod 1-60B",
+          "PhoenixWing 9-60R"
         ]
       }
     ],
@@ -95568,7 +95339,7 @@
         "player": "Solical",
         "combos": [
           "MeteorDragoon 7-60L",
-          "Lightning L-Drago 1-60I"
+          "Lightning L-Drago (Upper Type) 1-60I"
         ]
       },
       {
@@ -96141,7 +95912,7 @@
         "rank": "2nd",
         "player": "Blader_N_",
         "combos": [
-          "WizardArrow M-85Quake",
+          "WizardArrow M-85Q",
           "ShinobiShadow 2-80M",
           "GhostCircle 1-80Y"
         ]
@@ -96387,7 +96158,7 @@
           "SharkScale 1-70R",
           "SharkScale 9-60K",
           "SharkScale 1-70K",
-          "Fort Knight Massive 6-70FB"
+          "KnightFort M6-70FB"
         ]
       }
     ],
@@ -96469,7 +96240,7 @@
         "combos": [
           "BahamutBlitz BH1-70J",
           "BahamutBlast K1-60LR",
-          "StagMight W3-60H"
+          "BucksMight W3-60H"
         ]
       },
       {
@@ -99802,7 +99573,7 @@
         "player": "Corvus_",
         "combos": [
           "PhoenixBlast F9-60L",
-          "SharkScale 1-50LowRush",
+          "SharkScale 1-50LR",
           "DranBuster 2-60I"
         ]
       },
@@ -99811,8 +99582,8 @@
         "player": "Triples34",
         "combos": [
           "PhoenixWing 1-60R",
-          "Hover Wyvern 3-80LowRush",
-          "SilverWolf 9-60FreeBall"
+          "Hover Wyvern 3-80LR",
+          "SilverWolf 9-60FB"
         ]
       }
     ],
@@ -100673,7 +100444,7 @@
         "player": "Bigdawg_Senju",
         "combos": [
           "WyvernHover 1-60LR",
-          "SilverWolf 9-60Wide Ball",
+          "SilverWolf 9-60WB",
           "ScorpioSpear 3-60FB"
         ]
       },
@@ -101032,14 +100803,14 @@
         "combos": [
           "PhoenixWing 1-60GR",
           "WizardRod 7-60H",
-          "BulletGriffon Point"
+          "BulletGriffon P"
         ]
       },
       {
         "rank": "3rd",
         "player": "Matheos",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "AeroPegasus 9-60R",
           "ValkyrieBlitz BH1-50K"
         ]
@@ -101121,7 +100892,7 @@
           "SharkScale 9-60FB",
           "AeroPegasus 3-60R",
           "WizardRod 1-60H",
-          "Fort Knight Heavy 7-60LR"
+          "KnightFort H7-60LR"
         ]
       },
       {
@@ -102593,7 +102364,7 @@
         "combos": [
           "WizardRod 1-60HN",
           "SharkScale 1-70J",
-          "BulletGriffon Rubber Accel"
+          "BulletGriffon RA"
         ]
       },
       {
@@ -102789,7 +102560,7 @@
         "rank": "3rd",
         "player": "WonderLaunch",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "AeroPegasus 1-80R",
           "WyvernHover 8-70K"
         ]
@@ -102992,7 +102763,7 @@
         "rank": "1st",
         "player": "Spriggan87",
         "combos": [
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "WizardRod 1-60P",
           "SharkScale 1-50LR"
         ]
@@ -103186,7 +102957,7 @@
         "rank": "3rd",
         "player": "Jackobie",
         "combos": [
-          "Lightning L-Drago M-85Merge",
+          "Lightning L-Drago (Upper Type) M-85M",
           "CobaltDragoon 2-70BS",
           "DragoonStorm 4-50GN"
         ]
@@ -103840,7 +103611,7 @@
         "rank": "2nd",
         "player": "RobsidianTV",
         "combos": [
-          "BulletGriffon Wall Ball",
+          "BulletGriffon WB",
           "SamuraiSaber 7-60B",
           "SamuraiCalibur 1-50LO"
         ]
@@ -104150,7 +103921,7 @@
         "rank": "2nd",
         "player": "Chris0621",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 1-50R",
           "CobaltDragoon 5-60E"
         ]
@@ -104206,7 +103977,7 @@
           "PhoenixWing 3-60R",
           "SharkScale 1-60LR",
           "SharkScale 2-60LR",
-          "StagAntler W9-60GN"
+          "BucksAntler W9-60GN"
         ]
       }
     ],
@@ -104597,7 +104368,7 @@
         "player": "Kirito1696",
         "combos": [
           "CobaltDragoon 9-60E",
-          "SharkScale 1-60Rush (",
+          "SharkScale 1-60R",
           "WizardRod 6-60H",
           "SharkScale 3-60FB",
           "AeroPegasus 1-60R"
@@ -104609,7 +104380,7 @@
         "combos": [
           "WizardRod 6-60H",
           "SharkScale 1-60LR",
-          "BulletGriffon Merge"
+          "BulletGriffon M"
         ]
       },
       {
@@ -104687,7 +104458,7 @@
         "player": "Modulus",
         "combos": [
           "WizardRod 1-60FB",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "SharkScale 1-70LR"
         ]
       },
@@ -104732,7 +104503,7 @@
         "player": "BuddyShiba",
         "combos": [
           "AeroPegasus 1-60R",
-          "ScaleShark 3-60J",
+          "SharkScale 3-60J",
           "SilverWolf 9-60FB"
         ]
       },
@@ -104821,27 +104592,27 @@
         "rank": "1st",
         "player": "gokubeyblfort67",
         "combos": [
-          "SharkScale 3-60R - Swiss",
-          "WizardRod 1-60FB - Swiss",
-          "EmperorBlast H9-60LR - Swiss"
+          "SharkScale 3-60R",
+          "WizardRod 1-60FB",
+          "EmperorBlast H9-60LR"
         ]
       },
       {
         "rank": "2nd",
         "player": "Infear",
         "combos": [
-          "SharkScale 1-50LR - Swiss",
-          "WizardRod 1-60H - Swiss",
-          "RagnaRage FH9-60L - Swiss"
+          "SharkScale 1-50LR",
+          "WizardRod 1-60H",
+          "RagnaRage FH9-60L"
         ]
       },
       {
         "rank": "3rd",
         "player": "Sambambino",
         "combos": [
-          "PhoenixWing 7-70L - Swiss",
-          "WizardRod 1-60B - Swiss",
-          "SharkScale 1-70FB - Swiss"
+          "PhoenixWing 7-70L",
+          "WizardRod 1-60B",
+          "SharkScale 1-70FB"
         ]
       }
     ],
@@ -105058,8 +104829,8 @@
         "rank": "2nd",
         "player": "Karask",
         "combos": [
-          "Emperor Blast Wheel 9-60L",
-          "Shark Scale 7-60R",
+          "EmperorBlast W9-60L",
+          "SharkScale 7-60R",
           "Hover Wyvern 3-60K"
         ]
       },
@@ -105067,7 +104838,7 @@
         "rank": "3rd",
         "player": "I_Initial_I",
         "combos": [
-          "Wizard Rod 1-60B",
+          "WizardRod 1-60B",
           "CobaltDragoon 9-60E",
           "Hover Wyvern 3-60LR"
         ]
@@ -105367,7 +105138,7 @@
         "player": "OGPinoyBlader",
         "combos": [
           "SharkScale 9-60LO",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "ValkyrieBlast F9-70LR"
         ]
       },
@@ -105686,7 +105457,7 @@
         "rank": "3rd",
         "player": "A/Royal",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WizardRod 1-60H",
           "SharkScale 1-50LR"
         ]
@@ -105727,7 +105498,7 @@
           "SharkScale 1-70LR",
           "EmperorDelta PH9-60K",
           "WizardRod 1-60FB",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       },
       {
@@ -105784,7 +105555,7 @@
         "combos": [
           "AeroPegasus 1-50R",
           "BahamutBlitz BH1-60LR",
-          "Fang Leon Heavy 7-60K",
+          "LeonFang H7-60K",
           "SharkScale 1-70FB"
         ]
       }
@@ -105866,7 +105637,7 @@
         "player": "ducktruck2",
         "combos": [
           "CobaltDragoon 5-60E",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SilverWolf 9-60FB"
         ]
       },
@@ -105990,7 +105761,7 @@
         "combos": [
           "WolfDelta PH3-60LR",
           "WizardRod 6-60H",
-          "ScaleShark 1-60R"
+          "SharkScale 1-60R"
         ]
       },
       {
@@ -106039,7 +105810,7 @@
           "MummyCurse 9-60W",
           "ClockMirage 7-55LO",
           "SharkScale 1-60H",
-          "BulletGriffon Trans Kick"
+          "BulletGriffon TK"
         ]
       }
     ],
@@ -106375,7 +106146,7 @@
         "player": "Banazama",
         "combos": [
           "SharkScale 3-60K",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "WizardRod 1-60FB",
           "WizardRod 1-60H",
           "ClockMirage 7-55FB"
@@ -106473,7 +106244,7 @@
         "rank": "2nd",
         "player": "AJ_Ripper",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 3-60LR",
           "CobaltDrake 9-60FB"
         ]
@@ -106555,7 +106326,7 @@
         "rank": "1st",
         "player": "Spriggan87",
         "combos": [
-          "Lightning L-Drago 7-60L",
+          "Lightning L-Drago (Upper Type) 7-60L",
           "WizardRod 1-60P",
           "SharkScale 4-50LR"
         ]
@@ -106581,7 +106352,7 @@
         "rank": "1st",
         "player": "Nai Blossom",
         "combos": [
-          "PhoenixWing 360R",
+          "PhoenixWing 3-60R",
           "WizardRod 1-60H",
           "SharkScale 3-70LR"
         ]
@@ -106665,7 +106436,7 @@
         "combos": [
           "ClockMirage 3-85DB",
           "KnightLance 3-60F",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -106681,7 +106452,7 @@
         "rank": "3rd",
         "player": "Daniel486",
         "combos": [
-          "FlameCerberus W5-80WB",
+          "CerberusFlame W5-80WB",
           "KnightFortress GV8-70UN",
           "RagnaRage FE4-55Y"
         ]
@@ -106707,7 +106478,7 @@
         "rank": "1st",
         "player": "ProfX",
         "combos": [
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -106785,7 +106556,7 @@
         "rank": "2nd",
         "player": "RetroStation",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 9-60FB",
           "WyvernHover 1-60J"
         ]
@@ -106821,7 +106592,7 @@
         "player": "supersonic330",
         "combos": [
           "UnicornDelta FH3-60K",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 9-60LR"
         ]
       },
@@ -106865,7 +106636,7 @@
         "player": "JurassicJ",
         "combos": [
           "SharkScale 1-60U",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "TyrannoBeat 1-70K"
         ]
       },
@@ -107128,7 +106899,7 @@
         "rank": "1st",
         "player": "tofusatsu",
         "combos": [
-          "BulletGriffon Rubber Accel",
+          "BulletGriffon RA",
           "AeroPegasus 1-50R",
           "DranStrike 9-70LR"
         ]
@@ -107146,7 +106917,7 @@
         "rank": "3rd",
         "player": "Chickenjoy",
         "combos": [
-          "BulletGriffon Rubber Accel",
+          "BulletGriffon RA",
           "SharkScale 9-60FB",
           "WizardRod 1-60H"
         ]
@@ -107174,7 +106945,7 @@
         "combos": [
           "KnightBlitz PO1-50LR",
           "SharkScale 1-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 9-60E",
           "SharkScale 9-60FB",
           "WizardRod 1-60H",
@@ -107194,7 +106965,7 @@
         "rank": "3rd",
         "player": "Dart Sweep",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "MeteorDragoon 9-60E",
           "MummyCurse 1-60W"
         ]
@@ -107492,7 +107263,7 @@
         "rank": "1st",
         "player": "supersonic330",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "UnicornDelta PH3-60K",
           "ValkyrieBlast S8-70LR"
         ]
@@ -107546,7 +107317,7 @@
         "player": "DarkuleFox",
         "combos": [
           "WizardRod 1-60R",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 4-50UF"
         ]
       },
@@ -107706,7 +107477,7 @@
         "player": "Signal T",
         "combos": [
           "SharkScale 1-70LR",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "EmperorFlare H9-60WW"
         ]
       }
@@ -107731,7 +107502,7 @@
         "rank": "1st",
         "player": "Apollyon Ignis",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "ClockMirage 7-55E",
           "WyvernHover 1-60R"
         ]
@@ -107784,11 +107555,11 @@
         "rank": "2nd",
         "player": "ICrazyEater",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "ValkyrieDelta FH7-60LR",
           "SharkScale 1-50K",
           "PhoenixWing 1-60W",
-          "Cutter Shinobi Elevate"
+          "Cutter Shinobi E"
         ]
       },
       {
@@ -107796,7 +107567,7 @@
         "player": "Broyeeto",
         "combos": [
           "MeteorDragoon 7-60L",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 3-60FB",
           "MeteorDragoon 7-60LR",
           "SamuraiSaber 9-60LR"
@@ -107824,8 +107595,8 @@
         "player": "SHAW",
         "combos": [
           "AeroPegasus 1-50R",
-          "BulletGriffon Hexa",
-          "BulletGriffon Unite",
+          "BulletGriffon H",
+          "BulletGriffon U",
           "ClockMirage 7-55UN",
           "SharkScale 1-70LR",
           "UnicornDelta PK1-60R",
@@ -107837,8 +107608,8 @@
         "player": "cypress4709",
         "combos": [
           "AeroPegasus 1-70R",
-          "BulletGriffon Disk Ball",
-          "BulletGriffon Kick",
+          "BulletGriffon DB",
+          "BulletGriffon K",
           "Soar Phoenix 1-50K",
           "ValkyrieBlast H9-60H"
         ]
@@ -108216,7 +107987,7 @@
           "RagnaDelta FH6-60H",
           "CobaltDragoon 9-60E",
           "SharkScale 1-60R",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -108380,7 +108151,7 @@
         "combos": [
           "WolfDelta PH3-60LR",
           "WizardRod 6-60H",
-          "ScaleShark 1-60R"
+          "SharkScale 1-60R"
         ]
       },
       {
@@ -108389,7 +108160,7 @@
         "combos": [
           "Hover Wyvern 9-60K",
           "WizardRod 6-60H",
-          "ScaleShark 7-60R"
+          "SharkScale 7-60R"
         ]
       },
       {
@@ -108626,7 +108397,7 @@
         "rank": "3rd",
         "player": "Rjustice0630",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 9-60FB",
           "WyvernHover 9-60K",
           "SharkScale 1-70LR",
@@ -108718,7 +108489,7 @@
         "player": "LocalMenace",
         "combos": [
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 9-60W"
         ]
       }
@@ -108976,7 +108747,7 @@
         "player": "Saber_x",
         "combos": [
           "WizardRod 1-60H",
-          "BulletGriffon Ball",
+          "BulletGriffon B",
           "AeroPegasus 9-60R"
         ]
       },
@@ -109119,7 +108890,7 @@
         "rank": "3rd",
         "player": "Esnupii",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "WizardRod 1-60H",
           "ScorpioSpear 7-60FB"
         ]
@@ -109200,7 +108971,7 @@
         "combos": [
           "PhoenixBlast F9-60FB",
           "SharkScale 1-70LR",
-          "BulletGriffon Rush"
+          "BulletGriffon R"
         ]
       },
       {
@@ -109427,7 +109198,7 @@
         "rank": "2nd",
         "player": "Djinn Buster",
         "combos": [
-          "BulletGriffon Point",
+          "BulletGriffon P",
           "SharkScale 1-60R",
           "CobaltDragoon 9-60E"
         ]
@@ -109511,7 +109282,7 @@
         "combos": [
           "AeroPegasus 1-60R",
           "WyvernHover 9-60K",
-          "BulletGriffon Unite"
+          "BulletGriffon U"
         ]
       },
       {
@@ -109528,7 +109299,7 @@
         "player": "Arfo",
         "combos": [
           "WyvernHover 9-60T",
-          "BulletGriffon Gear Point",
+          "BulletGriffon GP",
           "SharkScale 1-60FB"
         ]
       }
@@ -109602,7 +109373,7 @@
         "player": "SushiGrade",
         "combos": [
           "AeroPegasus 1-50R",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "WizardRod 9-60FB",
           "SharkScale 5-60L"
         ]
@@ -109620,7 +109391,7 @@
         "rank": "3rd",
         "player": "Daiō",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "PhoenixWing 3-60R",
           "SamuraiCalibur 9-60B"
         ]
@@ -109657,7 +109428,7 @@
         "combos": [
           "TyrannoBeat 2-70N",
           "KnightLance 6-60WW",
-          "HellsHammer M-85Under Needle"
+          "HellsHammer M-85UN"
         ]
       },
       {
@@ -109826,7 +109597,7 @@
         "player": "Christianfree3",
         "combos": [
           "SilverWolf 9-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDrake 5-60LF",
           "WyvernHover 1-60K",
           "SamuraiCalibur 9-70LR",
@@ -109925,7 +109696,7 @@
         "rank": "1st",
         "player": "Nola1000",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "SharkScale 1-50LR",
           "WizardRod 1-60H"
         ]
@@ -110018,7 +109789,7 @@
         "combos": [
           "CobaltDragoon 9-60E",
           "UnicornDelta PH3-60K",
-          "Lightning L-Drago 7-60L"
+          "Lightning L-Drago (Upper Type) 7-60L"
         ]
       },
       {
@@ -110027,7 +109798,7 @@
         "combos": [
           "SilverWolf 9-60FB",
           "PhoenixFlare H3-60LR",
-          "Lightning L-Drago 5-60E"
+          "Lightning L-Drago (Upper Type) 5-60E"
         ]
       },
       {
@@ -110060,7 +109831,7 @@
         "rank": "1st",
         "player": "bladekid",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "SharkEdge 1-50H",
           "MeteorDragoon 9-60E"
         ]
@@ -110106,7 +109877,7 @@
         "combos": [
           "AeroPegasus 1-50K",
           "AeroPegasus 1-60K",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "Soar Phoenix 3-60LR",
           "Wand Wizard 1-60H"
         ]
@@ -110154,7 +109925,7 @@
         "combos": [
           "KnightShield 7-70H",
           "Red Hulk 4-50U",
-          "RhinoHorn 1-80LowRush",
+          "RhinoHorn 1-80LR",
           "RhinoHorn 7-70F",
           "Obi-Wan Kenobi 6-60FB",
           "KnightShield 1-60UN",
@@ -110175,7 +109946,7 @@
         "combos": [
           "CobaltDrake 1-60K",
           "ShinobiShadow 1-50J",
-          "Red Hulk 4-70Igintion"
+          "Red Hulk 4-70I"
         ]
       }
     ],
@@ -110217,7 +109988,7 @@
         "rank": "3rd",
         "player": "Fireredx7964",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WizardRod 1-70H",
           "SharkScale 1-60L",
           "SharkScale 1-60R",
@@ -110296,7 +110067,7 @@
           "WizardRod 1-60H",
           "AeroPegasus 7-60R",
           "WizardRod 1-60B",
-          "BulletGriffonHexa",
+          "BulletGriffon H",
           "CerberusBlast W9-60H"
         ]
       },
@@ -110630,7 +110401,7 @@
         "player": "Modulus",
         "combos": [
           "WizardRod 1-60FB",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "SharkScale 1-70LR",
           "EmperorDelta PH9-60K"
         ]
@@ -110675,8 +110446,8 @@
         "player": "Hilpok",
         "combos": [
           "PhoenixWing 1-60R",
-          "Valor Bison Kick",
-          "BulletGriffon Level",
+          "Valor Bison K",
+          "BulletGriffon L",
           "SharkScale 9-60LO",
           "SharkScale 1-70LR",
           "SharkScale 3-60FB"
@@ -111024,7 +110795,7 @@
         "player": "Esnupii",
         "combos": [
           "ScorpioSpear 7-60FB",
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "WizardRod 1-60H"
         ]
       },
@@ -111297,7 +111068,7 @@
         "rank": "3rd",
         "player": "Rokki33",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 9-60E",
           "AeroPegasus 1-50R",
           "DranStrike 3-60R"
@@ -111475,7 +111246,7 @@
         "player": "SushiGrade",
         "combos": [
           "AeroPegasus 1-50R",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "WizardRod 9-60FB",
           "SharkScale 5-60L"
         ]
@@ -111768,7 +111539,7 @@
         "rank": "1st",
         "player": "almogKoren!",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "MummyCurse 1-60W",
           "WyvernHover 1-50J"
         ]
@@ -111910,7 +111681,7 @@
         "player": "tofusatsu",
         "combos": [
           "WizardRod 1-60RA",
-          "BulletGriffon Level",
+          "BulletGriffon L",
           "CobaltDragoon 9-60E"
         ]
       },
@@ -112079,7 +111850,7 @@
         "rank": "1st",
         "player": "CXE SBED",
         "combos": [
-          "Sharkscale 3-60freeball",
+          "Sharkscale 3-60FB",
           "WizardRod 1-60H",
           "EmperorBlast H9-60LR"
         ]
@@ -112090,7 +111861,7 @@
         "combos": [
           "CobaltDragoon 1-60E",
           "WizardRod 1-70K",
-          "SharkScale 6-60freeball"
+          "SharkScale 6-60FB"
         ]
       },
       {
@@ -112098,7 +111869,7 @@
         "player": "Cursed leviathan",
         "combos": [
           "EmperorBlast H9-60K",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "WizardRod 1-60H"
         ]
       }
@@ -112132,7 +111903,7 @@
         "rank": "2nd",
         "player": "FastTimes11",
         "combos": [
-          "WizardRod 7-60freeball",
+          "WizardRod 7-60FB",
           "Sharkscale 6-60J",
           "AeroPegasus 1-60K"
         ]
@@ -112346,7 +112117,7 @@
         "player": "Jok3rOW",
         "combos": [
           "WhaleWave 7-60K",
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "WizardRod 6-60H",
           "MeteorDragoon 7-60L",
           "SharkScale 1-70LR",
@@ -112361,7 +112132,7 @@
           "DranStrike 9-60K",
           "SharkScale 1-60R",
           "AeroPegasus 1-60R",
-          "BulletGriffon Merge"
+          "BulletGriffon M"
         ]
       },
       {
@@ -112369,7 +112140,7 @@
         "player": "Zerosaga9",
         "combos": [
           "MeteorDragoon 7-60L",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "DranStrike 3-60K"
         ]
       }
@@ -112560,7 +112331,7 @@
         "rank": "1st",
         "player": "WitchyCeleste",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 1-60LR",
           "DranStrike 1-50U"
         ]
@@ -112580,7 +112351,7 @@
         "combos": [
           "WyvernHover 1-60R",
           "SilverWolf 9-60H",
-          "BulletGriffon Point"
+          "BulletGriffon P"
         ]
       }
     ],
@@ -112663,10 +112434,10 @@
         "rank": "2nd",
         "player": "BHerb17",
         "combos": [
-          "Dark Perseus Bumper 9-60B",
+          "PerseusDark B9-60B",
           "DranBrave S3-60LR",
-          "Flame Cerberus Wheel 4-80H",
-          "Flame Cerberus Wheel 9-60H"
+          "CerberusFlame W4-80H",
+          "CerberusFlame W9-60H"
         ]
       },
       {
@@ -112869,7 +112640,7 @@
         "rank": "3rd",
         "player": "Blade Trinity",
         "combos": [
-          "HoverWyvern 6-60K",
+          "Hover Wyvern 6-60K",
           "KnightMail 3-60L",
           "SilverWolf 7-70H",
           "SharkScale 3-70R",
@@ -113300,7 +113071,7 @@
           "PhoenixWing 7-60L",
           "WyvernHover 9-60TK",
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -113320,7 +113091,7 @@
           "SharkScale 1-60R",
           "SharkScale 3-60R",
           "DranStrike 9-60K",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -113353,7 +113124,7 @@
         "rank": "2nd",
         "player": "Fireredx7964",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "SharkScale 1-60R",
           "EmperorBlast H9-60K",
           "WizardRod 1-70H",
@@ -113446,7 +113217,7 @@
         "player": "Big Bean Oozaru",
         "combos": [
           "GolemRock 1-60W",
-          "Valor Bison Rush",
+          "Valor Bison R",
           "WizardRod 1-70H"
         ]
       },
@@ -113528,7 +113299,7 @@
           "SharkScale 1-60R",
           "WizardRod 6-60H",
           "AeroPegasus 1-60R",
-          "BulletGriffon Merge"
+          "BulletGriffon M"
         ]
       },
       {
@@ -113544,10 +113315,10 @@
         "rank": "3rd",
         "player": "ToastyLoaf",
         "combos": [
-          "Shark Scale 9-60FB",
-          "Aero Pegasus 1-60R",
-          "Meteor Dragoon 7-60L",
-          "Aero Pegasus 1-60E"
+          "SharkScale 9-60FB",
+          "AeroPegasus 1-60R",
+          "MeteorDragoon 7-60L",
+          "AeroPegasus 1-60E"
         ]
       }
     ],
@@ -113617,9 +113388,9 @@
         "rank": "1st",
         "player": "ZClearMindZ:",
         "combos": [
-          "Shark Scale 9-60FreeBall",
-          "Wizard Rod 1-60H",
-          "Aero Pegasus 0-60R"
+          "SharkScale 9-60FB",
+          "WizardRod 1-60H",
+          "AeroPegasus 0-60R"
         ]
       },
       {
@@ -113627,17 +113398,17 @@
         "player": "DZannah:",
         "combos": [
           "Hover Wyvern 1-70D",
-          "Shark Scale 9-60UnderNeedle",
-          "Wizard Rod 1-60R"
+          "SharkScale 9-60UN",
+          "WizardRod 1-60R"
         ]
       },
       {
         "rank": "3rd",
         "player": "Aurousx:",
         "combos": [
-          "Soar Phoenix 3-60R",
-          "Shark Scale 1-50K",
-          "Knight Mail 9-60LowRush"
+          "PhoenixWing 3-60R",
+          "SharkScale 1-50K",
+          "KnightMail 9-60LR"
         ]
       }
     ],
@@ -113705,7 +113476,7 @@
         "rank": "1st",
         "player": "BlaydeArmy",
         "combos": [
-          "MummyCurse 1-70UnderNeedle",
+          "MummyCurse 1-70UN",
           "SilverWolf 9-60W",
           "WizardRod 1-60H"
         ]
@@ -113714,16 +113485,16 @@
         "rank": "2nd",
         "player": "Notshredder13",
         "combos": [
-          "GolemRock 9-60BoundSpike",
+          "GolemRock 9-60BS",
           "AeroPegasus 1-70L",
-          "SharkScale 1-50LowRush"
+          "SharkScale 1-50LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "Ryuzaki459",
         "combos": [
-          "SharkScale 4-50LowRush",
+          "SharkScale 4-50LR",
           "EmperorDelta PH9-60J",
           "Hover Wyvern 1-60K"
         ]
@@ -113837,7 +113608,7 @@
         "rank": "1st",
         "player": "Mashley13",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 9-60F",
           "GolemRock 1-60UN"
         ]
@@ -113882,7 +113653,7 @@
         "player": "Hachuu",
         "combos": [
           "WizardRod 6-60H",
-          "BulletGriffon Point",
+          "BulletGriffon P",
           "AeroPegasus 7-60R"
         ]
       },
@@ -113929,7 +113700,7 @@
         "rank": "1st",
         "player": "Silnight",
         "combos": [
-          "ScarletGaruda 1-50R",
+          "CrimsonGaruda 1-50R",
           "WizardRod 1-60H",
           "SharkScale 7-60OP"
         ]
@@ -113939,7 +113710,7 @@
         "player": "00Raizer",
         "combos": [
           "SharkScale 4-50UN",
-          "RockGolem 9-60FB",
+          "GolemRock 9-60FB",
           "WizardRod 7-70H"
         ]
       },
@@ -113947,7 +113718,7 @@
         "rank": "3rd",
         "player": "Quazy",
         "combos": [
-          "Meteor Dragoon 8-70L",
+          "MeteorDragoon 8-70L",
           "SharkScale 1-70K",
           "Aero Pegasus 1-50R"
         ]
@@ -114017,7 +113788,7 @@
         "rank": "1st",
         "player": "Tokeng",
         "combos": [
-          "StagMight F1-60H",
+          "BucksMight F1-60H",
           "EmperorBlast J6-60K",
           "KrakenFlare H9-60D"
         ]
@@ -114026,9 +113797,9 @@
         "rank": "2nd",
         "player": "BigOnion",
         "combos": [
-          "Kraken Wriggle F 6-70FB",
-          "Sol Eclipse T 4-50J",
-          "Hells Hunt D 9-60D"
+          "KrakenWriggle F6-70FB",
+          "SolEclipse T4-50J",
+          "HellsHunt D9-60D"
         ]
       },
       {
@@ -114036,8 +113807,8 @@
         "player": "Redu",
         "combos": [
           "EmperorBlast W7-60L",
-          "Wolf Might F 7-70H",
-          "Hells Brave H 1-60K"
+          "WolfMight F7-70H",
+          "HellsBrave H1-60K"
         ]
       }
     ],
@@ -114364,7 +114135,7 @@
         "combos": [
           "WizardRod 1-60FB",
           "EmperorDelta PH9-60K",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       },
       {
@@ -114551,7 +114322,7 @@
         "player": "Apollyon Ignis",
         "combos": [
           "WyvernHover 1-60R",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "ClockMirage 7-55E"
         ]
       },
@@ -114921,9 +114692,9 @@
         "rank": "1st",
         "player": "TalkingCapybara",
         "combos": [
-          "BulletGriffon Unite",
-          "BulletGriffon Free Flat",
-          "BulletGriffon Hexa"
+          "BulletGriffon U",
+          "BulletGriffon FF",
+          "BulletGriffon H"
         ]
       },
       {
@@ -114939,7 +114710,7 @@
         "rank": "3rd",
         "player": "Beyvid",
         "combos": [
-          "TyrannoBeat Operate",
+          "TyrannoBeat Op",
           "TyrannoBeat 1-60J",
           "TyrannoBeat 1-50LR"
         ]
@@ -114987,7 +114758,7 @@
         "combos": [
           "WizardRod 9-60L",
           "WolfFortress W9-70FB",
-          "BlastEmperor H1-60LF"
+          "EmperorBlast H1-60LF"
         ]
       }
     ],
@@ -115505,7 +115276,7 @@
         "combos": [
           "WyvernHover 9-60T",
           "DranStrike 7-70R",
-          "BulletGriffon Gear Point",
+          "BulletGriffon GP",
           "MeteorDragoon 7-60L",
           "SilverWolf 9-70FB",
           "SharkScale 1-70LR"
@@ -115532,7 +115303,7 @@
           "AeroPegasus 1-60R",
           "SharkScale 1-50LR",
           "WyvernHover 9-70T",
-          "BulletGriffon Unite"
+          "BulletGriffon U"
         ]
       }
     ],
@@ -115717,7 +115488,7 @@
           "WizardRod 1-60H",
           "CobaltDragoon 5-60E",
           "SharkScale 1-60J",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "SharkScale 9-60UN"
         ]
       }
@@ -115806,7 +115577,7 @@
         "combos": [
           "KnightMail 7-60LR",
           "TyrannoBeat 1-70R",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -115831,7 +115602,7 @@
         "player": "Ryuzaki459",
         "combos": [
           "CobaltDragoon 5-60E",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "WizardRod 1-60H"
         ]
       },
@@ -115839,16 +115610,16 @@
         "rank": "2nd",
         "player": "SurferStacy",
         "combos": [
-          "WhaleDelta FH3-60LowRush",
+          "WhaleDelta FH3-60LR",
           "MeteorDragoon 9-65E",
-          "SharkScale 9-60FreeBall"
+          "SharkScale 9-60FB"
         ]
       },
       {
         "rank": "3rd",
         "player": "D/D Rezael",
         "combos": [
-          "SharkScale 9-60FreeBall",
+          "SharkScale 9-60FB",
           "AeroPegasus 7-60R",
           "WizardRod 1-60H"
         ]
@@ -115894,7 +115665,7 @@
         "combos": [
           "CobaltDrake 1-50LR",
           "SharkScale 1-70L",
-          "BulletGriffon Unite"
+          "BulletGriffon U"
         ]
       }
     ],
@@ -116057,7 +115828,7 @@
           "WizardRod 3-60H",
           "SilverWolf 9-60FB",
           "SharkScale 1-60LR",
-          "StagAntler M1-80WB"
+          "BucksAntler M1-80WB"
         ]
       }
     ],
@@ -116225,7 +115996,7 @@
         "combos": [
           "Hack Viking 1-50LR",
           "ImpactDrake 9-60R",
-          "ReaperMight H4-60H"
+          "HellsMight H4-60H"
         ]
       },
       {
@@ -116268,7 +116039,7 @@
         "player": "SAINT♱CHROMA",
         "combos": [
           "WizardArrow 1-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 1-50J"
         ]
       },
@@ -116435,7 +116206,7 @@
         "player": "Teewava22",
         "combos": [
           "SharkScale 3-60LR",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "MeteorDragoon 7-60E"
         ]
       },
@@ -116509,14 +116280,14 @@
         "rank": "2nd",
         "player": "Unknown",
         "combos": [
-          "HoverWyvern 9-60R"
+          "Hover Wyvern 9-60R"
         ]
       },
       {
         "rank": "3rd",
         "player": "Unknown",
         "combos": [
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "WizardRod 1-80H"
         ]
       }
@@ -116572,14 +116343,14 @@
         "rank": "2nd",
         "player": "Unknown",
         "combos": [
-          "HoverWyvern 9-60R"
+          "Hover Wyvern 9-60R"
         ]
       },
       {
         "rank": "3rd",
         "player": "Unknown",
         "combos": [
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "WizardRod 1-80H"
         ]
       }
@@ -116622,7 +116393,7 @@
         "rank": "3rd",
         "player": "SAINT♱CHROMA",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WizardRod 1-60H",
           "SharkScale 1-70LR"
         ]
@@ -116659,7 +116430,7 @@
         "player": "OK Uncs",
         "combos": [
           "AeroPegasus 7-70L",
-          "GolemRock 9-60Bounce Spike",
+          "GolemRock 9-60BS",
           "MummyCurse 4-60H",
           "SharkScale 1-50LR"
         ]
@@ -117089,7 +116860,7 @@
         "combos": [
           "SilverWolf 3-80FB",
           "DranStrike 4-50FF",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -117250,7 +117021,7 @@
         "player": "Bedazzledbobcat",
         "combos": [
           "KnightMail 1-60R",
-          "BulletGriffon Kick"
+          "BulletGriffon K"
         ]
       },
       {
@@ -117266,7 +117037,7 @@
         "player": "SlimeDeer",
         "combos": [
           "KnightBlitz FH1-50K",
-          "StagBlast J1-60LR"
+          "BucksBlast J1-60LR"
         ]
       }
     ],
@@ -117290,7 +117061,7 @@
         "rank": "1st",
         "player": "Mobilitysphere",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "FoxBlast H5-60K",
           "PhoenixWing 7-60L",
           "TyrannoBeat 6-70LR",
@@ -117303,9 +117074,9 @@
         "combos": [
           "WizardRod 1-60H",
           "SilverWolf 9-60FB",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "WizardRod 9-60FB",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "DranStrike 3-60K"
         ]
       },
@@ -117956,7 +117727,7 @@
         "combos": [
           "WizardRod 1-60H",
           "SharkScale 1-70LR",
-          "BulletGriffon Rubber Accel"
+          "BulletGriffon RA"
         ]
       }
     ],
@@ -118266,7 +118037,7 @@
         "rank": "3rd",
         "player": "TheRedEyeGator",
         "combos": [
-          "RockGolem 7-60W",
+          "GolemRock 7-60W",
           "PegasusBlast H5-60J",
           "PhoenixWing 1-60R"
         ]
@@ -118311,7 +118082,7 @@
         "player": "Oversight",
         "combos": [
           "SharkScale 9-60LO",
-          "BulletGriffon Bound Spike",
+          "BulletGriffon BS",
           "ValkyrieEclipse K5-60K"
         ]
       }
@@ -118339,7 +118110,7 @@
           "DranSword 1-50K",
           "KnightShield 9-60W",
           "DranDagger 7-60U",
-          "Lightning L-Drago 9-60E"
+          "Lightning L-Drago (Upper Type) 9-60E"
         ]
       },
       {
@@ -118349,7 +118120,7 @@
           "DranSword 1-50R",
           "CrimsonGaruda 1-60K",
           "HellsScythe 9-60H",
-          "Valor Bison Level",
+          "Valor Bison L",
           "SharkEdge 9-60FB"
         ]
       },
@@ -118360,7 +118131,7 @@
           "Talon Ptera 3-60FB",
           "GhostCircle 1-60H",
           "SharkEdge 1-70LR",
-          "Valor Bison Level"
+          "Valor Bison L"
         ]
       }
     ],
@@ -118437,7 +118208,7 @@
         "rank": "1st",
         "player": "BlaydeArmy",
         "combos": [
-          "BrachioWhip BH3-60LowRush",
+          "BrachioWhip BH3-60LR",
           "SharkScale 1-70Nr",
           "WizardRod 1-60H"
         ]
@@ -118447,7 +118218,7 @@
         "player": "Voices",
         "combos": [
           "DranStrike 1-60L",
-          "AeroPegasus 1-70LowRush",
+          "AeroPegasus 1-70LR",
           "SharkScale 9-60J"
         ]
       },
@@ -118455,7 +118226,7 @@
         "rank": "3rd",
         "player": "SurferStacy",
         "combos": [
-          "Dran Strike 3-60LowRush",
+          "Dran Strike 3-60LR",
           "MeteorDragoon 9-65E",
           "WizardRod 1-60H"
         ]
@@ -118572,7 +118343,7 @@
         "rank": "1st",
         "player": "CrisisCrusher07",
         "combos": [
-          "SharkScale 9-60FreeBall",
+          "SharkScale 9-60FB",
           "WizardRod 6-60H",
           "CobaltDragoon 6-70E"
         ]
@@ -118629,7 +118400,7 @@
         "player": "Zerosaga9",
         "combos": [
           "DranStrike 9-60K",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "BahamutDelta PH3-60LR",
           "MeteorDragoon 7-60L",
           "SharkScale 1-60R"
@@ -118759,7 +118530,7 @@
           "CobaltDragoon 9-60E",
           "LeonClaw 3-60Nr",
           "SamuraiCalibur 1-60FB",
-          "Lightning L-Drago 9-60E",
+          "Lightning L-Drago (Upper Type) 9-60E",
           "CobaltDragoon 1-60Y"
         ]
       },
@@ -118768,7 +118539,7 @@
         "player": "soupy4K",
         "combos": [
           "PhoenixWing 3-60R",
-          "LeonClaw Operate",
+          "LeonClaw Op",
           "CobaltDragoon 9-60E"
         ]
       },
@@ -118823,7 +118594,7 @@
         "player": "daniel",
         "combos": [
           "AeroPegasus 1-60R",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "SharkScale 3-60LR",
           "AeroPegasus 7-60R"
         ]
@@ -118955,7 +118726,7 @@
         "rank": "3rd",
         "player": "Djinn Buster",
         "combos": [
-          "BulletGriffon Point",
+          "BulletGriffon P",
           "WizardRod 1-60H",
           "MeteorDragoon 9-60E",
           "AeroPegasus 7-60L"
@@ -119153,7 +118924,7 @@
         "rank": "2nd",
         "player": "Beyblade_Ray",
         "combos": [
-          "HoverWyvern 1-70J",
+          "Hover Wyvern 1-70J",
           "SharkScale 9-60FB",
           "WizardRod 1-60H",
           "XenoXcalibur 3-60GF"
@@ -119167,7 +118938,7 @@
           "DranStrike 6-60H",
           "DranStrike 6-60K",
           "DranStrike 3-60LR",
-          "HoverWyvern 7-60J",
+          "Hover Wyvern 7-60J",
           "MeteorDragoon 0-60L",
           "PhoenixWing 1-50R",
           "SharkScale 1-60FB"
@@ -119615,7 +119386,7 @@
           "WizardRod 1-60FB",
           "EmperorDelta PH9-60K",
           "AeroPegasus 1-60K",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       },
       {
@@ -119705,7 +119476,7 @@
         "player": "Theboom31",
         "combos": [
           "SamuraiCalibur 1-70T",
-          "SharkScale 1-60LowRush",
+          "SharkScale 1-60LR",
           "WizardRod 3-60H"
         ]
       },
@@ -119715,7 +119486,7 @@
         "combos": [
           "WizardRod 1-60H",
           "PhoenixWing 1-50R",
-          "SharkScale 3-60LowRush"
+          "SharkScale 3-60LR"
         ]
       },
       {
@@ -119969,7 +119740,7 @@
         "rank": "1st",
         "player": "FrenzyGG",
         "combos": [
-          "BulletGriffon Kick",
+          "BulletGriffon K",
           "SharkScale 1-70LR",
           "WizardRod 1-60H"
         ]
@@ -120057,7 +119828,7 @@
         "rank": "1st",
         "player": "Fireredx7964",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "MeteorDragoon 7-60L",
           "WyvernHover 9-60K",
           "ClockMirage 4-55UN"
@@ -120067,7 +119838,7 @@
         "rank": "2nd",
         "player": "danielson1234",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "CobaltDragoon 5-60E",
           "MeteorDragoon 7-70L",
           "HellsBlast H9-60K",
@@ -120710,7 +120481,7 @@
         "player": "Domestic Fork",
         "combos": [
           "WyvernHover 9-60K",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "MummyCurse 1-60E"
         ]
       },
@@ -120840,7 +120611,7 @@
         "combos": [
           "MummyCurse 3-60H",
           "SilverWolf 9-60FB",
-          "BulletGriffon Kick",
+          "BulletGriffon K",
           "GolemRock 9-60B",
           "WizardRod 1-60H",
           "SharkScale 3-60LO"
@@ -120851,7 +120622,7 @@
         "player": "sSumii",
         "combos": [
           "MummyCurse 1-50W",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "WyvernHover 9-60J",
           "WizardRod 1-60H",
           "SharkScale 1-60FB",
@@ -121098,7 +120869,7 @@
         "player": "BladingWarrior",
         "combos": [
           "AeroPegasus 9-60K",
-          "BulletGriffon Zap",
+          "BulletGriffon Z",
           "WizardRod 1-60H"
         ]
       },
@@ -121150,7 +120921,7 @@
         "rank": "2nd",
         "player": "Lawnmowerman",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 1-70LR",
           "WizardRod 9-60FB"
         ]
@@ -121243,7 +121014,7 @@
         "rank": "3rd",
         "player": "Vonvybe",
         "combos": [
-          "Bahamut Blitz BK 1-60LR",
+          "BahamutBlitz BK1-60LR",
           "MeteorDragoon 7-70E",
           "WyvernHover 9-60K"
         ]
@@ -121415,7 +121186,7 @@
         "combos": [
           "WizardRod 1-60FB",
           "CobaltDragoon 5-60E",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -121582,7 +121353,7 @@
         "player": "FatalFlaw",
         "combos": [
           "SilverWolf 3-80FB",
-          "TriceraPress M-85Bound Spike",
+          "TriceraPress M-85BS",
           "GolemRock 1-60UN"
         ]
       },
@@ -121592,7 +121363,7 @@
         "combos": [
           "CobaltDrake 4-60F",
           "SharkScale 4-50UF",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -121645,8 +121416,7 @@
         "player": "blade dolphin",
         "combos": [
           "HeavensRing 1-60H",
-          "MummyCurse 9-60W",
-          "SolEclipse 1-70L"
+          "MummyCurse 9-60W"
         ]
       }
     ],
@@ -121671,15 +121441,15 @@
         "player": "voltnutt",
         "combos": [
           "Wizard Rod 1-60J",
-          "Silver Wolf 9-60LO",
-          "Meteor Dragoon 7-70L"
+          "SilverWolf 9-60LO",
+          "MeteorDragoon 7-70L"
         ]
       },
       {
         "rank": "2nd",
         "player": "leo358",
         "combos": [
-          "Meteor Dragoon 0-60L",
+          "MeteorDragoon 0-60L",
           "Cobalt Dragoon 5-60E",
           "Aero Pegasus 1-60LR"
         ]
@@ -121688,9 +121458,9 @@
         "rank": "3rd",
         "player": "APasinThruBladr",
         "combos": [
-          "Mummy Curse 5-60RA",
-          "Shark Scale 4-50R",
-          "Orochi Cluster 1-60K"
+          "MummyCurse 5-60RA",
+          "SharkScale 4-50R",
+          "OrochiCluster 1-60K"
         ]
       }
     ],
@@ -122293,9 +122063,9 @@
         "rank": "1st",
         "player": "StarWolf_ice",
         "combos": [
-          "Lightning L-Drago 3-85DB",
+          "Lightning L-Drago (Upper Type) 3-85DB",
           "DragoonStorm 9-65M",
-          "GhostCircle M-85Ignition"
+          "GhostCircle M-85I"
         ]
       },
       {
@@ -122700,7 +122470,7 @@
         "player": "sword blader",
         "combos": [
           "DranStrike 9-60R",
-          "SharkScale 1-70LowRush",
+          "SharkScale 1-70LR",
           "WizardRod 6-60H"
         ]
       },
@@ -122717,9 +122487,8 @@
         "rank": "3rd",
         "player": "Sadghost",
         "combos": [
-          "HoverWyvern 7-80K",
-          "WizardRod 5-60H",
-          "RagnaRageHeavy 9-60LR"
+          "Hover Wyvern 7-80K",
+          "WizardRod 5-60H"
         ]
       }
     ],
@@ -122790,7 +122559,7 @@
         "rank": "1st",
         "player": "Sticky Ganisto",
         "combos": [
-          "HoverWyvern 9-60LR",
+          "Hover Wyvern 9-60LR",
           "KnightMail 7-70W",
           "RhinoBlast W3-70R",
           "WizardRod 1-60H"
@@ -122800,7 +122569,7 @@
         "rank": "2nd",
         "player": "VRTX_Tony",
         "combos": [
-          "HoverWyvern 9-60LR",
+          "Hover Wyvern 9-60LR",
           "PhoenixWing 3-60R",
           "SilverWolf 3-80H",
           "WizardRod 1-60FB"
@@ -123104,27 +122873,25 @@
         "rank": "1st",
         "player": "LordCremeBoujee",
         "combos": [
-          "Aero pegasus 1-60R",
-          "MeteorDragoon 9-60E",
-          "Delta H1-50LR"
+          "AeroPegasus 1-60R",
+          "MeteorDragoon 9-60E"
         ]
       },
       {
         "rank": "2nd",
         "player": "JoonsTer84",
         "combos": [
-          "Wizard rod 7-60H",
-          "Cobalt dragoon 5-60E",
-          "Shark scale 1-60LR"
+          "WizardRod 7-60H",
+          "CobaltDragoon 5-60E",
+          "SharkScale 1-60LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "ShadBawskers",
         "combos": [
-          "Delta H3-60K",
-          "aero pegasus 1-60R",
-          "shark scale 9-60Nr"
+          "AeroPegasus 1-60R",
+          "SharkScale 9-60Nr"
         ]
       }
     ],
@@ -123169,7 +122936,7 @@
         "rank": "3rd",
         "player": "VAPE",
         "combos": [
-          "HoverWyvern 1-50K",
+          "Hover Wyvern 1-50K",
           "SharkScale 1-70LR",
           "AeroPegasus 1-60R",
           "WizardRod 1-60H"
@@ -123207,7 +122974,7 @@
         "combos": [
           "SharkScale 4-50UF",
           "AeroPegasus 3-70A",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -123215,7 +122982,7 @@
         "player": "Octothorp3",
         "combos": [
           "SharkScale 4-50UF",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SamuraiSaber 5-60K"
         ]
       }
@@ -123330,7 +123097,7 @@
         "combos": [
           "GolemRock 6-60R",
           "SharkScale 1-60H",
-          "BulletGriffon Trans Kick",
+          "BulletGriffon TK",
           "GolemRock 1-50K",
           "TyrannoBeat 9-70LR",
           "PhoenixWing 5-60GR",
@@ -123531,7 +123298,7 @@
         "player": "OgMult1plex",
         "combos": [
           "MeteorDragoon 9-70L",
-          "BulletGriffon Point",
+          "BulletGriffon P",
           "WyvernHover 9-60FB"
         ]
       },
@@ -124140,27 +123907,27 @@
         "rank": "1st",
         "player": "blader union",
         "combos": [
-          "Shark Scale 7-60R",
-          "Wizard Rod 1-60H",
-          "Cobalt Dragoon 5-60E"
+          "SharkScale 7-60R",
+          "WizardRod 1-60H",
+          "CobaltDragoon 5-60E"
         ]
       },
       {
         "rank": "2nd",
         "player": "Kanztweetz",
         "combos": [
-          "Shark Scale 3-60R",
-          "Wizard Rod 1-60H",
-          "Cobalt Dragoon 9-60E"
+          "SharkScale 3-60R",
+          "WizardRod 1-60H",
+          "CobaltDragoon 9-60E"
         ]
       },
       {
         "rank": "3rd",
         "player": "Grumbling Grape",
         "combos": [
-          "Shark Scale 7-60R",
-          "Meteor Dragoon 9-60L",
-          "Wizard Rod 1-60H"
+          "SharkScale 7-60R",
+          "MeteorDragoon 9-60L",
+          "WizardRod 1-60H"
         ]
       }
     ],
@@ -124267,9 +124034,9 @@
         "rank": "3rd",
         "player": "DeceasedCrab",
         "combos": [
-          "WizardRod 6-90H",
+          "WizardRod 6-60H",
           "SharkScale 1-60R",
-          "BulletGriffon Merge"
+          "BulletGriffon M"
         ]
       }
     ],
@@ -124486,7 +124253,7 @@
         "combos": [
           "SharkScale 9-70Nr",
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -124503,7 +124270,7 @@
         "player": "Paradise6511",
         "combos": [
           "ScorpioSpear 9-60K",
-          "ClockMirage M-85Under Needle",
+          "ClockMirage M-85UN",
           "WizardRod 1-60H"
         ]
       }
@@ -124588,7 +124355,7 @@
         "combos": [
           "TyrannoBeat 3-70K",
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -124868,7 +124635,7 @@
           "GolemRock 7-60K",
           "WizardRod 1-60Nr",
           "SharkScale 9-60FB",
-          "MirageClock 4-55LO",
+          "ClockMirage 4-55LO",
           "WizardRod 1-60Nr",
           "SharkScale 9-60FB",
           "SharkScale 4-50UF"
@@ -125341,7 +125108,7 @@
         "combos": [
           "WizardRod 1-60H",
           "AeroPegasus 1-50L",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       },
       {
@@ -125354,7 +125121,7 @@
       },
       {
         "rank": "3rd",
-        "player": "SwordDran1247",
+        "player": "DranSword1247",
         "combos": [
           "WizardRod 1-60H",
           "DranStrike 4-50FF",
@@ -125477,7 +125244,7 @@
         "combos": [
           "AeroPegasus 1-60R",
           "WyvernHover 9-60K",
-          "BulletGriffon Unite"
+          "BulletGriffon U"
         ]
       },
       {
@@ -125521,7 +125288,7 @@
         "rank": "1st",
         "player": "Drago Master",
         "combos": [
-          "ShinobiShuriken Narrow",
+          "ShinobiShuriken Nr",
           "Red Hulk 7-60P",
           "GolemRock 3-60L"
         ]
@@ -126001,7 +125768,7 @@
         "rank": "2nd",
         "player": "Craveiro",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SilverWolf 9-60FB",
           "SharkScale 1-70LR"
         ]
@@ -126179,8 +125946,8 @@
         "rank": "2nd",
         "player": "lethoma",
         "combos": [
-          "Valor Bison Bound Spike",
-          "ShinobiShuriken Elevate",
+          "Valor Bison BS",
+          "ShinobiShuriken E",
           "LeonCrest 7-60Y"
         ]
       },
@@ -126400,7 +126167,7 @@
         "player": "ADblades",
         "combos": [
           "TyrannoBeat 6-60K",
-          "HoverWyvern 9-60J",
+          "Hover Wyvern 9-60J",
           "WizardRod 1-60H"
         ]
       },
@@ -126438,7 +126205,7 @@
         "player": "Team Starlight - yamijames & BeyFlare124",
         "combos": [
           "EmperorDelta J9-70O",
-          "Golem Rock 8-70FB",
+          "GolemRock 8-70FB",
           "ImpactDrake 7-80H",
           "ScorpioSpear 5-60P"
         ]
@@ -126637,8 +126404,8 @@
         "rank": "3rd",
         "player": "Senn",
         "combos": [
-          "HoverWyvern 1-70T",
-          "HoverWyvern 1-70K",
+          "Hover Wyvern 1-70T",
+          "Hover Wyvern 1-70K",
           "MummyCurse 7-60H",
           "MeteorDragoon 0-70L"
         ]
@@ -126761,7 +126528,7 @@
           "ShelterDrake 6-60J",
           "Venom 1-80I",
           "Venom 1-80C",
-          "MammothTusk 9-65WallBall"
+          "MammothTusk 9-65WB"
         ]
       }
     ],
@@ -126787,14 +126554,14 @@
         "combos": [
           "ValkyrieBlast W6-60H",
           "WizardRod 1-60FB",
-          "GloryValkyrie Rush"
+          "GloryValkyrie R"
         ]
       },
       {
         "rank": "2nd",
         "player": "bladern0",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "TyrannoBeat 1-60R",
           "SilverWolf 9-60FB"
         ]
@@ -126804,7 +126571,7 @@
         "player": "GreatSageEqual",
         "combos": [
           "AeroPegasus 1-70LR",
-          "ShinobiShuriken Elevate",
+          "ShinobiShuriken E",
           "WizardRod 1-60H"
         ]
       }
@@ -126829,16 +126596,16 @@
         "rank": "1st",
         "player": "SetzerAce",
         "combos": [
-          "Wizard Rod 1-60H",
+          "WizardRod 1-60H",
           "CobaltDragoon 9-60E",
-          "Shark Scale 7-60R"
+          "SharkScale 7-60R"
         ]
       },
       {
         "rank": "2nd",
         "player": "MysticBirdie",
         "combos": [
-          "Wizard Rod 1-60H",
+          "WizardRod 1-60H",
           "CobaltDragoon 9-60E",
           "Hover Wyvern 9-70K"
         ]
@@ -126847,9 +126614,9 @@
         "rank": "3rd",
         "player": "leo358",
         "combos": [
-          "Shark Scale 1-70R",
-          "Samurai Saber 9-60Nr",
-          "Wizard Rod 1-60FB"
+          "SharkScale 1-70R",
+          "SamuraiSaber 9-60Nr",
+          "WizardRod 1-60FB"
         ]
       }
     ],
@@ -126875,7 +126642,7 @@
         "combos": [
           "DranStrike 1-50J",
           "WizardRod 1-60Nr",
-          "SharkScale 6-60Freeball"
+          "SharkScale 6-60FB"
         ]
       },
       {
@@ -126883,7 +126650,7 @@
         "player": "GalaxyReaper",
         "combos": [
           "WizardRod 9-70H",
-          "BulletGriffon Level",
+          "BulletGriffon L",
           "PegasusBlast H1-60T"
         ]
       },
@@ -126892,7 +126659,7 @@
         "player": "OmegaCloud24",
         "combos": [
           "WizardRod 7-60H",
-          "SharkScale 1-60Freeball",
+          "SharkScale 1-60FB",
           "SilverWolf 9-60W"
         ]
       }
@@ -126935,7 +126702,7 @@
         "rank": "3rd",
         "player": "Laban Vanot",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 9-60E",
           "WizardRod 1-60K",
           "MeteorDragoon 9-60E"
@@ -127153,7 +126920,7 @@
           "MeteorDragoon 9-60E",
           "SharkScale 3-60R",
           "SharkScale 3-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "WizardRod 1-60K"
         ]
       },
@@ -127395,7 +127162,7 @@
           "SharkScale 1-70LR",
           "ValkyrieDelta PH9-60K",
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -127448,7 +127215,7 @@
         "player": "Achilles X",
         "combos": [
           "ValkyrieBlast G6-60H",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WizardRod 1-60FB"
         ]
       },
@@ -127535,7 +127302,7 @@
         "rank": "2nd",
         "player": "WackoBattleBeyz",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "SilverWolf 9-60FB",
           "SharkScale 1-70LR"
         ]
@@ -127886,7 +127653,7 @@
         "rank": "1st",
         "player": "Blader Vee",
         "combos": [
-          "GloryValkyrie Low Orb",
+          "GloryValkyrie LO",
           "WizardRod 1-60H",
           "MeteorDragoon 7-60L"
         ]
@@ -127904,7 +127671,7 @@
         "rank": "3rd",
         "player": "Gime-halo",
         "combos": [
-          "GloryValkyrie Rubber Accel",
+          "GloryValkyrie RA",
           "AeroPegasus 1-60K",
           "SharkScale 9-60FB"
         ]
@@ -128062,7 +127829,7 @@
         "rank": "1st",
         "player": "Sooomungey",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "MeteorDragoon 7-70L",
           "WizardRod 3-60H"
         ]
@@ -128080,8 +127847,8 @@
         "rank": "3rd",
         "player": "Godzillablade",
         "combos": [
-          "SilverWolf 96-0FreeBall",
-          "SharkScale 4-50LowRush",
+          "SilverWolf 9-60FB",
+          "SharkScale 4-50LR",
           "WizardRod 1-60H"
         ]
       }
@@ -128211,14 +127978,14 @@
         "combos": [
           "WizardRod 3-60H",
           "AeroPegasus 1-60R",
-          "SharkScale 1-70LowRush"
+          "SharkScale 1-70LR"
         ]
       },
       {
         "rank": "3rd",
         "player": "PortalJumper79",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "DranStrike 9-60K",
           "SharkScale 1-60FB"
         ]
@@ -128244,7 +128011,7 @@
         "rank": "1st",
         "player": "geetster99",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "DranStrike 9-60K",
           "SharkScale 1-70LR"
         ]
@@ -128253,8 +128020,8 @@
         "rank": "2nd",
         "player": "Xavier Bogard",
         "combos": [
-          "SilverWolf 9-60FreeBall ]",
-          "AeroPegasus 3-60FreeFlat",
+          "SilverWolf 9-60FB",
+          "AeroPegasus 3-60FF",
           "SharkScale 1-70R",
           "WizardRod 1-60H"
         ]
@@ -128509,7 +128276,7 @@
         "rank": "1st",
         "player": "Bleck3v3",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "AeroPegasus 1-60R",
           "WyvernHover 9-60K"
         ]
@@ -128574,7 +128341,7 @@
         "rank": "3rd",
         "player": "Sadghost",
         "combos": [
-          "HoverWyvern 2-70K",
+          "Hover Wyvern 2-70K",
           "WizardRod 5-60H",
           "SharkScale 1-50Q"
         ]
@@ -128786,7 +128553,7 @@
         "rank": "2nd",
         "player": "MaxGP",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 9-60E",
           "MeteorDragoon 7-60L"
         ]
@@ -128884,7 +128651,7 @@
         "player": "Nkazz",
         "combos": [
           "AeroPegasus 1-50K",
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "SharkScale 1-70L"
         ]
       }
@@ -129007,7 +128774,7 @@
         "player": "melon420",
         "combos": [
           "CrimsonGaruda 1-70GU",
-          "WhaleWave M-85Kick",
+          "WhaleWave M-85K",
           "SharkScale 1-60R"
         ]
       }
@@ -129085,7 +128852,7 @@
         "rank": "2nd",
         "player": "Sunbeam25",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "SilverWolf 9-60FB",
           "WizardRod 1-60LO"
         ]
@@ -129183,7 +128950,7 @@
         "player": "DragooMX",
         "combos": [
           "CobaltDragoon 7-70L",
-          "GloryValkyrie Hexa",
+          "GloryValkyrie H",
           "SharkScale 9-60FB"
         ]
       }
@@ -129210,7 +128977,7 @@
         "combos": [
           "SharkScale 1-60U",
           "AeroPegasus 1-80K",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -129226,8 +128993,8 @@
         "rank": "3rd",
         "player": "JA_Ripper",
         "combos": [
-          "BulletGriffon Level",
-          "GloryValkyrie Rush",
+          "BulletGriffon L",
+          "GloryValkyrie R",
           "TyrannoBeat 7-70K"
         ]
       }
@@ -129262,7 +129029,7 @@
         "player": "Apollyon Ignis",
         "combos": [
           "WyvernHover 1-60R",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "ClockMirage 7-55E"
         ]
       },
@@ -129298,25 +129065,25 @@
         "combos": [
           "Aero pegasus 1-50R",
           "Wizard rod 1-60H",
-          "Shark scale 1-70LR"
+          "SharkScale 1-70LR"
         ]
       },
       {
         "rank": "2nd",
         "player": "Knuck-Star",
         "combos": [
-          "Wizard rod 1-60H",
-          "Scorpio spear 9-60E",
-          "Aero pegasus 1-50FF"
+          "WizardRod 1-60H",
+          "ScorpioSpear 9-60E",
+          "AeroPegasus 1-50FF"
         ]
       },
       {
         "rank": "3rd",
         "player": "Tahu",
         "combos": [
-          "Wizard rod 1-60H",
-          "Cobalt Dragoon 9-60E",
-          "Aero pegasus 1-50R"
+          "WizardRod 1-60H",
+          "CobaltDragoon 9-60E",
+          "AeroPegasus 1-50R"
         ]
       }
     ],
@@ -129393,7 +129160,7 @@
         "rank": "2nd",
         "player": "DratiniKing10",
         "combos": [
-          "GloryValkyrie Elevate",
+          "GloryValkyrie E",
           "WizardRod 9-60FB",
           "SharkScale 1-60R",
           "KnightMail 7-70P"
@@ -129429,7 +129196,7 @@
         "rank": "1st",
         "player": "BladerCaleb",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "AeroPegasus 7-60R",
           "SharkScale 1-60LR"
         ]
@@ -129449,7 +129216,7 @@
         "combos": [
           "WyvernHover 7-60LO",
           "CerberusRage FW9-60K",
-          "BulletGriffon Kick"
+          "BulletGriffon K"
         ]
       }
     ],
@@ -129474,7 +129241,7 @@
         "player": "jaykev",
         "combos": [
           "WizardRod 1-60FB",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "SharkScale 1-70LR"
         ]
       },
@@ -129605,7 +129372,7 @@
         "rank": "1st",
         "player": "stimata",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "AeroPegasus 1-50R",
           "SharkScale 5-60FB",
           "WizardRod 1-60H"
@@ -129615,7 +129382,7 @@
         "rank": "2nd",
         "player": "Maple X",
         "combos": [
-          "GloryValkyrie RubberAccel",
+          "GloryValkyrie RA",
           "CobaltDragoon 9-60E",
           "MeteorDragoon 7-70L"
         ]
@@ -129624,7 +129391,7 @@
         "rank": "3rd",
         "player": "J-Riddle",
         "combos": [
-          "DranStrike 3-60LowRush",
+          "DranStrike 3-60LR",
           "AeroPegasus 1-60K",
           "EmperorBlast H9-60H"
         ]
@@ -129654,7 +129421,7 @@
         "rank": "1st",
         "player": "AresEons",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "CobaltDragoon 5-60E",
           "SamuraiCalibur 9-60LO",
           "SilverWolf 9-60FB",
@@ -129679,7 +129446,7 @@
         "player": "sSumii",
         "combos": [
           "WhaleWave 4-50LR",
-          "ShinobiShuriken Kick",
+          "ShinobiShuriken K",
           "MummyCurse 1-50W",
           "SamuraiSaber 9-60L",
           "SamuraiCalibur 1-60FB",
@@ -129776,7 +129543,7 @@
         "rank": "3rd",
         "player": "Andy Kapish",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WizardRod 1-60H",
           "CobaltDragoon 9-60E",
           "SharkScale 1-70LR",
@@ -129804,7 +129571,7 @@
         "rank": "1st",
         "player": "Liam Felipe",
         "combos": [
-          "BulletGriffon Rush",
+          "BulletGriffon R",
           "MeteorDragoon 9-60E",
           "SharkScale 1-60FB"
         ]
@@ -129813,7 +129580,7 @@
         "rank": "2nd",
         "player": "Enixity",
         "combos": [
-          "BulletGriffon Level",
+          "BulletGriffon L",
           "PhoenixWing 1-60R",
           "SharkScale 3-60K"
         ]
@@ -129859,7 +129626,7 @@
         "rank": "2nd",
         "player": "sfritts10",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WizardRod 1-60H",
           "MeteorDragoon 7-60L"
         ]
@@ -129870,7 +129637,7 @@
         "combos": [
           "ValkyrieBlast W6-60H",
           "WizardRod 1-60FB",
-          "GloryValkyrie Rush"
+          "GloryValkyrie R"
         ]
       }
     ],
@@ -129904,7 +129671,7 @@
         "player": "Achilles X",
         "combos": [
           "WizardRod 1-60FB",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -130050,7 +129817,7 @@
         "combos": [
           "MeteorDragoon 7-70L",
           "CobaltDragoon 9-60Y",
-          "Lightning L-Drago 1-60Z"
+          "Lightning L-Drago (Upper Type) 1-60Z"
         ]
       },
       {
@@ -130147,8 +129914,8 @@
         "rank": "3rd",
         "player": "Matheos",
         "combos": [
-          "Valor Bison Hexa",
-          "ShinobiShuriken Elevate",
+          "Valor Bison H",
+          "ShinobiShuriken E",
           "UnicornSting 9-60K"
         ]
       }
@@ -130178,7 +129945,7 @@
         "combos": [
           "Wizard Rod 7-60H",
           "DranStrike 6-60K",
-          "Shark Scale 9-60LO"
+          "SharkScale 9-60LO"
         ]
       },
       {
@@ -130186,15 +129953,15 @@
         "player": "That_Guy_Mitch",
         "combos": [
           "Wizard Rod 1-60H",
-          "Shark Scale 3-60LR",
-          "Meteor Dragoon 7-60L"
+          "SharkScale 3-60LR",
+          "MeteorDragoon 7-60L"
         ]
       },
       {
         "rank": "3rd",
         "player": "CapnNapn_",
         "combos": [
-          "Shark Scale 1-70Freeball",
+          "SharkScale 1-70FB",
           "PhoenixWing 3-60LR",
           "Hover Wyvern 9-60K"
         ]
@@ -130283,7 +130050,7 @@
         "player": "Requateer",
         "combos": [
           "SharkScale 3-60Nr",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WyvernHover 1-50LR"
         ]
       }
@@ -130353,7 +130120,7 @@
         "player": "0cean",
         "combos": [
           "AeroPegasus 1-50R",
-          "GloryValkyrie Level",
+          "GloryValkyrie L",
           "WizardRod 1-60FB"
         ]
       },
@@ -130371,7 +130138,7 @@
         "player": "MikolsWorld",
         "combos": [
           "SolBlast H3-60K",
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "SharkScale 1-50LR"
         ]
       }
@@ -130414,7 +130181,7 @@
         "rank": "3rd",
         "player": "VicDaMan",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "AeroPegasus 9-60K",
           "SharkScale 3-60FB"
         ]
@@ -130458,7 +130225,7 @@
         "rank": "3rd",
         "player": "VicDaMan",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "AeroPegasus 7-60R",
           "SharkScale 3-60FB"
         ]
@@ -130536,10 +130303,10 @@
         "player": "Unknown",
         "combos": [
           "WizardRod 1-60H",
-          "SharkScale 7-60FreeBall",
+          "SharkScale 7-60FB",
           "MeteorDragoon 5-70L",
           "MeteorDragoon 7-60L",
-          "GustBat 9-60T",
+          "BatGust 9-60T",
           "DranStrike 4-50FF"
         ]
       },
@@ -130709,7 +130476,7 @@
           "SamuraiCalibur 9-60J",
           "KnightMail 1-60R",
           "ClockMirage 7-55LO",
-          "ShinobiShuriken Elevate",
+          "ShinobiShuriken E",
           "MeteorDragoon 7-60L",
           "GolemRock 6-60FB"
         ]
@@ -130759,7 +130526,7 @@
         "rank": "1st",
         "player": "MikolsWorld",
         "combos": [
-          "GloryValkyrie Disk Ball",
+          "GloryValkyrie DB",
           "SharkScale 1-50LR",
           "SolBlast H3-60K"
         ]
@@ -130785,7 +130552,7 @@
         "rank": "1st",
         "player": "Tarxan",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "SharkScale 1-60LR",
           "SilverWolf 9-60FB",
           "DranStrike 3-60K"
@@ -130797,7 +130564,7 @@
         "combos": [
           "SharkScale 3-60Nr",
           "AeroPegasus 1-60LR",
-          "GloryValkyrie Rush"
+          "GloryValkyrie R"
         ]
       },
       {
@@ -130839,7 +130606,7 @@
         "rank": "2nd",
         "player": "Nkazz",
         "combos": [
-          "GloryValkyrie Disk Ball",
+          "GloryValkyrie DB",
           "AeroPegasus 1-60R",
           "SharkScale 1-70LR"
         ]
@@ -130876,7 +130643,7 @@
         "combos": [
           "SharkScale 9-60FB",
           "AeroPegasus 1-50R",
-          "GloryValkyrie Level"
+          "GloryValkyrie L"
         ]
       },
       {
@@ -131063,7 +130830,7 @@
         "rank": "1st",
         "player": "BladerJL",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "DranStrike 9-60K",
           "AeroPegasus 1-60R"
         ]
@@ -131081,7 +130848,7 @@
         "rank": "3rd",
         "player": "CashX",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "UnicornDelta PJ9-60O",
           "HeavensRing 1-70FB"
         ]
@@ -131163,7 +130930,7 @@
           "PegasusBlast H3-60LR",
           "AeroPegasus 9-60R",
           "MeteorDragoon 7-60L",
-          "GloryValkyrie Level"
+          "GloryValkyrie L"
         ]
       },
       {
@@ -131173,7 +130940,7 @@
           "SharkScale 3-60LR",
           "CobaltDragoon 5-60E",
           "DranStrike 7-60R",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -131217,7 +130984,7 @@
         "combos": [
           "ValkyrieDelta FH1-60K",
           "EmperorRage PJ9-60L",
-          "GloryValkyrie Rubber Accel"
+          "GloryValkyrie RA"
         ]
       }
     ],
@@ -131250,7 +131017,7 @@
         "rank": "2nd",
         "player": "VicDaMan",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "AeroPegasus 7-60R",
           "SharkScale 3-60FB"
         ]
@@ -131329,7 +131096,7 @@
         "rank": "1st",
         "player": "bladern0",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "SilverWolf 9-60FB",
           "WizardRod 1-60H"
         ]
@@ -131421,7 +131188,7 @@
         "player": "Exia",
         "combos": [
           "SharkScale 7-60R",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "WizardRod 1-60FB"
         ]
       },
@@ -131566,9 +131333,9 @@
         "combos": [
           "AeroPegasus 1-60R",
           "SharkScale 1-70LR",
-          "GloryValkyrie Free Flat",
+          "GloryValkyrie FF",
           "CobaltDragoon 5-60E",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "DrakeBlast H9-60"
         ]
       },
@@ -131578,7 +131345,7 @@
         "combos": [
           "WyvernHover 7-60LO",
           "CerberusRage FW9-60K",
-          "BulletGriffon Low Rush",
+          "BulletGriffon LR",
           "Iron Man 3-80L",
           "WizardRod 1-60H",
           "CobaltDragoon 5-60E"
@@ -131616,7 +131383,7 @@
         "combos": [
           "ClockMirage 4-55UN",
           "MeteorDragoon 1-60E",
-          "BulletGriffon Merge"
+          "BulletGriffon M"
         ]
       },
       {
@@ -131649,7 +131416,7 @@
         "rank": "1st",
         "player": "jubert",
         "combos": [
-          "GloryValkyrie Taper",
+          "GloryValkyrie T",
           "SharkScale 3-60FB",
           "AeroPegasus 1-60R"
         ]
@@ -131669,7 +131436,7 @@
         "combos": [
           "SharkScale 5-60FB",
           "WizardRod 1-60Nr",
-          "GloryValkyrie Low Orb"
+          "GloryValkyrie LO"
         ]
       }
     ],
@@ -131693,7 +131460,7 @@
         "rank": "1st",
         "player": "NamicThe1st",
         "combos": [
-          "AeroPegasus 1-50Freeflat",
+          "AeroPegasus 1-50FF",
           "TyrannoBeat 8-70R"
         ]
       },
@@ -131701,7 +131468,7 @@
         "rank": "2nd",
         "player": "Crona1171",
         "combos": [
-          "DranStrike 3-60Lowrush",
+          "DranStrike 3-60LR",
           "PhoenixWing 1-60R"
         ]
       },
@@ -131739,7 +131506,7 @@
         "player": "azmattman",
         "combos": [
           "KnightBlast W9-60FB",
-          "GloryValkyrie Ignition"
+          "GloryValkyrie I"
         ]
       },
       {
@@ -131869,8 +131636,8 @@
         "player": "ToastyLoaf",
         "combos": [
           "AeroPegasus 3-60R",
-          "GloryValkyrie Low Rush",
-          "GloryValkyrie Elevate",
+          "GloryValkyrie LR",
+          "GloryValkyrie E",
           "SharkScale 9-60FB",
           "MeteorDragoon 7-60L",
           "UnicornDelta PH3-60LR"
@@ -131889,9 +131656,9 @@
         "rank": "3rd",
         "player": "Jok3rOW",
         "combos": [
-          "GloryValkyrie Low Rush",
-          "Shark Scale 1-60R",
-          "Dran Strike 9-60K"
+          "GloryValkyrie LR",
+          "SharkScale 1-60R",
+          "DranStrike 9-60K"
         ]
       }
     ],
@@ -131936,7 +131703,7 @@
         "combos": [
           "SharkScale 1-60R",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie LR"
         ]
       }
     ],
@@ -132059,7 +131826,7 @@
         "combos": [
           "ValkyrieVolt S4-70V",
           "ImpactDrake 9-60LR",
-          "GloryValkyrie Low Flat"
+          "GloryValkyrie LF"
         ]
       },
       {
@@ -132093,7 +131860,7 @@
         "player": "Team WhateverIWant",
         "combos": [
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SharkScale 9-60Nr"
         ]
       },
@@ -132154,7 +131921,7 @@
         "rank": "3rd",
         "player": "ShadBawskers",
         "combos": [
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "SharkScale 3-60LR",
           "SharkScale 1-60FB",
           "MeteorDragoon 9-60E"
@@ -132234,7 +132001,7 @@
         "rank": "2nd",
         "player": "Ohniy522 ($120)",
         "combos": [
-          "WizardRod 1-60Hex",
+          "WizardRod 1-60H",
           "SharkScale 3-60FB",
           "BulletGriffon J"
         ]
@@ -132243,11 +132010,11 @@
         "rank": "3rd",
         "player": "Hottest1022 ($50)",
         "combos": [
-          "GloryValkyrie Kick",
-          "WizardRod 1-60Hex",
+          "GloryValkyrie K",
+          "WizardRod 1-60H",
           "SharkScale 3-60J",
-          "EmperorFortress OW9-60Hex",
-          "BulletGriffon Jolt",
+          "EmperorFortress OW9-60H",
+          "BulletGriffon J",
           "Dranstrike 4-50FF"
         ]
       }
@@ -132336,7 +132103,7 @@
         "combos": [
           "WizardRod 1-60U",
           "SharkScale 9-60Nr",
-          "GloryValkyrie Level"
+          "GloryValkyrie L"
         ]
       }
     ],
@@ -132360,7 +132127,7 @@
         "rank": "1st",
         "player": "AsurasRage",
         "combos": [
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "SharkScale 3-60J",
           "WizardRod 1-60H"
         ]
@@ -132506,7 +132273,7 @@
         "combos": [
           "WizardRod 1-60H",
           "SharkScale 4-50LR",
-          "GloryValkyrie Yielding"
+          "GloryValkyrie Y"
         ]
       }
     ],
@@ -132587,7 +132354,7 @@
         "combos": [
           "SharkScale 1-50LR",
           "AeroPegasus 1-60K",
-          "GloryValkyrie Rush"
+          "GloryValkyrie R"
         ]
       },
       {
@@ -132640,7 +132407,7 @@
         "combos": [
           "SharkScale 1-60LR",
           "SilverWolf 9-60FB",
-          "Glory Valkyrie Rush"
+          "GloryValkyrie R"
         ]
       }
     ],
@@ -132683,7 +132450,7 @@
         "player": "MikolsWorld",
         "combos": [
           "WizardRod 1-60R",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SharkScale 1-50LR"
         ]
       }
@@ -132711,7 +132478,7 @@
           "PhoenixWing 1-60H",
           "SamuraiCalibur 3-60J",
           "CobaltDragoon 5-60E",
-          "HoverWyvern 9-60K",
+          "Hover Wyvern 9-60K",
           "TyrannoBeat 7-70P",
           "KnightShield 7-60UN"
         ]
@@ -132737,7 +132504,7 @@
         "rank": "1st",
         "player": "Nkazz",
         "combos": [
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "AeroPegasus 1-60K",
           "SharkScale 1-70L"
         ]
@@ -132915,7 +132682,7 @@
         "combos": [
           "MeteorDragoon 1-60E",
           "AeroPegasus 1-70W",
-          "BulletGriffon Unite"
+          "BulletGriffon U"
         ]
       }
     ],
@@ -132960,7 +132727,7 @@
         "player": "Buusensei",
         "combos": [
           "BahamutBlitz BH1-60K",
-          "GloryValkyrie Ball",
+          "GloryValkyrie B",
           "DranStrike 6-60LR"
         ]
       }
@@ -133031,7 +132798,7 @@
         "combos": [
           "SharkScale 4-50LR",
           "CobaltDragoon 9-60E",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
@@ -133078,7 +132845,7 @@
         "combos": [
           "WizardRod 7-60Nr",
           "SharkScale 1-60FB",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
@@ -133087,7 +132854,7 @@
         "combos": [
           "WizardRod 1-60FB",
           "SharkScale 1-70LR",
-          "GloryValkyrie Narrow"
+          "GloryValkyrie Nr"
         ]
       },
       {
@@ -133096,7 +132863,7 @@
         "combos": [
           "AeroPegasus 1-60R",
           "SharkScale 3-60FB",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       }
     ],
@@ -133199,7 +132966,7 @@
         "rank": "2nd",
         "player": "Bopha_Deez",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "EmperorBlast H9-60LR",
           "WizardRod 1-60H"
         ]
@@ -133254,7 +133021,7 @@
         "combos": [
           "AeroPegasus 1-60R",
           "PegasusBlast H9-60K",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -133304,7 +133071,7 @@
           "WizardRod 1-70R",
           "MummyCurse 7-60N",
           "CobaltDragoon 5-60E",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       }
     ],
@@ -133348,7 +133115,7 @@
         "player": "CashX",
         "combos": [
           "MeteorDragoon 7-60E",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "HeavensRing 1-50FB"
         ]
       }
@@ -133420,8 +133187,8 @@
           "DranStrike 3-70R",
           "SharkScale 9-60Nr",
           "WizardRod 1-60H",
-          "GloryValkyrie Kick",
-          "BulletGriffon Jolt",
+          "GloryValkyrie K",
+          "BulletGriffon J",
           "WizardRod 9-60LO"
         ]
       },
@@ -133517,7 +133284,7 @@
         "rank": "1st",
         "player": "Blader Vee",
         "combos": [
-          "GloryValkyrie Low Orb",
+          "GloryValkyrie LO",
           "WizardRod 1-60H",
           "MeteorDragoon 7-60L",
           "SilverWolf 9-60FB"
@@ -133530,7 +133297,7 @@
           "MeteorDragoon 9-60E",
           "AeroPegasus 1-70L",
           "WizardRod 1-60FB",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -133539,7 +133306,7 @@
         "combos": [
           "SilverWolf 9-60W",
           "SharkScale 3-60LR",
-          "ShinobiShuriken Wall Ball",
+          "ShinobiShuriken WB",
           "MummyCurse 7-60H"
         ]
       }
@@ -133573,7 +133340,7 @@
         "rank": "2nd",
         "player": "sm| Aceofspades",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WizardRod 1-60H",
           "SharkScale 1-70LR"
         ]
@@ -133654,7 +133421,7 @@
         "combos": [
           "AeroPegasus 1-70R",
           "SharkScale 3-60Nr",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
@@ -133705,8 +133472,8 @@
         "rank": "2nd",
         "player": "Spin Limited",
         "combos": [
-          "GloryValkyrie Trans Kick",
-          "BulletGriffon Jolt",
+          "GloryValkyrie TK",
+          "BulletGriffon J",
           "AeroPegasus 6-60H"
         ]
       },
@@ -133740,8 +133507,8 @@
         "rank": "1st",
         "player": "AndrewKujo",
         "combos": [
-          "GloryValkyrie Rubber Accel",
-          "BulletGriffon Unite",
+          "GloryValkyrie RA",
+          "BulletGriffon U",
           "AeroPegasus 1-50LR"
         ]
       },
@@ -133758,7 +133525,7 @@
         "rank": "3rd",
         "player": "Stormfalls",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "WizardRod 1-60FB",
           "SharkScale 1-70LR"
         ]
@@ -133798,7 +133565,7 @@
         "combos": [
           "AeroPegasus 1-50LR",
           "WizardRod 9-60FB",
-          "GloryValkyrie High Taper"
+          "GloryValkyrie HT"
         ]
       },
       {
@@ -133849,7 +133616,7 @@
         "rank": "3rd",
         "player": "Kaisel",
         "combos": [
-          "GloryValkyrie Taper",
+          "GloryValkyrie T",
           "AeroPegasus 1-70R",
           "SharkScale 9-60FB"
         ]
@@ -133921,14 +133688,14 @@
         "combos": [
           "PhoenixRudder 1-60RA",
           "WizardArrow 1-70Nr",
-          "ShinobiShuriken Elevate"
+          "ShinobiShuriken E"
         ]
       },
       {
         "rank": "2nd",
         "player": "Ra88it",
         "combos": [
-          "Valor Bison Rubber Accel",
+          "Valor Bison RA",
           "SharkEdge 1-60K",
           "UnicornSting 9-60Nr"
         ]
@@ -133939,7 +133706,7 @@
         "combos": [
           "DranDagger 7-60LR",
           "UnicornSting 1-60K",
-          "Valor Bison Hexa"
+          "Valor Bison H"
         ]
       }
     ],
@@ -133983,7 +133750,7 @@
         "combos": [
           "SharkScale 7-60FB",
           "HeavensRing 3-60H",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       }
     ],
@@ -134053,7 +133820,7 @@
         "combos": [
           "SharkScale 3-60FB",
           "AeroPegasus 1-60R",
-          "GloryValkyrie Taper"
+          "GloryValkyrie T"
         ]
       },
       {
@@ -134141,7 +133908,7 @@
         "combos": [
           "CobaltDragoon 5-60E",
           "MeteorDragoon 7-60L",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -134149,7 +133916,7 @@
         "player": "Takayashi",
         "combos": [
           "SharkScale 3-60LR",
-          "GloryValkyrie Level",
+          "GloryValkyrie L",
           "WyvernHover 9-60J"
         ]
       },
@@ -134157,8 +133924,8 @@
         "rank": "3rd",
         "player": "Llama",
         "combos": [
-          "GloryValkyrie Low Rush",
-          "HellsNether Free Ball",
+          "GloryValkyrie LR",
+          "HellsNether FB",
           "SharkScale 9-60R"
         ]
       }
@@ -134227,7 +133994,7 @@
         "rank": "1st",
         "player": "originalzankye",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WizardRod 1-60J",
           "SharkScale 9-60FB"
         ]
@@ -134236,9 +134003,9 @@
         "rank": "2nd",
         "player": "Maracumango",
         "combos": [
-          "HellsNether Hexa",
-          "HellsNether Level",
-          "GloryValkyrie Kick",
+          "HellsNether H",
+          "HellsNether L",
+          "GloryValkyrie K",
           "WizardRod 1-60LO"
         ]
       },
@@ -134283,14 +134050,14 @@
         "combos": [
           "SharkScale 9-60FB",
           "WizardRod 1-60H",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
         "rank": "3rd",
         "player": "Vhile",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "AeroPegasus 3-60R",
           "WizardRod 1-60H"
         ]
@@ -134362,7 +134129,7 @@
         "combos": [
           "SharkScale 7-60LR",
           "MeteorDragoon 1-60RA",
-          "BulletGriffon High Taper"
+          "BulletGriffon HT"
         ]
       },
       {
@@ -134405,7 +134172,7 @@
         "player": "rayblader",
         "combos": [
           "SharkScale 9-60LR",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "SilverWolf 3-60H"
         ]
       },
@@ -134422,7 +134189,7 @@
         "rank": "3rd",
         "player": "Vhile",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "AeroPegasus 3-60K",
           "WizardRod 1-60H"
         ]
@@ -134460,7 +134227,7 @@
         "player": "ToastyLoaf",
         "combos": [
           "SharkScale 9-60FB",
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "MeteorDragoon 7-60L"
         ]
       },
@@ -134470,7 +134237,7 @@
         "combos": [
           "SharkScale 1-60R",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie LR"
         ]
       }
     ],
@@ -134497,7 +134264,7 @@
           "SharkScale 9-60FB",
           "SharkScale 1-60R",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie LR"
         ]
       },
       {
@@ -134517,7 +134284,7 @@
           "SharkScale 1-50LR",
           "AeroPegasus 3-60R",
           "DranStrike 9-60K",
-          "ShinobiShuriken Yielding",
+          "ShinobiShuriken Y",
           "SharkScale 1-60LR",
           "AeroPegasus 1-70H",
           "DranStrike 9-60R"
@@ -134555,7 +134322,7 @@
         "rank": "2nd",
         "player": "phantomshot",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "TyrannoBeat 7-60R",
           "MummyCurse 1-60H",
           "KnightMail 9-60UN"
@@ -134602,7 +134369,7 @@
         "rank": "2nd",
         "player": "Deterex",
         "combos": [
-          "BulletGriffon Taper",
+          "BulletGriffon T",
           "ScorpioSpear 9-60FB",
           "GolemRock 1-70FF"
         ]
@@ -134611,7 +134378,7 @@
         "rank": "3rd",
         "player": "TheTrueToastie",
         "combos": [
-          "BulletGriffon Gear Unite",
+          "BulletGriffon GU",
           "SharkScale 3-60K",
           "WizardRod 1-60H"
         ]
@@ -134782,7 +134549,7 @@
         "player": "Nkazz",
         "combos": [
           "SharkScale 1-70L",
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "AeroPegasus 1-60K"
         ]
       },
@@ -134825,7 +134592,7 @@
         "rank": "2nd",
         "player": "drippedinsorrow",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "WizardRod 9-60FB",
           "SharkScale 1-60LR"
         ]
@@ -134835,7 +134602,7 @@
         "player": "Kozmoz",
         "combos": [
           "SharkScale 5-50LR",
-          "GloryValkyrie Taper",
+          "GloryValkyrie T",
           "WizardRod 1-60FB"
         ]
       }
@@ -134961,7 +134728,7 @@
         "rank": "2nd",
         "player": "Blader-A",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "MeteorDragoon 7-60J",
           "SharkScale 1-50R",
           "PhoenixWing 1-60H"
@@ -135024,7 +134791,7 @@
         "rank": "1st",
         "player": "Akuna",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "CobaltDragoon 9-60E",
           "WizardRod 1-60H"
         ]
@@ -135230,7 +134997,7 @@
         "rank": "1st",
         "player": "Wackocarnival",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "DranStrike 3-60LR",
           "SharkScale 1-60K"
         ]
@@ -135240,7 +135007,7 @@
         "player": "ItsKon",
         "combos": [
           "MeteorDragoon 7-70E",
-          "GloryValkyrie Hexa",
+          "GloryValkyrie H",
           "SilverWolf 9-70FB"
         ]
       },
@@ -135250,7 +135017,7 @@
         "combos": [
           "WizardRod 1-60H",
           "SilverWolf 9-60W",
-          "GloryValkyrie Rush"
+          "GloryValkyrie R"
         ]
       }
     ],
@@ -135408,7 +135175,7 @@
         "combos": [
           "AeroPegasus 1-70R",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie LR"
         ]
       },
       {
@@ -135550,7 +135317,7 @@
         "combos": [
           "SilverWolf 9-70FB",
           "MeteorDragoon 7-70L",
-          "GloryValkyrie Zap"
+          "GloryValkyrie Z"
         ]
       },
       {
@@ -135645,7 +135412,7 @@
         "rank": "3rd",
         "player": "Kaizakai",
         "combos": [
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "AeroPegasus 1-50R",
           "SharkScale 1-60FB"
         ]
@@ -135672,7 +135439,7 @@
         "player": "tsquaredhawaii",
         "combos": [
           "WyvernHover 8-70R",
-          "BulletGriffon Level",
+          "BulletGriffon L",
           "WizardRod 7-70H"
         ]
       },
@@ -135680,7 +135447,7 @@
         "rank": "2nd",
         "player": "KingSukuna",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SharkScale 1-70LR",
           "WyvernHover 9-60R"
         ]
@@ -135806,7 +135573,7 @@
         "rank": "2nd",
         "player": "Achilles X",
         "combos": [
-          "HellsNether Narrow",
+          "HellsNether Nr",
           "SharkScale 5-50LO",
           "WizardRod 1-60H"
         ]
@@ -135817,7 +135584,7 @@
         "combos": [
           "SilverWolf 9-60FB",
           "SharkScale 3-60LR",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       }
     ],
@@ -135843,7 +135610,7 @@
         "combos": [
           "MeteorDragoon 7-60L",
           "MummyCurse 1-60T",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -135861,7 +135628,7 @@
         "combos": [
           "WizardRod 7-60H",
           "DranBuster 1-80K",
-          "BulletGriffon Dot"
+          "BulletGriffon D"
         ]
       }
     ],
@@ -135898,9 +135665,9 @@
         "rank": "2nd",
         "player": "KylexGrand",
         "combos": [
-          "GloryValkyrie Disk Ball",
-          "GloryValkyrie Kick",
-          "GloryValkyrie Flat"
+          "GloryValkyrie DB",
+          "GloryValkyrie K",
+          "GloryValkyrie F"
         ]
       },
       {
@@ -135952,7 +135719,7 @@
         "player": "ImmortalDandy",
         "combos": [
           "WizardRod 1-60FB",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WyvernHover 1-50LR"
         ]
       }
@@ -135986,8 +135753,8 @@
         "rank": "2nd",
         "player": "BB_X_ONI",
         "combos": [
-          "GloryValkyrie Free Ball",
-          "BulletGriffon Level",
+          "GloryValkyrie FB",
+          "BulletGriffon L",
           "SharkScale 3-60R"
         ]
       },
@@ -136294,9 +136061,9 @@
         "player": "m4dgun",
         "combos": [
           "SharkScale 1-50LR",
-          "HellsNether Narrow",
-          "GloryValkyrie Free Ball",
-          "BulletGriffon Level",
+          "HellsNether Nr",
+          "GloryValkyrie FB",
+          "BulletGriffon L",
           "DranStrike 9-60K",
           "WizardRod 1-60H"
         ]
@@ -136322,7 +136089,7 @@
           "SilverWolf 9-70FB",
           "SharkScale 1-70LR",
           "WyvernHover 9-60R",
-          "BulletGriffon Level"
+          "BulletGriffon L"
         ]
       }
     ],
@@ -136356,7 +136123,7 @@
         "player": "FastTimes11",
         "combos": [
           "WizardRod 1-60Nr",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SharkScale 5-60FB"
         ]
       },
@@ -136364,7 +136131,7 @@
         "rank": "3rd",
         "player": "Fishstickxs7",
         "combos": [
-          "GloryValkyrie Free Flat",
+          "GloryValkyrie FF",
           "CobaltDragoon 9-60E",
           "SharkScale 3-60FB"
         ]
@@ -136390,7 +136157,7 @@
         "rank": "1st",
         "player": "Ryuzaki459",
         "combos": [
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "AeroPegasus 1-60K",
           "WyvernHover 9-60R"
         ]
@@ -136399,7 +136166,7 @@
         "rank": "2nd",
         "player": "BB_X_ONI",
         "combos": [
-          "GloryValkyrie Level",
+          "GloryValkyrie L",
           "CrocoCrunch 1-70LR",
           "SharkScale 3-60R"
         ]
@@ -136409,7 +136176,7 @@
         "player": "DEDotterMan",
         "combos": [
           "HornetRage FH1-60K",
-          "ShinobiShuriken Yielding",
+          "ShinobiShuriken Y",
           "SharkEdge 1-50J"
         ]
       }
@@ -136488,7 +136255,7 @@
         "player": "Powerrr_Bey",
         "combos": [
           "SharkScale 7-60FB",
-          "HellsNether Level",
+          "HellsNether L",
           "WizardRod 1-60H"
         ]
       },
@@ -136588,9 +136355,9 @@
         "rank": "3rd",
         "player": "MoistEggs",
         "combos": [
-          "ShinobiShuriken Rubber Accel",
+          "ShinobiShuriken RA",
           "SolFortress FH8-70Y",
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "SharkScale 1-60LR",
           "AeroPegasus 1-70J",
           "CobaltDragoon 9-70E"
@@ -136617,12 +136384,12 @@
         "rank": "1st",
         "player": "geetster99",
         "combos": [
-          "BulletGriffon Merge",
+          "BulletGriffon M",
           "KnightDelta PH3-60LR",
           "SharkScale 1-60R",
           "SharkScale 9-60FB",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "DranStrike 3-60K"
         ]
       },
@@ -136639,7 +136406,7 @@
         "rank": "3rd",
         "player": "Jok3rOW",
         "combos": [
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "SharkScale 1-60R",
           "MeteorDragoon 7-60L"
         ]
@@ -136888,7 +136655,7 @@
         "combos": [
           "PhoenixWing 1-60R",
           "MummyCurse 9-60H",
-          "HoverWyvern 9-60J",
+          "Hover Wyvern 9-60J",
           "MummyCurse 9-60FB"
         ]
       },
@@ -136897,7 +136664,7 @@
         "player": "Unknown",
         "combos": [
           "Red Hulk 1-60H",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -136973,7 +136740,7 @@
         "combos": [
           "PhoenixWing 1-60R",
           "MummyCurse 9-60H",
-          "HoverWyvern 9-60J",
+          "Hover Wyvern 9-60J",
           "MummyCurse 9-60FB"
         ]
       },
@@ -136982,7 +136749,7 @@
         "player": "Unknown",
         "combos": [
           "Red Hulk 1-60H",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -137057,7 +136824,7 @@
         "combos": [
           "PhoenixWing 1-60R",
           "MummyCurse 9-60H",
-          "HoverWyvern 9-60J",
+          "Hover Wyvern 9-60J",
           "MummyCurse 9-60FB"
         ]
       },
@@ -137066,7 +136833,7 @@
         "player": "Unknown",
         "combos": [
           "Red Hulk 1-60H",
-          "HoverWyvern 9-60K"
+          "Hover Wyvern 9-60K"
         ]
       },
       {
@@ -137151,9 +136918,9 @@
         "rank": "2nd",
         "player": "PhiWip",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SharkScale 1-50R",
-          "ShinobiShuriken Disk Spike"
+          "ShinobiShuriken DS"
         ]
       },
       {
@@ -137248,7 +137015,7 @@
         "rank": "3rd",
         "player": "ShadBawskers",
         "combos": [
-          "GloryValkyrie Narrow",
+          "GloryValkyrie Nr",
           "SharkScale 3-60LR",
           "SharkScale 1-60FB",
           "MeteorDragoon 9-60E"
@@ -137277,7 +137044,7 @@
         "combos": [
           "SharkScale 3-60LO",
           "WizardRod 1-60FB",
-          "BulletGriffon Level"
+          "BulletGriffon L"
         ]
       },
       {
@@ -137409,7 +137176,7 @@
         "player": "Tarxan",
         "combos": [
           "SharkScale 1-60LR",
-          "GloryValkyrie Rubber Accel",
+          "GloryValkyrie RA",
           "EmperorBlast H5-50FB"
         ]
       },
@@ -137562,8 +137329,8 @@
         "player": "Lycaun of Ra",
         "combos": [
           "AeroPegasus 1-50L",
-          "BulletGriffon Hexa",
-          "GloryValkyrie Kick"
+          "BulletGriffon H",
+          "GloryValkyrie K"
         ]
       }
     ],
@@ -137597,7 +137364,7 @@
         "player": "IcyX",
         "combos": [
           "SharkScale 1-70LR",
-          "GloryValkyrie Elevate",
+          "GloryValkyrie E",
           "WizardRod 1-60H"
         ]
       },
@@ -137632,7 +137399,7 @@
         "player": "Lagm4n92",
         "combos": [
           "HellsHammer 1-50I",
-          "Valor Bison Hexa",
+          "Valor Bison H",
           "LeonCrest 6-60K",
           "HellsHammer 1-50L"
         ]
@@ -137650,7 +137417,7 @@
         "rank": "3rd",
         "player": "SinnX",
         "combos": [
-          "Valor Bison Ball",
+          "Valor Bison B",
           "PhoenixRudder 9-70H",
           "UnicornSting 9-60FB",
           "CrimsonGaruda 1-50L"
@@ -137695,7 +137462,7 @@
         "rank": "3rd",
         "player": "Kyzer",
         "combos": [
-          "GloryValkyrie Jolt",
+          "GloryValkyrie J",
           "PegasusBlast H9-60R",
           "SharkScale 1-50LR"
         ]
@@ -137732,7 +137499,7 @@
         "combos": [
           "DranStrike 3-60RA",
           "SharkScale 7-70Nr",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
@@ -137740,7 +137507,7 @@
         "player": "Loco G",
         "combos": [
           "AeroPegasus 9-60Nr",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "WizardRod 1-60H"
         ]
       }
@@ -137765,7 +137532,7 @@
         "rank": "1st",
         "player": "n_oodle",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "MeteorDragoon 7-60L",
           "WizardRod 1-60K"
         ]
@@ -137809,7 +137576,7 @@
         "rank": "1st",
         "player": "boan",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WhaleWave 7-60K",
           "SamuraiSaber 1-60H"
         ]
@@ -137827,9 +137594,9 @@
         "rank": "3rd",
         "player": "Kid06",
         "combos": [
-          "HellsNether Ball",
+          "HellsNether B",
           "DranStrike 3-60K",
-          "GloryValkyrie Point"
+          "GloryValkyrie P"
         ]
       }
     ],
@@ -137862,7 +137629,7 @@
         "rank": "2nd",
         "player": "RareSanty",
         "combos": [
-          "HellsNether Rush",
+          "HellsNether R",
           "DranSword 7-60FF",
           "SharkScale 9-60Nr"
         ]
@@ -137943,8 +137710,8 @@
         "combos": [
           "AeroPegasus 1-50LR",
           "SharkScale 3-60R",
-          "GloryValkyrie Glide",
-          "GloryValkyrie Kick"
+          "GloryValkyrie G",
+          "GloryValkyrie K"
         ]
       },
       {
@@ -138030,8 +137797,8 @@
         "rank": "1st",
         "player": "almogKoren!",
         "combos": [
-          "GloryValkyrie Rush",
-          "HellsNether Kick",
+          "GloryValkyrie R",
+          "HellsNether K",
           "WizardRod 1-60H"
         ]
       },
@@ -138040,7 +137807,7 @@
         "player": "Ronen Fridman",
         "combos": [
           "WizardRod 1-60H",
-          "BulletGriffon Taper",
+          "BulletGriffon T",
           "SharkScale 5-60LR"
         ]
       },
@@ -138049,7 +137816,7 @@
         "player": "Noam papir",
         "combos": [
           "WyvernHover 9-60K",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "AeroPegasus 1-60L"
         ]
       }
@@ -138094,7 +137861,7 @@
           "SharkScale 1-70Nr",
           "WizardRod 1-60H",
           "MeteorDragoon 9-60E",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "AeroPegasus 1-60R"
         ]
       },
@@ -138313,7 +138080,7 @@
         "combos": [
           "SharkScale 9-60R",
           "WizardRod 6-60H",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie LR"
         ]
       },
       {
@@ -138335,8 +138102,8 @@
           "MeteorDragoon 7-60L",
           "WizardRod 1-60LR",
           "SharkScale 9-60FB",
-          "GloryValkyrie Rush",
-          "GloryValkyrie Low Rush"
+          "GloryValkyrie R",
+          "GloryValkyrie LR"
         ]
       }
     ],
@@ -138360,7 +138127,7 @@
         "rank": "1st",
         "player": "lethoma",
         "combos": [
-          "ShinobiShuriken Narrow",
+          "ShinobiShuriken Nr",
           "HellsScythe 9-60FB",
           "SharkEdge 7-60LR"
         ]
@@ -138380,7 +138147,7 @@
         "combos": [
           "Hulk 1-50RA",
           "SharkEdge 9-60E",
-          "ShinobiShuriken Hexa"
+          "ShinobiShuriken H"
         ]
       }
     ],
@@ -138404,7 +138171,7 @@
         "rank": "1st",
         "player": "Rising Neptune",
         "combos": [
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "WizardRod 1-60H",
           "CobaltDragoon 9-60E"
         ]
@@ -138468,7 +138235,7 @@
         "combos": [
           "MeteorDragoon 5-60L",
           "CobaltDragoon 5-50E",
-          "Lightning L-Drago 9-60R"
+          "Lightning L-Drago (Upper Type) 9-60R"
         ]
       }
     ],
@@ -138502,7 +138269,7 @@
         "player": "shizzlepah",
         "combos": [
           "AeroPegasus 5-60R",
-          "HellsNether Free Ball",
+          "HellsNether FB",
           "WizardRod 9-60WB"
         ]
       },
@@ -138580,10 +138347,10 @@
         "rank": "1st",
         "player": "DratiniKing10",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "WizardRod 9-60FB",
           "ScorpioSpear 7-60WW",
-          "Valor Bison Ball"
+          "Valor Bison B"
         ]
       },
       {
@@ -138600,8 +138367,8 @@
         "player": "kopi",
         "combos": [
           "TyrannoBeat 7-70K",
-          "GloryValkyrie Low Orb",
-          "ShinobiShuriken Wall Ball"
+          "GloryValkyrie LO",
+          "ShinobiShuriken WB"
         ]
       }
     ],
@@ -138630,7 +138397,7 @@
         "combos": [
           "CerberusBlast H5-50Nr",
           "SharkScale 1-60LR",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
@@ -138646,7 +138413,7 @@
         "rank": "3rd",
         "player": "Sushy",
         "combos": [
-          "GloryValkyrie Point",
+          "GloryValkyrie P",
           "WizardRod 1-60H",
           "DranStrike 3-60RA"
         ]
@@ -138690,7 +138457,7 @@
         "rank": "3rd",
         "player": "HeavensGate",
         "combos": [
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "HeavensRing 1-60FB",
           "SharkScale 1-70LR"
         ]
@@ -138725,7 +138492,7 @@
         "rank": "2nd",
         "player": "CannonsDad",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "DranStrike 1-50LR",
           "HeavensRing 1-60FF"
         ]
@@ -138735,7 +138502,7 @@
         "player": "Jinxtheone",
         "combos": [
           "AeroPegasus 7-60R",
-          "Valor Bison Jolt",
+          "Valor Bison J",
           "WizardRod 1-60Nr"
         ]
       }
@@ -138780,7 +138547,7 @@
         "combos": [
           "SharkScale 5-60LO",
           "DranStrike 1-50U",
-          "GloryValkyrie Elevate"
+          "GloryValkyrie E"
         ]
       }
     ],
@@ -138834,7 +138601,7 @@
         "rank": "1st",
         "player": "Abraham123",
         "combos": [
-          "GloryValkyrie Level",
+          "GloryValkyrie L",
           "SharkScale 9-60Nr",
           "WizardRod 1-60H"
         ]
@@ -138852,7 +138619,7 @@
         "rank": "3rd",
         "player": "Horible",
         "combos": [
-          "GloryValkyrie Low Rush",
+          "GloryValkyrie LR",
           "SilverWolf 9-60FB",
           "WizardRod 1-60H"
         ]
@@ -138975,7 +138742,7 @@
         "rank": "2nd",
         "player": "Tubbybladzz",
         "combos": [
-          "GloryValkyrie Jolt",
+          "GloryValkyrie J",
           "EmperorBlast H6-60H",
           "DranStrike 7-70LR"
         ]
@@ -139020,7 +138787,7 @@
         "player": "Arfo",
         "combos": [
           "SharkScale 1-70LR",
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "WizardRod 1-60J"
         ]
       },
@@ -139055,8 +138822,8 @@
         "player": "ZeY",
         "combos": [
           "SharkScale 7-60R",
-          "SilverWolf 9-70FreeBall",
-          "MeteorDragoon 9-60Elebvate"
+          "SilverWolf 9-70FB",
+          "MeteorDragoon 9-60E"
         ]
       },
       {
@@ -139072,7 +138839,7 @@
         "rank": "3rd",
         "player": "Tokeng",
         "combos": [
-          "HoverWyvern 1-50K",
+          "Hover Wyvern 1-50K",
           "AeroPegasus 9-60R",
           "WizardRod 1-60Nr"
         ]
@@ -139116,7 +138883,7 @@
         "rank": "3rd",
         "player": "Bladerguy2",
         "combos": [
-          "BulletGriffon High Taper",
+          "BulletGriffon HT",
           "HeavensRing 5-70H",
           "MeteorDragoon 7-70E"
         ]
@@ -139239,7 +139006,7 @@
         "rank": "2nd",
         "player": "Bleck3v3",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "AeroPegasus 1-60R",
           "WyvernHover 9-60K"
         ]
@@ -139285,7 +139052,7 @@
         "combos": [
           "SilverWolf 9-60FB",
           "AeroPegasus 1-60K",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -139294,7 +139061,7 @@
         "combos": [
           "WizardRod 3-60LO",
           "HeavensRing 9-60W",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       }
     ],
@@ -139346,7 +139113,7 @@
           "TyrannoBeat 9-70HT",
           "ScorpioSpear 3-70K",
           "SilverWolf 9-60Nr",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "GolemRock 8-70D"
         ]
       }
@@ -139430,7 +139197,7 @@
         "player": "Ronen Fridman",
         "combos": [
           "WizardRod 1-60H",
-          "BulletGriffon Bound Spike",
+          "BulletGriffon BS",
           "SharkScale 1-50LR"
         ]
       },
@@ -139439,7 +139206,7 @@
         "player": "Almogkoren!",
         "combos": [
           "SiegSuperion 1-50R",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SilverWolf 9-60FB"
         ]
       }
@@ -139465,8 +139232,8 @@
         "player": "ZeY",
         "combos": [
           "SharkScale 7-60R",
-          "SilverWolf 9-70FreeBall",
-          "MeteorDragoon 9-60Elebvate"
+          "SilverWolf 9-70FB",
+          "MeteorDragoon 9-60E"
         ]
       },
       {
@@ -139482,7 +139249,7 @@
         "rank": "3rd",
         "player": "Tokeng",
         "combos": [
-          "HoverWyvern 1-50K",
+          "Hover Wyvern 1-50K",
           "AeroPegasus 9-60R",
           "WizardRod 1-60Nr"
         ]
@@ -139526,7 +139293,7 @@
         "rank": "3rd",
         "player": "Bladerguy2",
         "combos": [
-          "BulletGriffon High Taper",
+          "BulletGriffon HT",
           "HeavensRing 5-70H",
           "MeteorDragoon 7-70E"
         ]
@@ -139649,7 +139416,7 @@
         "rank": "2nd",
         "player": "Bleck3v3",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "AeroPegasus 1-60R",
           "WyvernHover 9-60K"
         ]
@@ -139695,7 +139462,7 @@
         "combos": [
           "SilverWolf 9-60FB",
           "AeroPegasus 1-60K",
-          "BulletGriffon Hexa"
+          "BulletGriffon H"
         ]
       },
       {
@@ -139704,7 +139471,7 @@
         "combos": [
           "WizardRod 3-60LO",
           "HeavensRing 9-60W",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       }
     ],
@@ -139756,7 +139523,7 @@
           "TyrannoBeat 9-70HT",
           "ScorpioSpear 3-70K",
           "SilverWolf 9-60Nr",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "GolemRock 8-70D"
         ]
       }
@@ -139840,7 +139607,7 @@
         "player": "Ronen Fridman",
         "combos": [
           "WizardRod 1-60H",
-          "BulletGriffon Bound Spike",
+          "BulletGriffon BS",
           "SharkScale 1-50LR"
         ]
       },
@@ -139849,7 +139616,7 @@
         "player": "Almogkoren!",
         "combos": [
           "SiegSuperion 1-50R",
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "SilverWolf 9-60FB"
         ]
       }
@@ -140090,7 +139857,7 @@
         "combos": [
           "WizardRod 1-60H",
           "SharkScale 7-60R",
-          "GloryValkyrie low rush",
+          "GloryValkyrie LR",
           "CobaltDragoon 5-60E"
         ]
       },
@@ -140099,8 +139866,8 @@
         "player": "PhiWip",
         "combos": [
           "SharkScale 9-60R",
-          "GloryValkyrie Kick",
-          "Cutter Shinobi Disk Spike"
+          "GloryValkyrie K",
+          "Cutter Shinobi DS"
         ]
       }
     ],
@@ -140217,7 +139984,7 @@
         "rank": "1st",
         "player": "JCFourEyes",
         "combos": [
-          "GloryValkyrie Elevate",
+          "GloryValkyrie E",
           "SharkScale 3-60Nr",
           "DranStrike 1-60U",
           "WizardRod 6-60B",
@@ -140276,7 +140043,7 @@
         "rank": "2nd",
         "player": "m0th_man",
         "combos": [
-          "BulletGriffon Unite",
+          "BulletGriffon U",
           "SharkScale 5-60T",
           "AeroPegasus 9-60J"
         ]
@@ -140322,7 +140089,7 @@
         "combos": [
           "DranStrike 1-50LR",
           "PegasusBlast H9-60K",
-          "BulletGriffon Jolt"
+          "BulletGriffon J"
         ]
       },
       {
@@ -140376,8 +140143,8 @@
         "rank": "3rd",
         "player": "jeffreyjai",
         "combos": [
-          "BulletGriffon Level",
-          "GloryValkyrie Narrow",
+          "BulletGriffon L",
+          "GloryValkyrie Nr",
           "EmperorFortress OW8-70H"
         ]
       }
@@ -140456,7 +140223,7 @@
         "player": "Larv",
         "combos": [
           "ClockMirage 7-55LO",
-          "Valor Bison Kick",
+          "Valor Bison K",
           "DranStrike 3-70L",
           "CobaltDragoon 9-60E",
           "WyvernHover 9-60K",
@@ -140469,7 +140236,7 @@
         "player": "Arfo",
         "combos": [
           "HeavensRing M-85Narrow",
-          "HellsNether High Taper",
+          "HellsNether HT",
           "SharkScale 1-70LR"
         ]
       }
@@ -140497,7 +140264,7 @@
         "rank": "1st",
         "player": "nickyauyk",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "WizardRod 1-60H",
           "SharkScale 3-60FB",
           "SharkScale 1-50LR"
@@ -140517,11 +140284,11 @@
         "rank": "3rd",
         "player": "Hottest1022",
         "combos": [
-          "GloryValkyrie Kick",
+          "GloryValkyrie K",
           "SharkScale 9-60Nr",
           "WizardRod 1-60H",
           "SiegSuperion 9-60K",
-          "BulletGriffon Jolt",
+          "BulletGriffon J",
           "ClockMirage 4-55UN"
         ]
       }
@@ -140547,7 +140314,7 @@
         "player": "Khaeotic",
         "combos": [
           "CobaltDragoon 9-60E",
-          "GloryValkyrie Free Ball",
+          "GloryValkyrie FB",
           "SharkScale 1-60Nr"
         ]
       },
@@ -140592,17 +140359,17 @@
         "combos": [
           "AeroPegasus 9-60K",
           "PhoenixWing 1-60LR",
-          "GloryValkyrie Rush",
+          "GloryValkyrie R",
           "AeroPegasus 1-60R",
           "PhoenixWing 3-60LR",
-          "GloryValkyrie Kick"
+          "GloryValkyrie K"
         ]
       },
       {
         "rank": "2nd",
         "player": "Allyissocool",
         "combos": [
-          "BulletGriffon Hexa",
+          "BulletGriffon H",
           "GolemRock 3-80UN",
           "ImpactDrake 9-60LR",
           "WizardRod 1-60H"
@@ -140638,7 +140405,7 @@
         "rank": "1st",
         "player": "Hottest1022",
         "combos": [
-          "BisonValor Low Rush",
+          "BisonValor LR",
           "Optimus Primal 1-60J",
           "CrimsonGaruda 7-60R",
           "PhoenixRudder 9-60LO"
@@ -140648,8 +140415,8 @@
         "rank": "2nd",
         "player": "EvolFlow",
         "combos": [
-          "BisonValor Kick",
-          "ShinobiShuriken Hexa",
+          "BisonValor K",
+          "ShinobiShuriken H",
           "UnicornSting 9-60FB"
         ]
       },
@@ -140657,7 +140424,7 @@
         "rank": "3rd",
         "player": "BWMF",
         "combos": [
-          "BisonValor Hexa",
+          "BisonValor H",
           "SharkEdge 3-60J",
           "KnightLance 1-60L",
           "WizardArrow 9-60FB"
@@ -140728,7 +140495,7 @@
         "rank": "1st",
         "player": "Blueeyesfox",
         "combos": [
-          "HellsNether Hexa",
+          "HellsNether H",
           "MeteorDragoon 9-60E",
           "AeroPegasus 3-60L"
         ]
@@ -140772,7 +140539,7 @@
         "rank": "1st",
         "player": "whatmess",
         "combos": [
-          "GloryValkyrie Taper",
+          "GloryValkyrie T",
           "SharkScale 1-60LR",
           "AeroPegasus 3-60K"
         ]
@@ -140782,7 +140549,7 @@
         "player": "Jinxtheone",
         "combos": [
           "WizardRod 1-60Nr",
-          "Valor Bison Jolt",
+          "Valor Bison J",
           "AeroPegasus 7-60R"
         ]
       },
@@ -140860,9 +140627,9 @@
         "rank": "1st",
         "player": "Shkeda",
         "combos": [
-          "BulletGriffon Jolt",
-          "GloryValkyrie Kick",
-          "HellsNether Narrow"
+          "BulletGriffon J",
+          "GloryValkyrie K",
+          "HellsNether Nr"
         ]
       },
       {
@@ -140880,7 +140647,7 @@
         "combos": [
           "CrocoTread TW7-60H",
           "WyvernHover 9-60K",
-          "HellsNether Free Flat"
+          "HellsNether FF"
         ]
       }
     ],
