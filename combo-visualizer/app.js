@@ -24,6 +24,10 @@
   // Maps blade alias (lowercase) -> canonical Name
   let bladeAliasToName = {};
 
+  let lockChips = [];
+  let overBlades = [];
+  let assistBlades = [];
+
   async function init() {
     try {
       const [dataResp, partsResp] = await Promise.all([
@@ -64,6 +68,16 @@
         }
       }
     }
+
+    if (parts.LockChips) {
+      lockChips = parts.LockChips.map(p => p.Name).sort((a, b) => b.length - a.length);
+    }
+    if (parts.OverBlades) {
+      overBlades = parts.OverBlades.map(p => p.Name).sort((a, b) => b.length - a.length);
+    }
+    if (parts.AssistBlades) {
+      assistBlades = parts.AssistBlades.map(p => p.Name).sort((a, b) => b.length - a.length);
+    }
   }
 
   /**
@@ -74,7 +88,7 @@
     str = str.trim();
 
     // Find the ratchet pattern (digits-digits) to split blade from ratchet+bit
-    const ratchetMatch = str.match(/^(.+?)\s+(\d+-\d+)(.*)$/);
+    const ratchetMatch = str.match(/^(.+?)\s*(\d+-\d+)\s*(.*)$/);
     if (!ratchetMatch) return str;
 
     let bladeRaw = ratchetMatch[1].trim();
@@ -108,9 +122,45 @@
 
   function parseCombo(str) {
     str = str.trim();
-    const m = str.match(/^(.+?)\s+(\d+-\d+)(.+)$/);
-    if (!m) return { blade: str, ratchet: '', bit: '', full: str };
-    return { blade: m[1].trim(), ratchet: m[2].trim(), bit: m[3].trim(), full: str };
+    const m = str.match(/^(.+?)\s*(\d+-\d+)\s*(.+)$/);
+    if (!m) return { blade: str, ratchet: '', bit: '', lockChip: '', overBlade: '', assistBlade: '', full: str };
+    
+    let bladeRaw = m[1].trim();
+    const ratchet = m[2].trim();
+    const bit = m[3].trim();
+    
+    let lockChip = '';
+    let overBlade = '';
+    let assistBlade = '';
+    let finalBlade = bladeRaw;
+
+    // Detect CX combo format if it's not a known standard blade
+    const bladeLower = bladeRaw.toLowerCase();
+    if (!bladeAliasToName[bladeLower]) {
+      if (bladeRaw.includes(' ')) {
+        const parts = bladeRaw.split(' ');
+        if (parts.length === 2) {
+          const part1 = parts[0];
+          const part2 = parts[1];
+          
+          let foundLock = lockChips.find(lc => part1.toLowerCase().startsWith(lc.toLowerCase()));
+          if (foundLock) {
+            lockChip = foundLock;
+            let remainderBlade = part1.slice(foundLock.length);
+            if (remainderBlade) finalBlade = remainderBlade;
+            
+            let foundAssist = assistBlades.find(ab => part2.toLowerCase().endsWith(ab.toLowerCase()));
+            if (foundAssist) {
+              assistBlade = foundAssist;
+              let remainderOver = part2.slice(0, part2.length - foundAssist.length);
+              if (remainderOver) overBlade = remainderOver;
+            }
+          }
+        }
+      }
+    }
+    
+    return { blade: finalBlade, ratchet, bit, lockChip, overBlade, assistBlade, full: str };
   }
 
   function update() {
@@ -139,6 +189,9 @@
             case 'blades': key = parsed.blade; break;
             case 'ratchets': key = parsed.ratchet; break;
             case 'bits': key = parsed.bit; break;
+            case 'lock-chips': key = parsed.lockChip; break;
+            case 'over-blades': key = parsed.overBlade; break;
+            case 'assist-blades': key = parsed.assistBlade; break;
             default: key = parsed.full;
           }
           if (!key) continue;
