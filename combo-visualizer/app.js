@@ -73,10 +73,10 @@
       lockChips = parts.LockChips.map(p => p.Name).sort((a, b) => b.length - a.length);
     }
     if (parts.OverBlades) {
-      overBlades = parts.OverBlades.map(p => p.Name).sort((a, b) => b.length - a.length);
+      overBlades = parts.OverBlades.map(p => ({name: p.Name, abbr: p.Abbreviation}));
     }
     if (parts.AssistBlades) {
-      assistBlades = parts.AssistBlades.map(p => p.Name).sort((a, b) => b.length - a.length);
+      assistBlades = parts.AssistBlades.map(p => ({name: p.Name, abbr: p.Abbreviation}));
     }
   }
 
@@ -88,12 +88,13 @@
     str = str.trim();
 
     // Find the ratchet pattern (digits-digits) to split blade from ratchet+bit
-    const ratchetMatch = str.match(/^(.+?)\s*(\d+-\d+)\s*(.*)$/);
+    const ratchetMatch = str.match(/^(.+?)(\s*)(\d+-\d+)\s*(.*)$/);
     if (!ratchetMatch) return str;
 
     let bladeRaw = ratchetMatch[1].trim();
-    const ratchet = ratchetMatch[2];
-    let bitRaw = ratchetMatch[3].trim();
+    const spaceBeforeRatchet = ratchetMatch[2];
+    const ratchet = ratchetMatch[3];
+    let bitRaw = ratchetMatch[4].trim();
 
     // Abbreviate the blade: look up alias -> canonical name
     const bladeLower = bladeRaw.toLowerCase();
@@ -109,7 +110,7 @@
       }
     }
 
-    return `${bladeRaw} ${ratchet}${bitRaw}`;
+    return `${bladeRaw}${spaceBeforeRatchet}${ratchet}${bitRaw}`;
   }
 
   function wireUp() {
@@ -149,11 +150,22 @@
             let remainderBlade = part1.slice(foundLock.length);
             if (remainderBlade) finalBlade = remainderBlade;
             
-            let foundAssist = assistBlades.find(ab => part2.toLowerCase().endsWith(ab.toLowerCase()));
+            let foundAssist = assistBlades.find(ab => 
+              part2.toLowerCase().endsWith(ab.name.toLowerCase()) || 
+              (ab.abbr && part2.toUpperCase().endsWith(ab.abbr))
+            );
             if (foundAssist) {
-              assistBlade = foundAssist;
-              let remainderOver = part2.slice(0, part2.length - foundAssist.length);
-              if (remainderOver) overBlade = remainderOver;
+              assistBlade = foundAssist.name;
+              let suffixLength = part2.toLowerCase().endsWith(foundAssist.name.toLowerCase()) ? foundAssist.name.length : foundAssist.abbr.length;
+              let remainderOver = part2.slice(0, part2.length - suffixLength);
+              
+              let foundOver = overBlades.find(ob => 
+                remainderOver.toLowerCase() === ob.name.toLowerCase() || 
+                (ob.abbr && remainderOver.toUpperCase() === ob.abbr)
+              );
+              if (foundOver) {
+                overBlade = foundOver.name;
+              }
             }
           }
         }
