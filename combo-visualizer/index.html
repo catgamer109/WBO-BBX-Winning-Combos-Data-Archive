@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeybladeX Combo Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar Filters -->
+    <aside class="sidebar" id="sidebar">
+      <h1 class="sidebar__title">Combo Rankings</h1>
+      <p class="sidebar__subtitle">WBO Beyblade X Data</p>
+
+      <div class="filter-group">
+        <label class="filter-label" for="viewMode">View By</label>
+        <select class="filter-select" id="viewMode">
+          <option value="combos">Full Combos</option>
+          <option value="blades">Blades</option>
+          <option value="ratchets">Ratchets</option>
+          <option value="bits">Bits</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="placementFilter">Placement</label>
+        <select class="filter-select" id="placementFilter">
+          <option value="all">All Top 3</option>
+          <option value="1st">1st Only</option>
+          <option value="2nd">2nd Only</option>
+          <option value="3rd">3rd Only</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="rankedFilter">Event Status</label>
+        <select class="filter-select" id="rankedFilter">
+          <option value="all">All Events</option>
+          <option value="Ranked">Ranked Only</option>
+          <option value="Unranked">Unranked Only</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="topN">Show Top</label>
+        <select class="filter-select" id="topN">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50" selected>50</option>
+          <option value="100">100</option>
+          <option value="0">All</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="searchInput">Search</label>
+        <input type="text" class="filter-input" id="searchInput" placeholder="Filter by name…" />
+      </div>
+
+      <div class="sidebar__stats" id="sidebarStats"></div>
+    </aside>
+
+    <!-- Main Ranking List -->
+    <main class="main" id="main">
+      <div class="list-header">
+        <span class="list-header__col list-header__col--rank">#</span>
+        <span class="list-header__col list-header__col--name">Name</span>
+        <span class="list-header__col list-header__col--count">Count</span>
+        <span class="list-header__col list-header__col--bar"></span>
+      </div>
+      <ol class="ranking-list" id="rankingList"></ol>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

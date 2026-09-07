@@ -1,0 +1,3162 @@
+{
+    "Blades": [
+        {
+            "ID": 59,
+            "Name": "AegisRampart",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.092989Z",
+            "Aliases": [
+                "Rampart Aegis"
+            ],
+            "Display": "AegisRampart / Rampart Aegis"
+        },
+        {
+            "ID": 1,
+            "Name": "AeroPegasus",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Aero Pegasus"
+            ],
+            "Display": "AeroPegasus / Aero Pegasus"
+        },
+        {
+            "ID": 102,
+            "Name": "Antler",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Antlers"
+            ],
+            "Display": "Antler / Antlers"
+        },
+        {
+            "ID": 103,
+            "Name": "Arc",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 29,
+            "Name": "BatGust",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.097693Z",
+            "Aliases": [
+                "Gust Bat"
+            ],
+            "Display": "BatGust / Gust Bat"
+        },
+        {
+            "ID": 2,
+            "Name": "BearScratch",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Savage Bear"
+            ],
+            "Display": "BearScratch / Savage Bear"
+        },
+        {
+            "ID": 90,
+            "Name": "BisonValor",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-05T19:11:15.747901Z",
+            "Aliases": [
+                "Valor Bison"
+            ],
+            "Display": "BisonValor / Valor Bison"
+        },
+        {
+            "ID": 3,
+            "Name": "BlackShell",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Obsidian Shell"
+            ],
+            "Display": "BlackShell / Obsidian Shell"
+        },
+        {
+            "ID": 104,
+            "Name": "Blast",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 105,
+            "Name": "Blitz",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 106,
+            "Name": "Brave",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Courage"
+            ],
+            "Display": "Brave / Courage"
+        },
+        {
+            "ID": 107,
+            "Name": "Brush",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 4,
+            "Name": "BulletGriffon",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Rocket Griffon"
+            ],
+            "Display": "BulletGriffon / Rocket Griffon"
+        },
+        {
+            "ID": 5,
+            "Name": "Bumblebee",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 6,
+            "Name": "Captain America",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 7,
+            "Name": "Chewbacca",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 8,
+            "Name": "ClockMirage",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Mirage Clock"
+            ],
+            "Display": "ClockMirage / Mirage Clock"
+        },
+        {
+            "ID": 9,
+            "Name": "CobaltDragoon",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Cobalt Dragoon"
+            ],
+            "Display": "CobaltDragoon / Cobalt Dragoon"
+        },
+        {
+            "ID": 10,
+            "Name": "CobaltDrake",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Cobalt Drake"
+            ],
+            "Display": "CobaltDrake / Cobalt Drake"
+        },
+        {
+            "ID": 124,
+            "Name": "CrabClamp",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:02:16.6998Z",
+            "Aliases": [
+                "Clamp Crab"
+            ],
+            "Display": "CrabClamp / Clamp Crab"
+        },
+        {
+            "ID": 11,
+            "Name": "CrimsonGaruda",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Scarlet Garuda"
+            ],
+            "Display": "CrimsonGaruda / Scarlet Garuda"
+        },
+        {
+            "ID": 12,
+            "Name": "CrocoCrunch",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Bite Croc"
+            ],
+            "Display": "CrocoCrunch / Bite Croc"
+        },
+        {
+            "ID": 130,
+            "Name": "CyclopsEye",
+            "System": "BXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-05T19:11:15.765223Z",
+            "Aliases": [
+                "Glare Cyclops"
+            ],
+            "Display": "CyclopsEye / Glare Cyclops"
+        },
+        {
+            "ID": 108,
+            "Name": "Dark",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 13,
+            "Name": "Darth Vader",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 109,
+            "Name": "Delta",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 133,
+            "Name": "Doctor Doom",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-09-02T23:57:26.825476Z",
+            "UpdatedAt": "2026-09-02T23:57:26.825476Z"
+        },
+        {
+            "ID": 14,
+            "Name": "DracielShield",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Draciel Shield"
+            ],
+            "Display": "DracielShield / Draciel Shield"
+        },
+        {
+            "ID": 15,
+            "Name": "DragoonStorm",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 16,
+            "Name": "DranBuster",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Buster Dran"
+            ],
+            "Display": "DranBuster / Buster Dran"
+        },
+        {
+            "ID": 17,
+            "Name": "DranDagger",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Dagger Dran"
+            ],
+            "Display": "DranDagger / Dagger Dran"
+        },
+        {
+            "ID": 19,
+            "Name": "DranStrike",
+            "System": "BXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Strike Dran"
+            ],
+            "Display": "DranStrike / Strike Dran"
+        },
+        {
+            "ID": 18,
+            "Name": "DranSword",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Sword Dran"
+            ],
+            "Display": "DranSword / Sword Dran"
+        },
+        {
+            "ID": 129,
+            "Name": "DranSword (Version 2.0)",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 20,
+            "Name": "DranzerSpiral",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Dranzer Spiral"
+            ],
+            "Display": "DranzerSpiral / Dranzer Spiral"
+        },
+        {
+            "ID": 21,
+            "Name": "DrigerSlash",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Driger Slash"
+            ],
+            "Display": "DrigerSlash / Driger Slash"
+        },
+        {
+            "ID": 110,
+            "Name": "Eclipse",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Umbra"
+            ],
+            "Display": "Eclipse / Umbra"
+        },
+        {
+            "ID": 111,
+            "Name": "Fang",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 112,
+            "Name": "Flame",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 113,
+            "Name": "Flare",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Radiance"
+            ],
+            "Display": "Flare / Radiance"
+        },
+        {
+            "ID": 114,
+            "Name": "Fort",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 115,
+            "Name": "Fortress",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Armor"
+            ],
+            "Display": "Fortress / Armor"
+        },
+        {
+            "ID": 22,
+            "Name": "General Greivous",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 23,
+            "Name": "GhostCircle",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Circle Ghost"
+            ],
+            "Display": "GhostCircle / Circle Ghost"
+        },
+        {
+            "ID": 24,
+            "Name": "GloryValkyrie",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Glory Valkerion"
+            ],
+            "Display": "GloryValkyrie / Glory Valkerion"
+        },
+        {
+            "ID": 25,
+            "Name": "GoatTackle",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Tackle Goat"
+            ],
+            "Display": "GoatTackle / Tackle Goat"
+        },
+        {
+            "ID": 26,
+            "Name": "GolemRock",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Rock Golem"
+            ],
+            "Display": "GolemRock / Rock Golem"
+        },
+        {
+            "ID": 27,
+            "Name": "Green Goblin",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 28,
+            "Name": "Grogu",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 31,
+            "Name": "HeavensRing",
+            "System": "BXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Ring Aether"
+            ],
+            "Display": "HeavensRing / Ring Aether"
+        },
+        {
+            "ID": 32,
+            "Name": "HellsChain",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Chain Incendio"
+            ],
+            "Display": "HellsChain / Chain Incendio"
+        },
+        {
+            "ID": 33,
+            "Name": "HellsHammer",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Hammer Incendio"
+            ],
+            "Display": "HellsHammer / Hammer Incendio"
+        },
+        {
+            "ID": 123,
+            "Name": "HellsNether",
+            "System": "CXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Nether Incendio"
+            ],
+            "Display": "HellsNether / Nether Incendio"
+        },
+        {
+            "ID": 34,
+            "Name": "HellsScythe",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Scythe Incendio"
+            ],
+            "Display": "HellsScythe / Scythe Incendio"
+        },
+        {
+            "ID": 128,
+            "Name": "HorusShatter",
+            "System": "BXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.080652Z",
+            "Aliases": [
+                "Shatter Horus"
+            ],
+            "Display": "HorusShatter / Shatter Horus"
+        },
+        {
+            "ID": 134,
+            "Name": "Hulk",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-09-03T00:46:45.007906Z",
+            "UpdatedAt": "2026-09-03T00:46:45.007906Z"
+        },
+        {
+            "ID": 116,
+            "Name": "Hunt",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 127,
+            "Name": "Hurricane",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:02:16.7188Z"
+        },
+        {
+            "ID": 35,
+            "Name": "ImpactDrake",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Impact Drake"
+            ],
+            "Display": "ImpactDrake / Impact Drake"
+        },
+        {
+            "ID": 36,
+            "Name": "Iron Man",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 37,
+            "Name": "KnightLance",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Lance Knight"
+            ],
+            "Display": "KnightLance / Lance Knight"
+        },
+        {
+            "ID": 38,
+            "Name": "KnightMail",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Mail Knight"
+            ],
+            "Display": "KnightMail / Mail Knight"
+        },
+        {
+            "ID": 39,
+            "Name": "KnightShield",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Helm Knight"
+            ],
+            "Display": "KnightShield / Helm Knight"
+        },
+        {
+            "ID": 40,
+            "Name": "LeonClaw",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Claw Leon"
+            ],
+            "Display": "LeonClaw / Claw Leon"
+        },
+        {
+            "ID": 41,
+            "Name": "LeonCrest",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Crest Leon"
+            ],
+            "Display": "LeonCrest / Crest Leon"
+        },
+        {
+            "ID": 42,
+            "Name": "Lightning L-Drago (Rapid-Hit Type)",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 43,
+            "Name": "Lightning L-Drago (Upper Type)",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 44,
+            "Name": "Luke Skywalker",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 45,
+            "Name": "MammothTusk",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Tusk Mammoth"
+            ],
+            "Display": "MammothTusk / Tusk Mammoth"
+        },
+        {
+            "ID": 82,
+            "Name": "MedusaStun",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.088444Z",
+            "Aliases": [
+                "Stun Medusa"
+            ],
+            "Display": "MedusaStun / Stun Medusa"
+        },
+        {
+            "ID": 47,
+            "Name": "Megatron",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 46,
+            "Name": "MeteorDragoon",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Meteoroid Dragoon"
+            ],
+            "Display": "MeteorDragoon / Meteoroid Dragoon"
+        },
+        {
+            "ID": 117,
+            "Name": "Might",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 48,
+            "Name": "Miles Morales",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 132,
+            "Name": "Mister Fantastic",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-09-02T23:57:26.825476Z",
+            "UpdatedAt": "2026-09-02T23:57:26.825476Z"
+        },
+        {
+            "ID": 49,
+            "Name": "Moff Gideon",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 50,
+            "Name": "MummyCurse",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Curse Mummy"
+            ],
+            "Display": "MummyCurse / Curse Mummy"
+        },
+        {
+            "ID": 51,
+            "Name": "Obi-Wan Kenobi",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 52,
+            "Name": "Optimus Primal",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 53,
+            "Name": "Optimus Prime",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 54,
+            "Name": "OrochiCluster",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:02:16.721355Z",
+            "Aliases": [
+                "Coil Orochi"
+            ],
+            "Display": "OrochiCluster / Coil Orochi"
+        },
+        {
+            "ID": 55,
+            "Name": "PhoenixFeather",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Feather Phoenix"
+            ],
+            "Display": "PhoenixFeather / Feather Phoenix"
+        },
+        {
+            "ID": 56,
+            "Name": "PhoenixRudder",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Rudder Phoenix"
+            ],
+            "Display": "PhoenixRudder / Rudder Phoenix"
+        },
+        {
+            "ID": 57,
+            "Name": "PhoenixWing",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Soar Phoenix"
+            ],
+            "Display": "PhoenixWing / Soar Phoenix"
+        },
+        {
+            "ID": 58,
+            "Name": "PteraSwing",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Talon Ptera"
+            ],
+            "Display": "PteraSwing / Talon Ptera"
+        },
+        {
+            "ID": 118,
+            "Name": "Rage",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 119,
+            "Name": "Reaper",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 60,
+            "Name": "Red Hulk",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 61,
+            "Name": "RhinoHorn",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Horn Rhino"
+            ],
+            "Display": "RhinoHorn / Horn Rhino"
+        },
+        {
+            "ID": 62,
+            "Name": "Rock Leone",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 63,
+            "Name": "SamuraiCalibur",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Calibur Samurai"
+            ],
+            "Display": "SamuraiCalibur / Calibur Samurai"
+        },
+        {
+            "ID": 64,
+            "Name": "SamuraiSaber",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Saber Samurai"
+            ],
+            "Display": "SamuraiSaber / Saber Samurai"
+        },
+        {
+            "ID": 65,
+            "Name": "SamuraiSteel",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Steel Samurai"
+            ],
+            "Display": "SamuraiSteel / Steel Samurai"
+        },
+        {
+            "ID": 66,
+            "Name": "ScorpioSpear",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Spear Scorpio"
+            ],
+            "Display": "ScorpioSpear / Spear Scorpio"
+        },
+        {
+            "ID": 131,
+            "Name": "Seize Jaguar",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 67,
+            "Name": "SharkEdge",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Keel Shark"
+            ],
+            "Display": "SharkEdge / Keel Shark"
+        },
+        {
+            "ID": 68,
+            "Name": "SharkGill",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Gill Shark"
+            ],
+            "Display": "SharkGill / Gill Shark"
+        },
+        {
+            "ID": 69,
+            "Name": "SharkScale",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Scale Shark"
+            ],
+            "Display": "SharkScale / Scale Shark"
+        },
+        {
+            "ID": 70,
+            "Name": "ShelterDrake",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Shelter Drake"
+            ],
+            "Display": "ShelterDrake / Shelter Drake"
+        },
+        {
+            "ID": 71,
+            "Name": "ShinobiKnife",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Knife Shinobi"
+            ],
+            "Display": "ShinobiKnife / Knife Shinobi"
+        },
+        {
+            "ID": 72,
+            "Name": "ShinobiShadow",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Shadow Shinobi"
+            ],
+            "Display": "ShinobiShadow / Shadow Shinobi"
+        },
+        {
+            "ID": 73,
+            "Name": "ShinobiShuriken",
+            "System": "UXE",
+            "RatchetIntegrated": true,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Cutter Shinobi"
+            ],
+            "Display": "ShinobiShuriken / Cutter Shinobi"
+        },
+        {
+            "ID": 74,
+            "Name": "Shockwave",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 125,
+            "Name": "SiegSuperion",
+            "System": "BXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Suppress Superion"
+            ],
+            "Display": "SiegSuperion / Suppress Superion"
+        },
+        {
+            "ID": 75,
+            "Name": "SilverWolf",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Sterling Wolf"
+            ],
+            "Display": "SilverWolf / Sterling Wolf"
+        },
+        {
+            "ID": 76,
+            "Name": "SphinxCowl",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Cowl Sphinx"
+            ],
+            "Display": "SphinxCowl / Cowl Sphinx"
+        },
+        {
+            "ID": 77,
+            "Name": "Spider-Man",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 78,
+            "Name": "Starscream",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 79,
+            "Name": "StormPegasis",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 80,
+            "Name": "StormSpriggan",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 81,
+            "Name": "Stormtrooper",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 83,
+            "Name": "Thanos",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 84,
+            "Name": "The Mandalorian",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 126,
+            "Name": "Tread",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 85,
+            "Name": "TriceraPress",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Brace Triceratops"
+            ],
+            "Display": "TriceraPress / Brace Triceratops"
+        },
+        {
+            "ID": 86,
+            "Name": "TriceraSpiky",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Ridge Triceratops"
+            ],
+            "Display": "TriceraSpiky / Ridge Triceratops"
+        },
+        {
+            "ID": 87,
+            "Name": "TyrannoBeat",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Beat Tyranno"
+            ],
+            "Display": "TyrannoBeat / Beat Tyranno"
+        },
+        {
+            "ID": 88,
+            "Name": "TyrannoRoar",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Roar Tyranno"
+            ],
+            "Display": "TyrannoRoar / Roar Tyranno"
+        },
+        {
+            "ID": 89,
+            "Name": "UnicornSting",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Sting Unicorn"
+            ],
+            "Display": "UnicornSting / Sting Unicorn"
+        },
+        {
+            "ID": 91,
+            "Name": "Venom",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 92,
+            "Name": "VictoryValkyrie",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 30,
+            "Name": "VikingHack",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.102226Z",
+            "Aliases": [
+                "Hack Viking"
+            ],
+            "Display": "VikingHack / Hack Viking"
+        },
+        {
+            "ID": 93,
+            "Name": "ViperTail",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Tail Viper"
+            ],
+            "Display": "ViperTail / Tail Viper"
+        },
+        {
+            "ID": 120,
+            "Name": "Volt",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 94,
+            "Name": "WeissTiger",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Pearl Tiger"
+            ],
+            "Display": "WeissTiger / Pearl Tiger"
+        },
+        {
+            "ID": 95,
+            "Name": "WhaleWave",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Tide Whale"
+            ],
+            "Display": "WhaleWave / Tide Whale"
+        },
+        {
+            "ID": 121,
+            "Name": "Whip",
+            "System": "CXE",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 96,
+            "Name": "WizardArrow",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Arrow Wizard"
+            ],
+            "Display": "WizardArrow / Arrow Wizard"
+        },
+        {
+            "ID": 97,
+            "Name": "WizardRod",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Wand Wizard"
+            ],
+            "Display": "WizardRod / Wand Wizard"
+        },
+        {
+            "ID": 122,
+            "Name": "Wriggle",
+            "System": "CX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 98,
+            "Name": "WyvernGale",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Gale Wyvern"
+            ],
+            "Display": "WyvernGale / Gale Wyvern"
+        },
+        {
+            "ID": 99,
+            "Name": "WyvernHover",
+            "System": "UX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Hover Wyvern"
+            ],
+            "Display": "WyvernHover / Hover Wyvern"
+        },
+        {
+            "ID": 100,
+            "Name": "XenoXcalibur",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 101,
+            "Name": "Yell Kong",
+            "System": "BX",
+            "RatchetIntegrated": false,
+            "SimpleRatchetsOnly": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        }
+    ],
+    "Bits": [
+        {
+            "ID": 1,
+            "Name": "Accel",
+            "Abbreviation": "A",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 2,
+            "Name": "Ball",
+            "Abbreviation": "B",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 3,
+            "Name": "Bound Spike",
+            "Abbreviation": "BS",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 4,
+            "Name": "Cyclone",
+            "Abbreviation": "C",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 5,
+            "Name": "Disk Ball",
+            "Abbreviation": "DB",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 6,
+            "Name": "Disk Spike",
+            "Abbreviation": "DS",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 7,
+            "Name": "Dot",
+            "Abbreviation": "D",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 8,
+            "Name": "Elevate",
+            "Abbreviation": "E",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 9,
+            "Name": "Flat",
+            "Abbreviation": "F",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 10,
+            "Name": "Free Ball",
+            "Abbreviation": "FB",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 11,
+            "Name": "Free Flat",
+            "Abbreviation": "FF",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 12,
+            "Name": "Gear Ball",
+            "Abbreviation": "GB",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 13,
+            "Name": "Gear Flat",
+            "Abbreviation": "GF",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 14,
+            "Name": "Gear Needle",
+            "Abbreviation": "GN",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 15,
+            "Name": "Gear Point",
+            "Abbreviation": "GP",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 16,
+            "Name": "Gear Rush",
+            "Abbreviation": "GR",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 17,
+            "Name": "Gear Unite",
+            "Abbreviation": "GU",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 18,
+            "Name": "Glide",
+            "Abbreviation": "G",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 19,
+            "Name": "Hexa",
+            "Abbreviation": "H",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 20,
+            "Name": "High Needle",
+            "Abbreviation": "HN",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 21,
+            "Name": "High Taper",
+            "Abbreviation": "HT",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 22,
+            "Name": "Ignition",
+            "Abbreviation": "I",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 23,
+            "Name": "Jolt",
+            "Abbreviation": "J",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 24,
+            "Name": "Kick",
+            "Abbreviation": "K",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 25,
+            "Name": "Level",
+            "Abbreviation": "L",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 26,
+            "Name": "Low Flat",
+            "Abbreviation": "LF",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 27,
+            "Name": "Low Orb",
+            "Abbreviation": "LO",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 53,
+            "Name": "Low Point",
+            "Abbreviation": "LP",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 28,
+            "Name": "Low Rush",
+            "Abbreviation": "LR",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 29,
+            "Name": "Merge",
+            "Abbreviation": "M",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 30,
+            "Name": "Metal Needle",
+            "Abbreviation": "MN",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 31,
+            "Name": "Narrow",
+            "Abbreviation": "Nr",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 32,
+            "Name": "Needle",
+            "Abbreviation": "N",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 33,
+            "Name": "Operate",
+            "Abbreviation": "Op",
+            "Combined": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 34,
+            "Name": "Orb",
+            "Abbreviation": "O",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 35,
+            "Name": "Point",
+            "Abbreviation": "P",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 36,
+            "Name": "Quake",
+            "Abbreviation": "Q",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 37,
+            "Name": "Rubber Accel",
+            "Abbreviation": "RA",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 38,
+            "Name": "Rush",
+            "Abbreviation": "R",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 39,
+            "Name": "Spike",
+            "Abbreviation": "S",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 40,
+            "Name": "Taper",
+            "Abbreviation": "T",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 41,
+            "Name": "Trans Kick",
+            "Abbreviation": "TK",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 42,
+            "Name": "Trans Point",
+            "Abbreviation": "TP",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 43,
+            "Name": "Turbo",
+            "Abbreviation": "Tr",
+            "Combined": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 44,
+            "Name": "Under Flat",
+            "Abbreviation": "UF",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 45,
+            "Name": "Under Needle",
+            "Abbreviation": "UN",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 46,
+            "Name": "Unite",
+            "Abbreviation": "U",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 47,
+            "Name": "Vortex",
+            "Abbreviation": "V",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 48,
+            "Name": "Wall Ball",
+            "Abbreviation": "WB",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 49,
+            "Name": "Wall Wedge",
+            "Abbreviation": "WW",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 50,
+            "Name": "Wedge",
+            "Abbreviation": "W",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 51,
+            "Name": "Yielding",
+            "Abbreviation": "Y",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 52,
+            "Name": "Zap",
+            "Abbreviation": "Z",
+            "Combined": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        }
+    ],
+    "Ratchets": [
+        {
+            "ID": 1,
+            "Name": "0-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 2,
+            "Name": "0-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 3,
+            "Name": "0-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 4,
+            "Name": "1-50",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 5,
+            "Name": "1-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 6,
+            "Name": "1-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 7,
+            "Name": "1-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 8,
+            "Name": "2-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 9,
+            "Name": "2-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 10,
+            "Name": "2-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 11,
+            "Name": "3-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 12,
+            "Name": "3-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 13,
+            "Name": "3-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 14,
+            "Name": "3-85",
+            "Simple": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 15,
+            "Name": "4-50",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 16,
+            "Name": "4-55",
+            "Simple": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 17,
+            "Name": "4-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 18,
+            "Name": "4-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 19,
+            "Name": "4-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 36,
+            "Name": "5-50",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 20,
+            "Name": "5-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 21,
+            "Name": "5-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 22,
+            "Name": "5-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 23,
+            "Name": "6-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 24,
+            "Name": "6-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 25,
+            "Name": "6-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 26,
+            "Name": "7-55",
+            "Simple": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 27,
+            "Name": "7-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 28,
+            "Name": "7-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 29,
+            "Name": "7-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 30,
+            "Name": "8-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 37,
+            "Name": "8-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-09-03T00:03:24.077463Z",
+            "UpdatedAt": "2026-09-03T00:03:24.077463Z"
+        },
+        {
+            "ID": 31,
+            "Name": "9-60",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 32,
+            "Name": "9-65",
+            "Simple": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 33,
+            "Name": "9-70",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 34,
+            "Name": "9-80",
+            "Simple": false,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 35,
+            "Name": "M-85",
+            "Simple": true,
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        }
+    ],
+    "LockChips": [
+        {
+            "ID": 2,
+            "Name": "Bahamut",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 3,
+            "Name": "Brachio",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 18,
+            "Name": "Bucks",
+            "Lifecycle": "available",
+            "Version": 2,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-09-03T00:46:45.114756Z",
+            "Aliases": [
+                "Stag"
+            ],
+            "LockChipClass": "standard",
+            "Display": "Bucks / Stag"
+        },
+        {
+            "ID": 1,
+            "Name": "Cerberus",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 25,
+            "Name": "Croco",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Croc"
+            ],
+            "LockChipClass": "standard",
+            "Display": "Croco / Croc"
+        },
+        {
+            "ID": 26,
+            "Name": "Drake",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 4,
+            "Name": "Dran",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 5,
+            "Name": "Emperor",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "metal",
+            "Special": "Metal Lock Chip"
+        },
+        {
+            "ID": 24,
+            "Name": "Enlil",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 27,
+            "Name": "Eva",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-09-03T00:46:45.007906Z",
+            "UpdatedAt": "2026-09-03T00:46:45.007906Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 6,
+            "Name": "Fox",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 7,
+            "Name": "Hells",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Incendio"
+            ],
+            "LockChipClass": "standard",
+            "Display": "Hells / Incendio"
+        },
+        {
+            "ID": 8,
+            "Name": "Hornet",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 9,
+            "Name": "Knight",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 10,
+            "Name": "Kraken",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 11,
+            "Name": "Leon",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 12,
+            "Name": "Pegasus",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 13,
+            "Name": "Perseus",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 14,
+            "Name": "Phoenix",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 15,
+            "Name": "Ragna",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 16,
+            "Name": "Rhino",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 17,
+            "Name": "Sol",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 19,
+            "Name": "Unicorn",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 20,
+            "Name": "Valkyrie",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "Aliases": [
+                "Valkerion"
+            ],
+            "LockChipClass": "metal",
+            "Display": "Valkyrie / Valkerion",
+            "Special": "Metal Lock Chip"
+        },
+        {
+            "ID": 21,
+            "Name": "Whale",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 22,
+            "Name": "Wizard",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        },
+        {
+            "ID": 23,
+            "Name": "Wolf",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z",
+            "LockChipClass": "standard"
+        }
+    ],
+    "OverBlades": [
+        {
+            "ID": 1,
+            "Name": "Break",
+            "Abbreviation": "B",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 2,
+            "Name": "Flow",
+            "Abbreviation": "F",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 3,
+            "Name": "Guard",
+            "Abbreviation": "G",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 6,
+            "Name": "I",
+            "Abbreviation": "I",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 4,
+            "Name": "Outer",
+            "Abbreviation": "O",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 5,
+            "Name": "Peak",
+            "Abbreviation": "P",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 7,
+            "Name": "Tough",
+            "Abbreviation": "T",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        }
+    ],
+    "AssistBlades": [
+        {
+            "ID": 1,
+            "Name": "Assault",
+            "Abbreviation": "A",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 2,
+            "Name": "Bumper",
+            "Abbreviation": "B",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 3,
+            "Name": "Charge",
+            "Abbreviation": "C",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 4,
+            "Name": "Dual",
+            "Abbreviation": "D",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 5,
+            "Name": "Erase",
+            "Abbreviation": "E",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 6,
+            "Name": "Free",
+            "Abbreviation": "F",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 18,
+            "Name": "Gravity",
+            "Abbreviation": "G",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 7,
+            "Name": "Heavy",
+            "Abbreviation": "H",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 8,
+            "Name": "Jaggy",
+            "Abbreviation": "J",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 9,
+            "Name": "Knuckle",
+            "Abbreviation": "K",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 10,
+            "Name": "Massive",
+            "Abbreviation": "M",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 11,
+            "Name": "Odd",
+            "Abbreviation": "O",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 19,
+            "Name": "Quell",
+            "Abbreviation": "Q",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 12,
+            "Name": "Round",
+            "Abbreviation": "R",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 13,
+            "Name": "Slash",
+            "Abbreviation": "S",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 14,
+            "Name": "Turn",
+            "Abbreviation": "T",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 15,
+            "Name": "Vertical",
+            "Abbreviation": "V",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 16,
+            "Name": "Wheel",
+            "Abbreviation": "W",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        },
+        {
+            "ID": 17,
+            "Name": "Zillion",
+            "Abbreviation": "Z",
+            "Lifecycle": "available",
+            "Version": 1,
+            "CreatedAt": "2026-08-31T18:34:34.62007Z",
+            "UpdatedAt": "2026-08-31T18:34:34.62007Z"
+        }
+    ]
+}
