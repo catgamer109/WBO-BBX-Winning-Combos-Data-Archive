@@ -10956,7 +10956,7 @@
         "rank": "2nd",
         "player": "BurnLibra:",
         "combos": [
-          "Scythe Incendio 9-60Rush",
+          "Scythe Incendio 9-60R",
           "SilverWolf 9-80H",
           "CobaltDragoon 1-60FB"
         ]
@@ -23829,7 +23829,7 @@
     "placements": [
       {
         "rank": "1st",
-        "player": "EthanTheVIII 🏆",
+        "player": "EthanTheVIII",
         "combos": [
           "CobaltDragoon 5-60L",
           "GolemRock 1-60H",
@@ -23838,7 +23838,7 @@
       },
       {
         "rank": "2nd",
-        "player": "TheMidnightMan 🥈",
+        "player": "TheMidnightMan",
         "combos": [
           "CobaltDragoon 5-60LR",
           "PhoenixWing 9-60B",
@@ -23847,7 +23847,7 @@
       },
       {
         "rank": "3rd",
-        "player": "Blader73? 🥉",
+        "player": "Blader73?",
         "combos": [
           "PhoenixWing 7-60LR",
           "ImpactDrake 1-60UN",
@@ -30723,7 +30723,6 @@
         "player": "Bcosmic8",
         "combos": [
           "AeroPegasus 1-60GP",
-          "HellsBrave ? 3-60Z",
           "DranBuster 4-60LR"
         ]
       },
@@ -30810,7 +30809,6 @@
         "player": "Joel",
         "combos": [
           "DranSword 3-60LR",
-          "FoxBrave ? 1-60L",
           "WizardRod 9-60B"
         ]
       },
@@ -33700,7 +33698,6 @@
           "TyrannoBeat 7-60T",
           "CobaltDragoon 5-60E",
           "WizardRod 9-60D",
-          "HellsArc ? 3-60GF",
           "Pearl Tiger 4-60C",
           "WhaleWave 0-80R"
         ]
@@ -140235,7 +140232,7 @@
         "rank": "3rd",
         "player": "Arfo",
         "combos": [
-          "HeavensRing M-85Narrow",
+          "HeavensRing M-85Nr",
           "HellsNether HT",
           "SharkScale 1-70LR"
         ]
