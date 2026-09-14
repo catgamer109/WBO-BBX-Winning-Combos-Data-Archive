@@ -72,11 +72,9 @@ def process_post(html_content, author, post_date):
             'event_page_link': None,
             'bracket_link': None,
             'ranked_status': None,
-            'stadium': None,
             'first_stage_format': None,
             'final_stage_format': None,
             'player_count': None,
-            'optional_rules': [],
             'placements': []
         }
     
@@ -134,36 +132,21 @@ def process_post(html_content, author, post_date):
             meta_field_detected = True; meta_key = 'bracket_link'; meta_val = val
         elif line_lower in ('ranked', 'unranked', 'ranked/unranked') or line_lower.startswith('ranked ') or line_lower.startswith('unranked '):
             meta_field_detected = True; meta_key = 'ranked_status'; meta_val = line.strip()
-        elif line_lower.startswith('stadium:'):
-            meta_field_detected = True; meta_key = 'stadium'; meta_val = line.split(':', 1)[1].strip()
         elif line_lower.startswith('first stage'):
             meta_field_detected = True; meta_key = 'first_stage_format'; meta_val = line.split(':', 1)[1].strip() if ':' in line else line
         elif line_lower.startswith('final stage'):
             meta_field_detected = True; meta_key = 'final_stage_format'; meta_val = line.split(':', 1)[1].strip() if ':' in line else line
         elif line_lower.startswith('player count:'):
             meta_field_detected = True; meta_key = 'player_count'; meta_val = line.split(':', 1)[1].strip()
-        elif line_lower.startswith('optional rules'):
-            meta_field_detected = True; meta_key = 'optional_rules'; meta_val = None
             
         if meta_field_detected:
             if current_event and current_event.get('placements'):
                 events.append(current_event)
                 current_event = init_event('Unknown Event', None)
                 current_placement = None
-                in_optional_rules = False
                 
-            if meta_key == 'optional_rules':
-                in_optional_rules = True
-            else:
-                current_event[meta_key] = meta_val
+            current_event[meta_key] = meta_val
             in_team_member_list = False
-            continue
-            
-        if in_optional_rules:
-            if 'if your post is not submitted properly' in line_lower:
-                continue
-            if line:
-                current_event['optional_rules'].append(line)
             continue
             
         # Detect placement like "1st: Player" or "1st - Player" or "1."

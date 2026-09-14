@@ -7,6 +7,10 @@ fixed = 0
 def clean_combo(c):
     original = c
     
+    preserved_items = ["(Upper Type)", "(Version 2.0)", "(Rapid-Hit Type)"]
+    for i, item in enumerate(preserved_items):
+        c = re.sub(re.escape(item), f"__PRESERVED_{i}__", c, flags=re.IGNORECASE)
+    
     # 1. Strip all trailing parenthetical/bracketed statements
     while True:
         c_new = re.sub(r'\s*[\(\[][^\)\]]*[\)\]]\s*$', '', c)
@@ -20,6 +24,9 @@ def clean_combo(c):
     # Matches a dash or spaces followed by stage keywords, and optional filler words
     tag_pattern = r'\s*[-|]?\s*(?:both stages|first stage|final stage|group stage|top cut|finals|swiss)(?:\s+(?:only|and|&|or|final|stage|stages|both))*[^a-zA-Z0-9]*$'
     c = re.sub(tag_pattern, '', c, flags=re.IGNORECASE)
+    
+    for i, item in enumerate(preserved_items):
+        c = c.replace(f"__PRESERVED_{i}__", item)
     
     return c.strip()
 
