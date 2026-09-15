@@ -1,12 +1,12 @@
 import json
 
-with open('extracted_data.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'r', encoding='utf-8') as f:
     extracted = json.load(f)
-with open('wbo_parsed_events.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/wbo_parsed_events.json', 'r', encoding='utf-8') as f:
     parsed = json.load(f)
-with open('compiled_challonge_stages.json', 'r', encoding='utf-8') as f:
+with open('challonge_parsed/compiled_challonge_stages.json', 'r', encoding='utf-8') as f:
     challonge = json.load(f)
-with open('challonge_links.json', 'r', encoding='utf-8') as f:
+with open('challonge links/challonge_links.json', 'r', encoding='utf-8') as f:
     challonge_queue = json.load(f)
     
 parsed_urls = {e['Event thread link'].lower() for e in parsed if 'Event thread link' in e}

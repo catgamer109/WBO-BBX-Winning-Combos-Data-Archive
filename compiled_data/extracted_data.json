@@ -8981,7 +8981,7 @@
         "rank": "1st",
         "player": "#Fafnir",
         "combos": [
-          "Lightning L-Drago (Upper Type) 9-60F",
+          "Lightning L-Drago 9-60F (Rapid-Hit Type)",
           "PhoenixWing 3-60R",
           "TyrannoBeat 5-60P",
           "CobaltDragoon 1-60E",
@@ -37648,7 +37648,7 @@
         "player": "Jimmothy5271",
         "combos": [
           "Darth Vader 5-60T",
-          "General Greivous 1-60R",
+          "General Grievous 1-60R",
           "Moff Gideon 9-60GP"
         ]
       },
@@ -38929,7 +38929,7 @@
           "SamuraiSaber 9-70H",
           "ShinobiShadow M-85W",
           "Darth Vader 9-80G",
-          "General Greivous 1-60P",
+          "General Grievous 1-60P",
           "KnightShield 0-80T"
         ]
       }
@@ -70689,7 +70689,7 @@
           "ClockMirage 4-55LO",
           "MeteorDragoon 7-60L",
           "CobaltDragoon 5-70E",
-          "Lightning L-Drago (Upper Type) 5-60A"
+          "Lightning L-Drago 5-60A (Rapid-Hit Type)"
         ]
       }
     ],
@@ -92509,7 +92509,7 @@
         "rank": "1st",
         "player": "Wq5n",
         "combos": [
-          "Lightning L-Drago (Upper Type) 3-60LF",
+          "Lightning L-Drago 3-60LF (Rapid-Hit Type)",
           "WizardRod 9-60LO",
           "CobaltDragoon 5-60E"
         ]
@@ -95330,7 +95330,7 @@
         "player": "Solical",
         "combos": [
           "MeteorDragoon 7-60L",
-          "Lightning L-Drago (Upper Type) 1-60I"
+          "Lightning L-Drago 1-60I (Rapid-Hit Type)"
         ]
       },
       {
@@ -102948,7 +102948,7 @@
         "rank": "3rd",
         "player": "Jackobie",
         "combos": [
-          "Lightning L-Drago (Upper Type) M-85M",
+          "Lightning L-Drago M-85M (Rapid-Hit Type)",
           "CobaltDragoon 2-70BS",
           "DragoonStorm 4-50GN"
         ]
@@ -109780,7 +109780,7 @@
         "combos": [
           "CobaltDragoon 9-60E",
           "UnIcornDelta PH3-60K",
-          "Lightning L-Drago (Upper Type) 7-60L"
+          "Lightning L-Drago 7-60L (Rapid-Hit Type)"
         ]
       },
       {
@@ -136896,7 +136896,7 @@
         "rank": "1st",
         "player": "Catfishhead",
         "combos": [
-          "DranSword 3-60J",
+          "DranSword 3-60J (Version 2.0)",
           "EmperorBlast H9-60R",
           "WizardRod 1-60H"
         ]
@@ -137537,7 +137537,7 @@
         "rank": "3rd",
         "player": "Xiothik",
         "combos": [
-          "DranSword 7-60R",
+          "DranSword 7-60R (Version 2.0)",
           "SharkScale 9-60Nr",
           "EmperorFortress OW3-60H"
         ]
@@ -137617,7 +137617,7 @@
         "player": "RareSanty",
         "combos": [
           "HellsNether R",
-          "DranSword 7-60FF",
+          "DranSword 7-60FF (Version 2.0)",
           "SharkScale 9-60Nr"
         ]
       },
@@ -137930,7 +137930,7 @@
         "rank": "1st",
         "player": "JA_Ripper",
         "combos": [
-          "DranSword 3-60FF",
+          "DranSword 3-60FF (Version 2.0)",
           "HeavensRing 3-70P",
           "ClockMirage 7-55LO"
         ]
@@ -140546,7 +140546,7 @@
         "combos": [
           "GolemRock 9-60K",
           "SharkScale 1-60FB",
-          "DranSword 3-60J"
+          "DranSword 3-60J (Version 2.0)"
         ]
       }
     ],

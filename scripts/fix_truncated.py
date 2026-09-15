@@ -1,14 +1,14 @@
 import json
 import re
 
-with open('wbo_parsed_events.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/wbo_parsed_events.json', 'r', encoding='utf-8') as f:
     parsed = json.load(f)
 
 # Collect all valid URLs from parsed events
 valid_urls = {e['Event thread link'] for e in parsed if 'Event thread link' in e}
 
 # Also gather full urls from extracted data just in case
-with open('extracted_data.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'r', encoding='utf-8') as f:
     extracted = json.load(f)
     
 for e in extracted:
@@ -40,7 +40,7 @@ for e in extracted:
                 e[key] = resolved
                 fixed_count += 1
 
-with open('extracted_data.json', 'w', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'w', encoding='utf-8') as f:
     json.dump(extracted, f, indent=2, ensure_ascii=False)
 
 print(f"Fixed {fixed_count} truncated links in extracted_data.json.")

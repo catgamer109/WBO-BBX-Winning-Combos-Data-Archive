@@ -52,3 +52,15 @@ for script in cleaning_scripts:
 
 # Move back to compiled_data
 shutil.move(root_json, output)
+
+# Run post-processing scripts that read from compiled_data
+post_scripts = [
+    "merge_metadata.py",
+    "sync_databases.py"
+]
+
+for script in post_scripts:
+    script_path = f"scripts/{script}"
+    if os.path.exists(script_path):
+        print(f"Running {script}...")
+        subprocess.run(["python", script_path])

@@ -24444,13 +24444,13 @@
         "player": "#Fafnir",
         "parsed_combos": [
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "9-60",
             "bit": "F",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) 9-60F"
+            "full": "Lightning L-Drago (Rapid-Hit Type) 9-60F"
           },
           {
             "blade": "PhoenixWing",
@@ -99968,7 +99968,7 @@
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "SilverWolf 960E"
+            "full": "SilverWolf 9-60E"
           },
           {
             "blade": "CobaltDragoon",
@@ -102865,13 +102865,13 @@
             "full": "Darth Vader 5-60T"
           },
           {
-            "blade": "General Greivous",
+            "blade": "General Grievous",
             "ratchet": "1-60",
             "bit": "R",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "General Greivous 1-60R"
+            "full": "General Grievous 1-60R"
           },
           {
             "blade": "Moff Gideon",
@@ -106494,13 +106494,13 @@
             "full": "Darth Vader 9-80G"
           },
           {
-            "blade": "General Greivous",
+            "blade": "General Grievous",
             "ratchet": "1-60",
             "bit": "P",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "General Greivous 1-60P"
+            "full": "General Grievous 1-60P"
           },
           {
             "blade": "KnightShield",
@@ -194943,13 +194943,13 @@
             "full": "CobaltDragoon 5-70E"
           },
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "5-60",
             "bit": "A",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) 5-60A"
+            "full": "Lightning L-Drago (Rapid-Hit Type) 5-60A"
           }
         ]
       }
@@ -255139,13 +255139,13 @@
         "player": "Wq5n",
         "parsed_combos": [
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "3-60",
             "bit": "LF",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) 3-60LF"
+            "full": "Lightning L-Drago (Rapid-Hit Type) 3-60LF"
           },
           {
             "blade": "WizardRod",
@@ -262871,13 +262871,13 @@
             "full": "MeteorDragoon 7-60L"
           },
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "1-60",
             "bit": "I",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) 1-60I"
+            "full": "Lightning L-Drago (Rapid-Hit Type) 1-60I"
           }
         ]
       },
@@ -283556,13 +283556,13 @@
         "player": "Jackobie",
         "parsed_combos": [
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "M-85",
             "bit": "M",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) M-85M"
+            "full": "Lightning L-Drago (Rapid-Hit Type) M-85M"
           },
           {
             "blade": "CobaltDragoon",
@@ -302071,13 +302071,13 @@
             "full": "UnIcornDelta PH3-60K"
           },
           {
-            "blade": "Lightning L-Drago (Upper Type)",
+            "blade": "Lightning L-Drago (Rapid-Hit Type)",
             "ratchet": "7-60",
             "bit": "L",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "Lightning L-Drago (Upper Type) 7-60L"
+            "full": "Lightning L-Drago (Rapid-Hit Type) 7-60L"
           }
         ]
       },
@@ -373933,7 +373933,7 @@
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "CobaltDragoon 560E"
+            "full": "CobaltDragoon 5-60E"
           },
           {
             "blade": "WizardRod",
@@ -376626,13 +376626,13 @@
         "player": "Catfishhead",
         "parsed_combos": [
           {
-            "blade": "DranSword",
+            "blade": "DranSword (Version 2.0)",
             "ratchet": "3-60",
             "bit": "J",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "DranSword 3-60J"
+            "full": "DranSword (Version 2.0) 3-60J"
           },
           {
             "blade": "Blast",
@@ -378369,13 +378369,13 @@
         "player": "Xiothik",
         "parsed_combos": [
           {
-            "blade": "DranSword",
+            "blade": "DranSword (Version 2.0)",
             "ratchet": "7-60",
             "bit": "R",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "DranSword 7-60R"
+            "full": "DranSword (Version 2.0) 7-60R"
           },
           {
             "blade": "SharkScale",
@@ -378579,13 +378579,13 @@
             "full": "HellsNether R"
           },
           {
-            "blade": "DranSword",
+            "blade": "DranSword (Version 2.0)",
             "ratchet": "7-60",
             "bit": "FF",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "DranSword 7-60FF"
+            "full": "DranSword (Version 2.0) 7-60FF"
           },
           {
             "blade": "SharkScale",
@@ -379459,13 +379459,13 @@
         "player": "JA_Ripper",
         "parsed_combos": [
           {
-            "blade": "DranSword",
+            "blade": "DranSword (Version 2.0)",
             "ratchet": "3-60",
             "bit": "FF",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "DranSword 3-60FF"
+            "full": "DranSword (Version 2.0) 3-60FF"
           },
           {
             "blade": "HeavensRing",
@@ -386733,13 +386733,13 @@
             "full": "SharkScale 1-60FB"
           },
           {
-            "blade": "DranSword",
+            "blade": "DranSword (Version 2.0)",
             "ratchet": "3-60",
             "bit": "J",
             "lockChip": "",
             "overBlade": "",
             "assistBlade": "",
-            "full": "DranSword 3-60J"
+            "full": "DranSword (Version 2.0) 3-60J"
           }
         ]
       }

@@ -1,9 +1,9 @@
 import json
 
-with open('extracted_data.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'r', encoding='utf-8') as f:
     extracted = json.load(f)
 
-with open('wbo_parsed_events.json', 'r', encoding='utf-8') as f:
+with open('compiled_data/wbo_parsed_events.json', 'r', encoding='utf-8') as f:
     parsed = json.load(f)
 
 parsed_urls = {e['Event thread link'].lower() for e in parsed if 'Event thread link' in e}
@@ -14,7 +14,7 @@ for e in extracted:
     if l and l.lower() in parsed_urls:
         filtered.append(e)
 
-with open('extracted_data.json', 'w', encoding='utf-8') as f:
+with open('compiled_data/extracted_data.json', 'w', encoding='utf-8') as f:
     json.dump(filtered, f, indent=2, ensure_ascii=False)
 
 print(f"Kept {len(filtered)} events. Dropped {len(extracted) - len(filtered)} events.")
